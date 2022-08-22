@@ -1,0 +1,82 @@
+{
+    "dataBinding": {
+        "/webapp/view/popover_6.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/launch_page.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/DronePage2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/DronePage3.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/DronePage1.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_9.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/DronePage4.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_4.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_1.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/popover_7.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/popover_4.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_11.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_6.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_12.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_7.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_3.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/popover_2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_10.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/popover_3.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_14.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_13.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/popover_8.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_5.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/dialog_8.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/popover_5.view.xml": {
+            "entitySet": ""
+        } 
+    }
+}

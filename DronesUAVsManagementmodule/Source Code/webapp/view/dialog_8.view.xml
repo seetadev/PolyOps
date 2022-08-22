@@ -1,0 +1,36 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.connectedDrone.controller.dialog_8" xmlns="sap.m">
+    <Dialog horizontalScrolling="true" showHeader="true" state="None" stretch="false" title="Notifications" type="Standard" verticalScrolling="true">
+        <content>
+            <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="703.9931640625px" height="107.93403625488281px" justifyContent="SpaceAround" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <Title text="Notifications (2)" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                            <Label text="The Cooler SMRTFL-DE-129 is having no door activities." design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                            <Label text="The Cooler SMRTFL-DE-129 is having no door activities." design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                            <Label text="The Cooler SMRTFL-DE-129 is having no door activities." design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </items>
+                        <layoutData/>
+                    </VBox>
+                    <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <Text text="" width="65px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                            <Text text="Feb 15, 2017" width="100px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                            <Text text="Feb 15, 2017" width="100px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                            <Text text="Feb 15, 2017" width="100px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </items>
+                        <layoutData/>
+                    </VBox>
+                </items>
+                <layoutData/>
+            </HBox>
+        </content>
+        <beginButton/>
+        <buttons>
+            <Button text="OK" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+        </buttons>
+        <customHeader/>
+        <endButton/>
+        <subHeader/>
+    </Dialog>
+</mvc:View>

@@ -1,0 +1,160 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.connectedDrone.controller.DronePage2" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:chart="sap.chart" xmlns:data="sap.chart.data">
+    <Page showHeader="true" title="Drone Rakshak ( Detail Page )" showFooter="false" showNavButton="true" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <VBox alignItems="Center" direction="Column" fitContainer="false" width="280px" height="640.00000000px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <Image src="/webapp/resources/drone2.jpg" height="304px" width="152px" visible="true" densityAware="false" class="sapUiMediumMarginBottom"/>
+                            <Text text="Drone Rakshak 1401-143-IN Latitude : 28.612912                                            Longitude : 77.227321" width="180px" maxLines="3" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                            <Image src="/webapp/resources/map1.JPG" height="200px" width="200px" visible="true" densityAware="false"/>
+                        </items>
+                        <layoutData/>
+                    </VBox>
+                    <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="968px" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="60px" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <Title text="Drone Rakshak" titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                            <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="140px" justifyContent="SpaceAround" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <Title text="1401-143-IN" titleStyle="H4" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                    <Image src="/webapp/resources/green.png" height="16.34375px" width="16.34375px" visible="true" densityAware="false" class="sapUiTinyMargin"/>
+                                    <Title text="Mapped" titleStyle="H4" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                    <Button text="Geo-Match" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" class="sapUiTinyMargin" press="_onButtonPress"/>
+                                    <Image src="/webapp/resources/connected2.png" height="25px" width="32.6875px" visible="true" densityAware="false"/>
+                                    <Title text="Connected" titleStyle="H4" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                    <Image src="/webapp/resources/poweron.png" height="26px" width="16.421875px" visible="true" densityAware="false"/>
+                                    <Title text="On" titleStyle="H4" width="auto" textAlign="Begin" visible="true" wrapping="false" class="sapUiMediumMarginEnd"/>
+                                    <core:Icon src="sap-icon://person-placeholder" size="48px" height="43px" width="37px" visible="true"/>
+                                    <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                        <items>
+                                            <Title text="Contact Person" titleStyle="H4" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                            <Title text="Mr Manusheel Gupta" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                        </items>
+                                        <layoutData/>
+                                    </VBox>
+                                    <Button text="Notify" type="Default" iconFirst="true" width="88px" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress1"/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                            <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="155px" justifyContent="SpaceBetween" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                        <items>
+                                            <Title text="LIVE TEMPERATURE" titleStyle="H5" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                            <HBox alignItems="Baseline" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                                <items>
+                                                    <Title text="24" titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                                    <Text text="" width="8px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                    <Title text="°C" titleStyle="H3" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                                </items>
+                                                <layoutData/>
+                                            </HBox>
+                                            <Label text="Aug 26, 2018 23:00:00" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                        </items>
+                                        <layoutData/>
+                                    </VBox>
+                                    <Image src="/webapp/resources/microchart.jpg" height="67.171875px" width="76.390625px" visible="true" densityAware="false"/>
+                                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="703.9931640625px" height="107.93403625488281px" justifyContent="SpaceAround" renderType="Div" visible="true" displayInline="false">
+                                        <items>
+                                            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                                <items>
+                                                    <Title text="Notifications (4)" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                                    <Label text="Drone Rakshak is running in good state" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                    <Label text="Drone Rakshak is monitoring India Gate exit no 1" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                </items>
+                                                <layoutData/>
+                                            </VBox>
+                                            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="180.625px" height="80.80000305175781px" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                                <items>
+                                                    <Text text="" width="65px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                    <Text text="Aug 26, 2018 13:08:00" width="150px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                    <Text text="Aug 26, 2018 14:10:00" width="150px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                    <Link text="See All" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false" subtle="false" press="_onLinkPress"/>
+                                                </items>
+                                                <layoutData/>
+                                            </VBox>
+                                        </items>
+                                        <layoutData/>
+                                    </HBox>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                            <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="60.890625px" justifyContent="SpaceBetween" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <Title text="ON/OFF STATUS" titleStyle="H5" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                    <Text text="" width="550px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                    <ToolbarSpacer width=""/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                            <chart:Chart id="sap_Responsive_Page_0-content-sap_m_VBox-1490596649278-items-sap_chart_ColumnChart-1491349375877-7aea5913059d217e0dba3aea5_S5" width="auto" height="211.40625px" visibleDimensions="__id" visibleMeasures="mea0" chartType="column" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                                <chart:dimensions>
+                                    <data:Dimension name="__id" label="Hour" role="category" textProperty="dim0"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="ON/OFF COUNT" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                            <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="SpaceBetween" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <Title text="AVERAGE TEMPERATURE (IN °C)" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                    <Text text="" width="400px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                            <chart:Chart id="sap_Responsive_Page_0-content-sap_m_VBox-1490596649278-items-sap_chart_ColumnChart-1490598562351-7aea5913059d217e0dba3aea5_S5" width="auto" height="211.40625px" visibleDimensions="__id" visibleMeasures="mea0" chartType="column" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                                <chart:dimensions>
+                                    <data:Dimension name="__id" label="Hour" role="category" textProperty="dim0"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Temperature" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                            <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="SpaceBetween" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <Title text="AVERAGE SPEED (IN SEC)" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                    <Text text="" width="400px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                            <chart:Chart id="sap_Responsive_Page_0-content-sap_m_VBox-1490596649278-items-sap_chart_LineChart-1491349280152-7aea5913059d217e0dba3aea5_S5" width="auto" height="213px" visibleDimensions="__id" visibleMeasures="mea0" chartType="line" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                                <chart:dimensions>
+                                    <data:Dimension name="__id" label="Hour" role="category" textProperty="dim0"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Speed" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                            <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="SpaceBetween" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <Title text="ALERT RAISED WITH IMAGES PER HOUR" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                    <Text text="" width="400px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                            <chart:Chart id="sap_Responsive_Page_0-content-sap_m_VBox-1490596649278-items-sap_chart_LineChart-1490599091204-7aea5913059d217e0dba3aea5_S5" width="auto" height="213px" visibleDimensions="__id" visibleMeasures="mea0" chartType="line" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                                <chart:dimensions>
+                                    <data:Dimension name="__id" label="Hour" role="category" textProperty="dim0"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Number" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                        </items>
+                        <layoutData/>
+                    </VBox>
+                </items>
+                <layoutData/>
+            </HBox>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

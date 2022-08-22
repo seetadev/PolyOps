@@ -1,0 +1,78 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.connectedDrone.controller.DronePage1" xmlns="sap.m" xmlns:chart="sap.chart" xmlns:data="sap.chart.data">
+    <Page showHeader="true" title="Drone Flying List" showFooter="true" showNavButton="true" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <chart:Chart id="sap_Responsive_Page_0-content-sap_chart_DonutChart-1535087939611" width="100%" height="450px" visibleDimensions="__id" visibleMeasures="mea0" chartType="donut" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                <chart:dimensions>
+                    <data:Dimension name="__id" label="Activity" role="category" textProperty="dim0"/>
+                </chart:dimensions>
+                <chart:measures>
+                    <data:Measure name="mea0" label="No of drone" role="axis2"/>
+                </chart:measures>
+            </chart:Chart>
+            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <ObjectListItem intro="Drone" title="Drone Mercury" number="Enroute" numberUnit="" numberState="Success" type="Navigation" selected="false" showMarkers="false" press="_onObjectListItemPress">
+                        <attributes>
+                            <ObjectAttribute text="Activity : Goods Delivery" active="false" visible="true"/>
+                            <ObjectAttribute text="Deliver parcel from e-commerce store" active="false" visible="true"/>
+                        </attributes>
+                        <firstStatus>
+                            <ObjectStatus text="24-08-2018" state="None" visible="true"/>
+                        </firstStatus>
+                        <secondStatus/>
+                    </ObjectListItem>
+                    <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <ObjectListItem intro="Drone" title="Drone Ambulance" number="StandBy" numberUnit="" numberState="Warning" type="Navigation" selected="false" showMarkers="false" press="_onObjectListItemPress1">
+                                <attributes>
+                                    <ObjectAttribute text="Activity : Health Aids" active="false" visible="true"/>
+                                    <ObjectAttribute text="Ambulance from AIIMS on standby" active="false" visible="true"/>
+                                </attributes>
+                                <firstStatus>
+                                    <ObjectStatus text="26-08-2018" state="None" visible="true"/>
+                                </firstStatus>
+                                <secondStatus/>
+                            </ObjectListItem>
+                        </items>
+                        <layoutData/>
+                    </VBox>
+                    <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <ObjectListItem intro="Drone" title="Drone Rakshak" number="Active" numberUnit="" numberState="Success" type="Navigation" selected="true" showMarkers="false" press="_onObjectListItemPress2">
+                                        <attributes>
+                                            <ObjectAttribute text="Activity : Security Surveillance" active="false" visible="true"/>
+                                            <ObjectAttribute text="Security surveillance on India  Gate" active="false" visible="true"/>
+                                        </attributes>
+                                        <firstStatus>
+                                            <ObjectStatus text="26-08-2018" state="None" visible="true"/>
+                                        </firstStatus>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                </items>
+                                <layoutData/>
+                            </VBox>
+                            <ObjectListItem intro="Drone" title="Drone Pluto" number="Active" numberUnit="" numberState="Success" type="Navigation" selected="false" showMarkers="false" press="_onObjectListItemPress3">
+                                <attributes>
+                                    <ObjectAttribute text="Activity : Monitoring" active="false" visible="true"/>
+                                    <ObjectAttribute text="Traffic monitoring at Akbar Road, New Delhi" active="false" visible="true"/>
+                                </attributes>
+                                <firstStatus>
+                                    <ObjectStatus text="26-08-2018" state="None" visible="true"/>
+                                </firstStatus>
+                                <secondStatus/>
+                            </ObjectListItem>
+                        </items>
+                        <layoutData/>
+                    </VBox>
+                </items>
+                <layoutData/>
+            </VBox>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

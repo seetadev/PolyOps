@@ -1,0 +1,62 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.connectedDrone.controller.DronePage4" xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core">
+    <Page showHeader="true" title="Drone Monitoring" showFooter="false" showNavButton="true" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <VBox alignItems="Stretch" direction="Column" fitContainer="true" width="100%" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <HBox alignItems="Center" direction="Row" fitContainer="true" width="100%" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <layout:BlockLayout background="Default" visible="true">
+                                <layout:content>
+                                    <layout:BlockLayoutRow scrollable="false">
+                                        <layout:content>
+                                            <layout:BlockLayoutCell width="1" title="Search Criteria" titleAlignment="Begin" titleLevel="Auto">
+                                                <layout:content/>
+                                            </layout:BlockLayoutCell>
+                                        </layout:content>
+                                    </layout:BlockLayoutRow>
+                                    <layout:BlockLayoutRow scrollable="false">
+                                        <layout:content>
+                                            <layout:BlockLayoutCell width="4" title="Activity :" titleAlignment="Begin" titleLevel="Auto">
+                                                <layout:content>
+                                                    <ComboBox editable="true" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%" items="{path:'/ActivitySet', templateShareable:true}">
+                                                        <items>
+                                                            <core:Item text="{Activity}" enabled="true" key="{Activity}"/>
+                                                        </items>
+                                                    </ComboBox>
+                                                </layout:content>
+                                            </layout:BlockLayoutCell>
+                                            <layout:BlockLayoutCell width="4" title="Location :" titleAlignment="Begin" titleLevel="Auto">
+                                                <layout:content>
+                                                    <ComboBox editable="true" enabled="true" visible="true" width="auto" valueState="None" maxWidth="100%" items="{path:'/LocationSet', templateShareable:true}">
+                                                        <items>
+                                                            <core:Item text="{Location}" enabled="true" key="{Location}"/>
+                                                        </items>
+                                                    </ComboBox>
+                                                </layout:content>
+                                            </layout:BlockLayoutCell>
+                                        </layout:content>
+                                    </layout:BlockLayoutRow>
+                                    <layout:BlockLayoutRow scrollable="false">
+                                        <layout:content>
+                                            <layout:BlockLayoutCell width="4" title="Map View" titleAlignment="Begin" titleLevel="Auto">
+                                                <layout:content>
+                                                    <Image src="/webapp/resources/MapDrone.png" height="716.8px" width="1280px" visible="true" densityAware="false"/>
+                                                </layout:content>
+                                            </layout:BlockLayoutCell>
+                                        </layout:content>
+                                    </layout:BlockLayoutRow>
+                                </layout:content>
+                            </layout:BlockLayout>
+                        </items>
+                        <layoutData/>
+                    </HBox>
+                </items>
+                <layoutData/>
+            </VBox>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

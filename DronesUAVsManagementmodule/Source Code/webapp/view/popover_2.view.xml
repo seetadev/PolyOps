@@ -1,0 +1,19 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.connectedDrone.controller.popover_2" xmlns="sap.m">
+    <Popover bounce="false" contentHeight="auto" contentWidth="auto" horizontalScrolling="true" modal="false" offsetX="0" offsetY="0" placement="Right" showHeader="true" title="Map Store" verticalScrolling="true" visible="true">
+        <content>
+            <Image src="/webapp/resources/CnG_Map.png" height="204px" width="500px" visible="true" densityAware="false"/>
+            <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="SpaceAround" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <Button text="Cancel" type="Transparent" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                    <Button text="Map Store" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress1"/>
+                </items>
+                <layoutData/>
+            </HBox>
+        </content>
+        <beginButton/>
+        <customHeader/>
+        <endButton/>
+        <footer/>
+        <subHeader/>
+    </Popover>
+</mvc:View>

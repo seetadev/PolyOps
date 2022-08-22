@@ -1,0 +1,33 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.connectedDrone.controller.launch_page" xmlns="sap.m">
+    <Page showHeader="true" title="Connected Drones" showFooter="false" showNavButton="false" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="403.6750183105469px" height="208px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <GenericTile header="Drone Managment" subheader="2" frameType="OneByOne" class="sapUiSmallMargin" press="_onGenericTilePress">
+                        <tileContent>
+                            <TileContent footer="" unit="Notifications">
+                                <content>
+                                    <NumericContent value="2" valueColor="Error" indicator="None" icon="/webapp/resources/drone.jpg"/>
+                                </content>
+                            </TileContent>
+                        </tileContent>
+                    </GenericTile>
+                    <GenericTile header="Drone Monitoring" subheader="" frameType="OneByOne" class="sapUiSmallMargin" press="_onGenericTilePress1">
+                        <tileContent>
+                            <TileContent footer="" unit="Notifications">
+                                <content>
+                                    <NumericContent value="3" valueColor="Error" indicator="None" icon="/webapp/resources/drone1.png"/>
+                                </content>
+                            </TileContent>
+                        </tileContent>
+                    </GenericTile>
+                </items>
+                <layoutData/>
+            </HBox>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

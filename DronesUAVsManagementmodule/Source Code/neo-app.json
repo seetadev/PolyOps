@@ -1,0 +1,28 @@
+{
+	"welcomeFile": "webapp/test/testFLPService.html",
+	"routes": [
+		{
+			"path": "/resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"version": "1.54.5",
+				"preferLocal": true,
+				"entryPath": "/resources"
+			},
+			"description": "SAPUI5 Resources"
+		},
+		{
+			"path": "/test-resources",
+			"target": {
+				"type": "service",
+				"version": "1.54.5",
+				"name": "sapui5",
+				"entryPath": "/test-resources"
+			},
+			"description": "SAPUI5 Test Resources"
+		}
+	],
+	"authenticationMethod": "none",
+	"sendWelcomeFileRedirect": true
+}
