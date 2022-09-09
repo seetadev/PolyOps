@@ -1,3 +1,7 @@
+Unstoppable Domains: A simple URL to redirect users to an NFT domain simply and quickly. We can also use this domain as a search engine to easily access NFT domains via your browser search. Please visit: https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings/CommunitydonorsusingUnstoppableDomains
+
+We are utilizing  Dohpw as the reference for developing this feature.
+
 # Dohpw
 This is a simple and short URL to redirect users to an NFT domain simply and quickly. You can also use this domain as a search engine to easily access NFT domains via your browser search.
 
