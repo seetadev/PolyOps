@@ -1,4 +1,6 @@
-# NEAR NFT-Tutorial
+Near Protocol for community ownership of drones: We allow government agencies, civic bodies and community citizens to be owner of the drones using Near Protocol. Please visit https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings/communitydroneownersusingnear
+
+We are utilizing NEAR NFT-Tutorial as the reference for developing this feature. 
 
 Welcome to NEAR's NFT tutorial, where we will help you parse the details around NEAR's [NEP-171 standard](https://nomicon.io/Standards/NonFungibleToken/Core.html) (Non-Fungible Token Standard), and show you how to build your own NFT smart contract from the ground up, improving your understanding about the NFT standard along the way. 
 
