@@ -1,0 +1,9 @@
+.loadingoverlay_element svg {
+    filter: brightness(255) !important;
+}
+
+.loadingoverlay_text {
+    color: #fff !important;
+    font-size: 37pt !important;
+    font-style: normal !important;
+}
