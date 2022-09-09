@@ -1,6 +1,6 @@
-# NymDrive
+AnonDrop (Nym): We are storing the documents to IPFS using AnonDrop having the following features: Files are encrypted locally and uploaded to server app using Nym mixnet. Server app (service-provider) store the files in IPFS using Textile buckets. Files can be retrieved/deleted later using the file hash. Knowledge of hash proves the ownership of files. Neither service-provider or IPFS storage providers can see the contents or name of the stored files. Connect multiple devices running NymDrive and keep them in sync. Please visit https://github.com/seetadev/PolyOps/tree/main/SwarmDocumentManager/nymdrive-uploadcontenttoipfs We are planning to develop a P2P service, an equivalent of Airdrop to enable mesh network sharing.
 
-![NymDrive](https://raw.githubusercontent.com/saleel/nymdrive/main/ui/icons/png/128x128.png)
+We are utilizing NymDrive as the reference for developing this feature.
 
 An open-source, decentralized, E2E encrypted, privacy friendly alternative to Google Drive/Dropbox.
 
