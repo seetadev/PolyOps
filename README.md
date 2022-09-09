@@ -51,10 +51,11 @@ Celo Remote Services: We have also developed a real time island weather monitori
 
 Swarm: For maintaining a knowledge management system of drones in a region, we are using Swarm. Our knowledge management is based upon Ethereum Smart Contracts and Swarm. Documents are added to the distributed file storage solution Swarm and the hashes of those documents will be added with a description to a smart contract on the Ethereum network. Please visit: https://github.com/seetadev/PolyOps/tree/main/SwarmDocumentManager/swarmdocumentmanager
 
-Nym Drive: We are storing the documents to IPFS using Nym drive having the following features:
+AnonDrop (Nym): We are storing the documents to IPFS using AnonDrop having the following features:
 Files are encrypted locally and uploaded to server app using Nym mixnet.
 Server app (service-provider) store the files in IPFS using Textile buckets.
 Files can be retrieved/deleted later using the file hash. Knowledge of hash proves the ownership of files.
 Neither service-provider or IPFS storage providers can see the contents or name of the stored files.
 Connect multiple devices running NymDrive and keep them in sync.
 Please visit https://github.com/seetadev/PolyOps/tree/main/SwarmDocumentManager/nymdrive-uploadcontenttoipfs
+We are planning to develop a P2P service, an equivalent of Airdrop to enable mesh network sharing.
