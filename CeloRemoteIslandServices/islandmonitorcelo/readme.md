@@ -1,12 +1,10 @@
-# react-celo
 
-(_Formerly known as use-contractkit. [read the upgrade guide](/guides/migrate-to-v4.md)_)
+Celo Remote Services: We have also developed a real time island weather monitoring system using react and we are trying to interact with Celo blockchain for integrating wallet of our choice to value added services. Please visit https://github.com/seetadev/PolyOps/tree/main/CeloRemoteIslandServices
+
+We are utilizing # react-celo as the reference for developing this feature.
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/celo-org/react-celo/blob/master/LICENSEs)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/celo-org/react-celo/issues)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![npm version](https://badge.fury.io/js/%40celo%2Freact-celo.png)](https://badge.fury.io/js/%40celo%2Freact-celo)
-[![codecov](https://codecov.io/gh/celo-org/react-celo/branch/master/graph/badge.svg?token=vy6ALIKLwt)](https://codecov.io/gh/celo-org/react-celo)
+
 
 The easiest way to access [Celo](https://www.npmjs.com/package/@celo/contractkit) in your React applications 🔥. `react-celo` is a [React hook](https://reactjs.org/docs/hooks-intro.html) for managing access to Celo with a built-in headless modal system for connecting to your users wallet of choice.
 
