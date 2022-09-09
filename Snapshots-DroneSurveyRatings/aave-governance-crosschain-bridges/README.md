@@ -1,17 +1,8 @@
-```
-        .///.                .///.     //.            .//  `/////////////-
-       `++:++`              .++:++`    :++`          `++:  `++:......---.`
-      `/+: -+/`            `++- :+/`    /+/         `/+/   `++.
-      /+/   :+/            /+:   /+/    `/+/        /+/`   `++.
-  -::/++::`  /+:       -::/++::` `/+:    `++:      :++`    `++/:::::::::.
-  -:+++::-`  `/+:      --++/---`  `++-    .++-    -++.     `++/:::::::::.
-   -++.       .++-      -++`       .++.    .++.  .++-      `++.
-  .++-         -++.    .++.         -++.    -++``++-       `++.
- `++:           :++`  .++-           :++`    :+//+:        `++:----------`
- -/:             :/-  -/:             :/.     ://:         `/////////////-
+Aave governance for extensibility of drone governance on Optimism and Arbitrum: We are using Aave cross chain bridges to extend drone governance to other blockchain networks like Optimism and Arbitrum. Please visit https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings/aave-governance-crosschain-bridges
+
 ```
 
-# Aave Governance Cross-Chain Bridges
+We are using Aave Governance Cross-Chain Bridges as the reference for developing this feature.
 
 This repository contains smart contracts and related code for Aave cross-chain bridge executors. This is intended to extend Aave Governance on Ethereum to other networks. This repository currently contains contracts to support bridging to Polygon, Arbitrum and Optimism.
 
