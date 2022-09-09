@@ -22,4 +22,27 @@ Our platform solution offers an Artificial Intelligence-based object detection s
 
 Our platform will provide the requisites features to share security conditions and remotely monitor the management policies in a place using used and broken phones and tablets, alarm clocks, internet connection, sync service, integration with IP cameras, raise safety alarms. The cost of deployment and added technology is limited which could help the businesses living in a variety of geographical regions. We also utilized google spreadsheets and its apis, google map APIs and telegram bot for developing monitoring and management application.
 
+We have developed our solution based on a variety of blockchain protocols and solutions.
+
 NFT.Storage: We are using NFT.Storage for storing a variety of offchain data like incident snapshots, alarm metadata and object types at the time of incident. Please find the video at https://drive.google.com/drive/folders/107GHYZVHIr867kV4abkQaWbeCrSrMwVN (screencapturewithoutsound.mov file). We are storing Alarm metadata using NFT.Storage. Also, Saving/deleting alarm metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. Further we are using NFT.Storage for: Video analytics configuration using NFT.Storage; Camera Management: Add/edit/delete cameras with integration with Livepeer, NFT.Storage; Live streaming with Object Detection Video Analytics using Livepeer for streaming, and NFT.Storage for snapshots.
+
+Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
+
+
+Spheron: We are developing decentralized monitoring and incident management user interface with Spheron. 
+Please visit: https://github.com/seetadev/PolyOps/tree/main/Decentralizedinfraviaspheron and https://github.com/seetadev/PolyOps/tree/main/DroneplatformSpheroninfrastructure
+
+
+AWS: We are using AWS S3 for metadata and pdf data, EC2 for tornado + nginx deployment with AWS S3 db (please visit the key workflow apps with AWS backend: 
+http://aspiringapps.com/web/home/packing-slip.html
+http://aspiringapps.com/web/home/inventory-list.html
+) Please visit: https://github.com/seetadev/PolyOps/tree/main/DronesUAVsManagementmodule
+
+Chainlink: We are connecting offchain data from object detection app (please visit the video {Drone Management Demo Video.mov} at https://drive.google.com/drive/folders/107GHYZVHIr867kV4abkQaWbeCrSrMwVN to our smart contracts using Chainlink. Please visit: https://github.com/seetadev/PolyOps/tree/main/Chainlinkforoffchainmetadata/ConnectviaChainlinkhardhat
+
+Fluence Network: We are using the fluence-js peer implementation in Typescript to connect with our ionic apps which uses typescript as the core for handling application logic. We are using Fluence Network as the Web3 cloud computing provider.
+
+Please visit: https://github.com/seetadev/PolyOps/tree/main/Web3cloudFluencepeer/fluencepeer-js
+
+
+Sequence Wallet: We are utilizing Sequence wallet for handling renting payments for drones and maintenance/service payments on top of expenses claimed for getting the requisite flying licenses. It is our go to wallet for handling regional payments and third party payments like payments to government license regulators, repair providers. Please visit: https://github.com/seetadev/PolyOps/tree/main/SequenceQuickSwapforrentingdrones We also plan to integrate QuickSwap with Sequence wallet to ensure that the drone pilots can swap the tokens if needed at the time of service/repair or even getting flying license from regulators.

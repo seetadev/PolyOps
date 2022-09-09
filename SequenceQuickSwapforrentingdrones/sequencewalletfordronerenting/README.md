@@ -1,5 +1,6 @@
-Demo Dapp
+
 =========
+Sequence Wallet: We are utilizing Sequence wallet for handling renting payments for drones and maintenance/service payments on top of expenses claimed for getting the requisite flying licenses. It is our go to wallet for handling regional payments and third party payments like payments to government license regulators, repair providers. Please visit: https://github.com/seetadev/PolyOps/tree/main/SequenceQuickSwapforrentingdrones We also plan to integrate QuickSwap with Sequence wallet to ensure that the drone pilots can swap the tokens if needed at the time of service/repair or even getting flying license from regulators.
 
 Dapp example on how to use Sequence Wallet. Covers how to connect, sign messages and send transctions.
 
