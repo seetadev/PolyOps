@@ -1,4 +1,7 @@
-# Ethereum Document Management
+Swarm: For maintaining a knowledge management system of drones in a region, we are using Swarm. Our knowledge management is based upon Ethereum Smart Contracts and Swarm. Documents are added to the distributed file storage solution Swarm and the hashes of those documents will be added with a description to a smart contract on the Ethereum network. Please visit: https://github.com/seetadev/PolyOps/tree/main/SwarmDocumentManager/swarmdocumentmanager
+
+
+We are utilizing Ethereum Document Management as the reference for developing this feature and interacting with xdai (gnosis) evm.
 
 This document management is based upon Ethereum Smart Contracts and Swarm.
 Documents are added to the distributed file storage solution Swarm and the hashes of those documents will be added with a description to a smart contract on the Ethereum network.
