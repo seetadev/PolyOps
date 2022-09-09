@@ -62,8 +62,8 @@ We are planning to develop a P2P service, an equivalent of Airdrop to enable mes
 
 (Aragon) Governance of Drones and UAVs using Aragon Plugins: A decentralized survey for drone ratings by users using a governance solution built with Aragon plugins at the core is done at key intervals and its onchain voting snapshots enable credibility of ratings. We can enable our smart contracts read the storage of any contract at a given block. This enables on-chain voting, airdrops on Ethereum and Polygon. Please visit https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings
 
-Near Protocol for community ownership of drones: We allow government agencies, civic bodies and community citizens to be owner of the drones using Near Protocol. 
+Near Protocol for community ownership of drones: We allow government agencies, civic bodies and community citizens to be owner of the drones using Near Protocol. Please visit https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings/communitydroneownersusingnear
 
 Aave governance for extensibility of drone governance on Optimism and Arbitrum: We are using Aave cross chain bridges to extend drone governance to other blockchain networks like Optimism and Arbitrum. Please visit https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings/aave-governance-crosschain-bridges
 
-Unstoppable Domains: A simple URL to redirect users to an NFT domain simply and quickly. We can also use this domain as a search engine to easily access NFT domains via your browser search.
+Unstoppable Domains: A simple URL to redirect users to an NFT domain simply and quickly. We can also use this domain as a search engine to easily access NFT domains via your browser search. Please visit: https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings/CommunitydonorsusingUnstoppableDomains
