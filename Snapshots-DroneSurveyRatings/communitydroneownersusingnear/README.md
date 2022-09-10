@@ -1,4 +1,5 @@
 Near Protocol for community ownership of drones: We allow government agencies, civic bodies and community citizens to be owner of the drones using Near Protocol. Please visit https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings/communitydroneownersusingnear
+and https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings/communitydroneownersusingnear/near%20protocol%20referencev
 
 We are utilizing NEAR NFT-Tutorial as the reference for developing this feature. 
 
