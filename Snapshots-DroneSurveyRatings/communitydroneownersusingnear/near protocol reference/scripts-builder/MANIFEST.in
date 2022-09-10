@@ -1,0 +1,2 @@
+include nearuplib/VERSION
+include requirements.txt

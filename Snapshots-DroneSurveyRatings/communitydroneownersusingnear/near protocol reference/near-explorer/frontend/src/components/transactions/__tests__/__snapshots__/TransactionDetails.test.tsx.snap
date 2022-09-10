@@ -1,0 +1,1399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionDetails /> renders no deposit 1`] = `
+<div
+  className="c-TransactionInfoContainer-gTnqfS"
+>
+  <div
+    className="PJLV row no-gutters"
+  >
+    <div
+      className="col-md-5"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-user.svg"
+              />
+              component.transactions.TransactionDetails.signed_by.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/signer.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  signer.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-user.svg"
+              />
+              component.transactions.TransactionDetails.receiver.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/receiver.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  receiver.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-t-status.svg"
+              />
+              component.transactions.TransactionDetails.status.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <div
+                className="c-TransactionStatusWrapper-bPodHi"
+              >
+                common.transactions.status.success
+                /common.blocks.status.checking_finality
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row no-gutters"
+  >
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.transaction_fee.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+              >
+                &lt;0.00001
+                 
+                Ⓝ
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-filter.svg"
+              />
+              component.transactions.TransactionDetails.deposit_value.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+              >
+                0
+                 
+                Ⓝ
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.gas_used.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              445 Ggas
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.attached_gas.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              445 Ggas
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="border-0 row no-gutters"
+  >
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.created.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              2019-02-01T00:00:00Z formatted by common.date_time.date_time_format
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.hash.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              BvJeW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row no-gutters"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY c-TransactionCardBlockHash-jlBwPJ border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.block_hash.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  href="/blocks/BvJeW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  BvJeW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TransactionDetails /> renders with one small deposit 1`] = `
+<div
+  className="c-TransactionInfoContainer-gTnqfS"
+>
+  <div
+    className="PJLV row no-gutters"
+  >
+    <div
+      className="col-md-5"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-user.svg"
+              />
+              component.transactions.TransactionDetails.signed_by.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/signer2.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  signer2.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-user.svg"
+              />
+              component.transactions.TransactionDetails.receiver.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/receiver2.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  receiver2.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-t-status.svg"
+              />
+              component.transactions.TransactionDetails.status.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <div
+                className="c-TransactionStatusWrapper-bPodHi"
+              >
+                common.transactions.status.success
+                /common.blocks.status.checking_finality
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row no-gutters"
+  >
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.transaction_fee.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+              >
+                &lt;0.00001
+                 
+                Ⓝ
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-filter.svg"
+              />
+              component.transactions.TransactionDetails.deposit_value.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+              >
+                &lt;0.00001
+                 
+                Ⓝ
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.gas_used.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              1 Mgas
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.attached_gas.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              2 Mgas
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="border-0 row no-gutters"
+  >
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.created.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              2019-02-01T00:00:00Z formatted by common.date_time.date_time_format
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.hash.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              222eW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row no-gutters"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY c-TransactionCardBlockHash-jlBwPJ border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.block_hash.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  href="/blocks/222BBBgnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  222BBBgnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TransactionDetails /> renders with two big deposit 1`] = `
+<div
+  className="c-TransactionInfoContainer-gTnqfS"
+>
+  <div
+    className="PJLV row no-gutters"
+  >
+    <div
+      className="col-md-5"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-user.svg"
+              />
+              component.transactions.TransactionDetails.signed_by.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/signer2.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  signer2.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-user.svg"
+              />
+              component.transactions.TransactionDetails.receiver.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/receiver2.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  receiver2.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-t-status.svg"
+              />
+              component.transactions.TransactionDetails.status.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <div
+                className="c-TransactionStatusWrapper-bPodHi"
+              >
+                common.transactions.status.success
+                /common.blocks.status.checking_finality
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row no-gutters"
+  >
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.transaction_fee.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+              >
+                &lt;0.00001
+                 
+                Ⓝ
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-filter.svg"
+              />
+              component.transactions.TransactionDetails.deposit_value.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+              >
+                0.00014
+                 
+                Ⓝ
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.gas_used.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              123 Mgas
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-sm-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              <img
+                className="c-CardCellTitleImage-dihKuo"
+                src="/static/images/icon-m-size.svg"
+              />
+              component.transactions.TransactionDetails.attached_gas.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              123 Mgas
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="border-0 row no-gutters"
+  >
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.created.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              2019-02-01T00:00:00Z formatted by common.date_time.date_time_format
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.hash.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              222eW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVxxx
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row no-gutters"
+  >
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="c-CardCellWrapper-gHjrDY c-TransactionCardBlockHash-jlBwPJ border-0 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-CardCellTitle-epaoYL align-self-center col-md-12 col-auto"
+            >
+              component.transactions.TransactionDetails.block_hash.title
+              <div
+                className="c-TermHelper-ZvBTK"
+                onClick={[Function]}
+              >
+                <img
+                  className="c-TermInfoIcon-leEap"
+                  onClick={[Function]}
+                  src="/static/images/icon-info.svg"
+                />
+              </div>
+            </div>
+            <div
+              className="c-CardCellText-eLcwWo ml-auto align-self-center col-md-12 col-auto"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  href="/blocks/222BBBgnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  222BBBgnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

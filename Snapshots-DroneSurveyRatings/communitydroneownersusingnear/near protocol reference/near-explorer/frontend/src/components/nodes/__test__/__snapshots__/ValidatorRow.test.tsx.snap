@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ValidatorRow /> renders 'active' Validators row with full data 1`] = `
+<tr
+  className="c-TableRowWrapper-jUPfkR mx-0"
+>
+  <td
+    className="c-CollapseRowArrow-gsmDXe"
+    onClick={[Function]}
+  >
+    <img
+      className="c-IconCellIcon-hLqfLK"
+      src="/static/images/icon-maximize.svg"
+    />
+  </td>
+  <td
+    className="c-OrderTableCell-clytRC"
+  >
+    3
+  </td>
+  <td>
+    <img
+      className="c-CountryFlagWrapper-fuqtaQ"
+      id="country_flag_astro-stakers.poolv1.near"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/aq.svg"
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "1em",
+          "verticalAlign": "middle",
+          "width": "1em",
+        }
+      }
+    />
+  </td>
+  <td>
+    <div
+      className="align-items-center row no-gutters"
+    >
+      <div
+        className="c-ValidatorsNodeLabel-klLQiF col"
+      >
+        <span
+          className="c-ValidatingLabelWrapper-eennLm c-ValidatingLabelWrapper-eennLm-fFWhBO-type-active badge"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          component.nodes.ValidatorMainRow.state.active.title
+        </span>
+      </div>
+      <div
+        className="c-ValidatorName-eCGYsD col"
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ValidatorNodesText-hdougQ c-ValidatorNameText-iLHpdH col"
+            title="@astro-stakers.poolv1.near"
+          >
+            astro-stakers.poolv1.near
+          </div>
+        </div>
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ValidatorNodesText-hdougQ c-ValidatorNameText-iLHpdH c-PublicKey-bESuNr col"
+            title="ed25519:2nPSBCzjqikgwrqUMcuEVReJhmkC91eqJGPGqH9sZc28"
+          >
+            ed25519:2nPSBCzjqikgwrqUMcuEVReJhmkC91eqJGPGqH9sZc28
+          </div>
+        </div>
+      </div>
+    </div>
+  </td>
+  <td>
+    1%
+  </td>
+  <td>
+    1774
+  </td>
+  <td
+    className="c-ValidatorNodesText-hdougQ c-StakeText-ePtfAL text-right"
+  >
+    <span
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      17,776,328
+       
+      NEAR
+    </span>
+    <br />
+    <small>
+      +
+      <span
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+      >
+        712
+         
+        NEAR
+      </span>
+    </small>
+  </td>
+  <td>
+    <div
+      className="c-Wrapper-jTdjUT"
+    >
+      <div
+        className="c-Value-PJLV c-Value-PJLV-bVUCHg-type-accumulated"
+        style={
+          Object {
+            "width": "29.16%",
+          }
+        }
+      />
+      <div
+        className="c-Value-PJLV c-Value-PJLV-NcDqG-type-own"
+        style={
+          Object {
+            "width": "20.98%",
+          }
+        }
+      />
+      <div
+        className="c-Label-hocOjJ"
+      >
+        50.14%
+      </div>
+    </div>
+  </td>
+</tr>
+`;
+
+exports[`<ValidatorRow /> renders 'active' Validators row without 'description' 1`] = `
+<tr
+  className="c-TableRowWrapper-jUPfkR mx-0"
+>
+  <td
+    className="c-CollapseRowArrow-gsmDXe"
+    onClick={[Function]}
+  >
+    <img
+      className="c-IconCellIcon-hLqfLK"
+      src="/static/images/icon-maximize.svg"
+    />
+  </td>
+  <td
+    className="c-OrderTableCell-clytRC"
+  >
+    2
+  </td>
+  <td>
+    <div
+      className="c-DefaultCountryFlag-jvvTEe"
+    >
+      ?
+    </div>
+  </td>
+  <td>
+    <div
+      className="align-items-center row no-gutters"
+    >
+      <div
+        className="c-ValidatorsNodeLabel-klLQiF col"
+      >
+        <span
+          className="c-ValidatingLabelWrapper-eennLm c-ValidatingLabelWrapper-eennLm-fFWhBO-type-active badge"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          component.nodes.ValidatorMainRow.state.active.title
+        </span>
+      </div>
+      <div
+        className="c-ValidatorName-eCGYsD col"
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ValidatorNodesText-hdougQ c-ValidatorNameText-iLHpdH col"
+            title="@bisontrails.poolv1.near"
+          >
+            bisontrails.poolv1.near
+          </div>
+        </div>
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ValidatorNodesText-hdougQ c-ValidatorNameText-iLHpdH c-PublicKey-bESuNr col"
+            title="ed25519:Emk6wQJtpQZRJCvvPmmwP9GD2Pk37xxRpmb5uRvJpX62"
+          >
+            ed25519:Emk6wQJtpQZRJCvvPmmwP9GD2Pk37xxRpmb5uRvJpX62
+          </div>
+        </div>
+      </div>
+    </div>
+  </td>
+  <td>
+    10%
+  </td>
+  <td>
+    436
+  </td>
+  <td
+    className="c-ValidatorNodesText-hdougQ c-StakeText-ePtfAL text-right"
+  >
+    <span
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      20,814,924
+       
+      NEAR
+    </span>
+    <br />
+    <small>
+      +
+      <span
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+      >
+        1,545
+         
+        NEAR
+      </span>
+    </small>
+  </td>
+  <td>
+    <div
+      className="c-Wrapper-jTdjUT"
+    >
+      <div
+        className="c-Value-PJLV c-Value-PJLV-bVUCHg-type-accumulated"
+        style={
+          Object {
+            "width": "25.57%",
+          }
+        }
+      />
+      <div
+        className="c-Value-PJLV c-Value-PJLV-NcDqG-type-own"
+        style={
+          Object {
+            "width": "24.57%",
+          }
+        }
+      />
+      <div
+        className="c-Label-hocOjJ"
+      >
+        50.14%
+      </div>
+    </div>
+  </td>
+</tr>
+`;
+
+exports[`<ValidatorRow /> renders 'idle' Validators row with minimum data 1`] = `
+<tr
+  className="c-TableRowWrapper-jUPfkR mx-0"
+>
+  <td
+    className="c-CollapseRowArrow-gsmDXe"
+    onClick={[Function]}
+  >
+    <img
+      className="c-IconCellIcon-hLqfLK"
+      src="/static/images/icon-maximize.svg"
+    />
+  </td>
+  <td
+    className="c-OrderTableCell-clytRC"
+  >
+    4
+  </td>
+  <td>
+    <div
+      className="c-DefaultCountryFlag-jvvTEe"
+    >
+      ?
+    </div>
+  </td>
+  <td>
+    <div
+      className="align-items-center row no-gutters"
+    >
+      <div
+        className="c-ValidatorsNodeLabel-klLQiF col"
+      >
+        <span
+          className="c-ValidatingLabelWrapper-eennLm c-ValidatingLabelWrapper-eennLm-gShBhO-type-idle badge"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          component.nodes.ValidatorMainRow.state.idle.title
+        </span>
+      </div>
+      <div
+        className="c-ValidatorName-eCGYsD col"
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ValidatorNodesText-hdougQ c-ValidatorNameText-iLHpdH col"
+            title="@sphere.poolv1.near"
+          >
+            sphere.poolv1.near
+          </div>
+        </div>
+      </div>
+    </div>
+  </td>
+  <td>
+    8%
+  </td>
+  <td>
+    1
+  </td>
+  <td
+    className="c-ValidatorNodesText-hdougQ c-StakeText-ePtfAL text-right"
+  >
+    <span
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      50
+       
+      NEAR
+    </span>
+  </td>
+  <td>
+    <div
+      className="c-Wrapper-jTdjUT"
+    >
+      <div
+        className="c-Label-hocOjJ"
+      >
+        common.state.not_available
+      </div>
+    </div>
+  </td>
+</tr>
+`;
+
+exports[`<ValidatorRow /> renders simple 'active' Validators row 1`] = `
+Array [
+  <tr
+    className="c-TableRowWrapper-jUPfkR mx-0"
+  >
+    <td
+      className="c-CollapseRowArrow-gsmDXe"
+      onClick={[Function]}
+    >
+      <img
+        className="c-IconCellIcon-hLqfLK"
+        src="/static/images/icon-maximize.svg"
+      />
+    </td>
+    <td
+      className="c-OrderTableCell-clytRC"
+    >
+      1
+    </td>
+    <td>
+      <div
+        className="c-DefaultCountryFlag-jvvTEe"
+      >
+        ?
+      </div>
+    </td>
+    <td>
+      <div
+        className="align-items-center row no-gutters"
+      >
+        <div
+          className="c-ValidatorsNodeLabel-klLQiF col"
+        >
+          <span
+            className="c-ValidatingLabelWrapper-eennLm c-ValidatingLabelWrapper-eennLm-fFWhBO-type-active badge"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+          >
+            component.nodes.ValidatorMainRow.state.active.title
+          </span>
+        </div>
+        <div
+          className="c-ValidatorName-eCGYsD col"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ValidatorNodesText-hdougQ c-ValidatorNameText-iLHpdH col"
+              title="@staked.poolv1.near"
+            >
+              staked.poolv1.near
+            </div>
+          </div>
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ValidatorNodesText-hdougQ c-ValidatorNameText-iLHpdH c-PublicKey-bESuNr col"
+              title="ed25519:3JBVXqenru2ErAM1kHQ8qfd29dCkURLd6JKrFgtmcDTZ"
+            >
+              ed25519:3JBVXqenru2ErAM1kHQ8qfd29dCkURLd6JKrFgtmcDTZ
+            </div>
+          </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      10%
+    </td>
+    <td>
+      874
+    </td>
+    <td
+      className="c-ValidatorNodesText-hdougQ c-StakeText-ePtfAL text-right"
+    >
+      <span
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+      >
+        42,476,926
+         
+        NEAR
+      </span>
+      <br />
+      <small>
+        +
+        <span
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          108,628
+           
+          NEAR
+        </span>
+      </small>
+    </td>
+    <td>
+      <div
+        className="c-Wrapper-jTdjUT"
+      >
+        <div
+          className="c-Value-PJLV c-Value-PJLV-bVUCHg-type-accumulated"
+          style={
+            Object {
+              "width": "0.00%",
+            }
+          }
+        />
+        <div
+          className="c-Value-PJLV c-Value-PJLV-NcDqG-type-own"
+          style={
+            Object {
+              "width": "50.14%",
+            }
+          }
+        />
+        <div
+          className="c-Label-hocOjJ"
+        >
+          50.14%
+        </div>
+      </div>
+    </td>
+  </tr>,
+  <tr
+    className="c-CumulativeStakeholdersRow-fSXZiO"
+  >
+    <td
+      className="c-WarningText-fJprnn text-center"
+      colSpan={8}
+    >
+      component.nodes.ValidatorRow.warning_tip
+    </td>
+  </tr>,
+]
+`;

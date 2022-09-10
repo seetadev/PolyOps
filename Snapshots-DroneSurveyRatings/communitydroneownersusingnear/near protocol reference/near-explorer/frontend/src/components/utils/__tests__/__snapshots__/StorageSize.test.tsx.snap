@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StorageSize /> bytes renders successfully  1`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  401 utils.StorageSize.bytes
+</span>
+`;
+
+exports[`<StorageSize /> gigabytes renders successfully 1`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  41 utils.StorageSize.giga_bytes
+</span>
+`;
+
+exports[`<StorageSize /> kilobytes renders successfully  1`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  2 utils.StorageSize.kilo_bytes
+</span>
+`;
+
+exports[`<StorageSize /> megabytes renders successfully 1`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  4 utils.StorageSize.mega_bytes
+</span>
+`;

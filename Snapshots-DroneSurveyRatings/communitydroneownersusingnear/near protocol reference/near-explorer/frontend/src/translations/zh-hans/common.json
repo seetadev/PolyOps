@@ -1,0 +1,640 @@
+{
+  "app": {
+    "name": "NEAR 浏览器"
+  },
+  "common": {
+    "accounts": {
+      "account": "账户",
+      "accounts": "账户"
+    },
+    "blocks": {
+      "blocks": "区块",
+      "status": {
+        "fetching_status": "获取状态...",
+        "checking_finality": "检查确定状态...",
+        "finalized": "已确定",
+        "finalizing": "确定中"
+      }
+    },
+    "transactions": {
+      "transaction": "交易",
+      "transactions": "交易",
+      "status": {
+        "unknown": "正在进行的交易...",
+        "failure": "失败",
+        "success": "成功"
+      },
+      "execution": {
+        "convert_transaction_to_receipt": "将交易转换为回执",
+        "gas_burned": "销毁的Gas",
+        "tokens_burned": "销毁的Tokens"
+      }
+    },
+    "actions": {
+      "actions": "操作"
+    },
+    "receipts": {
+      "receipt": "交易回执",
+      "receipts": "交易回执",
+      "receipt_id": "交易回执ID",
+      "executed_in_block": "执行时所在的区块",
+      "predecessor_id": "前任账户ID",
+      "receiver_id": "接收账户ID",
+      "status": {
+        "unknown": "未知",
+        "failure": "失败",
+        "successValue": "成功",
+        "successReceiptId": "成功"
+      }
+    },
+    "contracts": {
+      "contract": "合约"
+    },
+    "nodes": {
+      "title": "节点"
+    },
+    "stats": {
+      "title": "统计",
+      "title_charts_and_stats": "图表 / 统计",
+      "daily": "每天",
+      "weekly": "每周",
+      "total": "总数",
+      "unique": "单独",
+      "live": "存活"
+    },
+    "unit": {
+      "seconds": "秒"
+    },
+    "state": {
+      "not_available": "无",
+      "yes": "是",
+      "no": "否"
+    },
+    "date_time": {
+      "date_time_format": "Modo, yyyy, aaah:mm:ss",
+      "date_format": "Modo, yyyy",
+      "time_format": "aaa h:mm:ss",
+      "transaction_date_format": "dd/MM/yyyy h:mm"
+    },
+    "terms": {
+      "genesis": "Genesis"
+    }
+  },
+  "page": {
+    "home": {
+      "title": {
+        "explore": "探索",
+        "near_blockchain": "\nNEAR区块链"
+      }
+    },
+    "accounts": {
+      "account": "账户",
+      "error": {
+        "account_fetching": "当前信息不可用。请检查账户名称是否正确或稍后再次尝试。",
+        "account_not_found": "Account ${account_id} not found. Please, check if the account name is correct or try later."
+      }
+    },
+    "blocks": {
+      "title": "区块",
+      "error": {
+        "block_fetching": "Information is not available at the moment. Please, check if the block hash is correct or try later."
+      }
+    },
+    "transactions": {
+      "transaction_execution_plan": "交易执行计划",
+      "error": {
+        "transaction_fetching": "Information is not available at the moment. Please, check if the transaction hash is correct or try later."
+      }
+    }
+  },
+  "pages": {
+    "account": {
+      "header": {
+        "createdAt": "Created: <Timer />",
+        "storageUsed": "Storage used: ${amount}",
+        "accountType": {
+          "user": "User",
+          "contract": "Contract"
+        },
+        "amounts": {
+          "balance": "Balance",
+          "staked": "Staked",
+          "transactions": "Transactions"
+        }
+      },
+      "tabs": {
+        "activity": "Activity",
+        "activityDetails": "(${transactionsQuantity})",
+        "tokens": "Tokens",
+        "collectibles": "Collectibles",
+        "accessKeys": "Access Keys",
+        "lockedUp": "Locked up"
+      },
+      "activity": {
+        "type": {
+          "transfer": "Transfer",
+          "stake": "Restake",
+          "deployContract": "Contract Deployed",
+          "addKey": "Access Key Created",
+          "deleteKey": "Access Key Deleted",
+          "functionCall": "Method called",
+          "createAccount": "Account created",
+          "deleteAccount": "Account removed",
+          "batch": "Batch (${quantity})",
+          "validatorReward": "Validator reward"
+        },
+        "dateFormat": "dd/MM/yyyy hh:mm"
+      }
+    },
+    "transaction": {
+      "header": {
+        "title": "Transaction",
+        "fee": "Total Fee",
+        "amount": "Amount",
+        "when": "When"
+      },
+      "status": {
+        "fetching": "获取状态...",
+        "fail": "失败",
+        "success": "成功"
+      },
+      "processed": "Processed in ${time}",
+      "execution_plan": "Execution Plan",
+      "expand_all": "Expand All",
+      "tabs": {
+        "output": "Output",
+        "inspect": "Inspect"
+      },
+      "type": {
+        "transfer": "Transfer",
+        "stake": "Restake",
+        "deployContract": "Contract Deployed",
+        "addKey": "Access Key Created",
+        "deleteKey": "Access Key Deleted",
+        "functionCall": "",
+        "createAccount": "Account created",
+        "deleteAccount": "Account removed",
+        "refund": "Refund"
+      }
+    }
+  },
+  "component": {
+    "nodes": {
+      "Validators": {
+        "location": "位置",
+        "validator": "验证节点",
+        "fee": "费用",
+        "delegators": "委托人数",
+        "stake": "质押",
+        "cumulative_stake": "累积质押"
+      },
+      "ValidatorRow": {
+        "warning_tip": "前${node_tip_max}个验证节点持有了超过33%的累积质押。委托给下面的验证节点可以改善网络的去中心化。"
+      },
+      "ValidatorMainRow": {
+        "state": {
+          "active": {
+            "text": "当前验证节点",
+            "title": "有效的"
+          },
+          "joining": {
+            "title": "加入中",
+            "text": "下一周期即将到来的验证节点"
+          },
+          "leaving": {
+            "title": "被踢出",
+            "text": "下一周期被踢出的节点"
+          },
+          "proposal": {
+            "title": "提案",
+            "text": "节点将要被标记为新的验证节点"
+          },
+          "idle": {
+            "title": "空闲",
+            "text": "低于当前席位价格20%的质押池"
+          },
+          "newcomer": {
+            "title": "新手",
+            "text": "至少拥有当前席位价格20%的质押池"
+          },
+          "onHold": {
+            "title": "挂起",
+            "text": "质押有足够的代币进行验证，但尚未提交权益提案"
+          }
+        }
+      },
+      "ValidatorTelemetryRow": {
+        "uptime": {
+          "text": "在线率是通过已产生出块数与预期出块数的比值估算的",
+          "title": "在线率"
+        },
+        "latest_produced_block": {
+          "text": "验证节点在最近的检测心跳中上报的块高度。",
+          "title": "最新区块"
+        },
+        "latest_telemetry_update": {
+          "text": "检测是来自节点的常规通知，其中包括诸如最新已知块高度和 NEAR 协议代理 (nearcore) 版本等通用信息。",
+          "title": "最新检测更新"
+        },
+        "node_agent_name": {
+          "text": "NEAR协议可以有多种实现，'节点代理名称'是该实现的名称, 其中'near-rs'是<nearCoreLink>官方实现</nearCoreLink>。",
+          "title": "节点代理名称"
+        },
+        "node_agent_version_or_build": {
+          "title": "节点代理版本 / 构建ID"
+        },
+        "produced_blocks_and_chunks": "produced ${num_produced_blocks}/${num_expected_blocks} blocks, ${num_produced_chunks}/${num_expected_chunks} chunks"
+      },
+      "ValidatorMetadataRow": {
+        "pool_info": {
+          "website": "网站",
+          "email": "邮箱",
+          "twitter": "Twitter",
+          "discord": "Discord",
+          "description": "描述"
+        },
+        "pool_info_tip": "如果您是节点所有者，请填写<poolLink>相关信息</poolLink>以推广您的节点！"
+      },
+      "NodesEpoch": {
+        "current_epoch_start": "当前周期开始在",
+        "block": "区块",
+        "complete": "完成",
+        "remaining": "剩余"
+      },
+      "NodesContentHeader": {
+        "nodes": "节点"
+      },
+      "NodeNav": {
+        "validating": "正在验证",
+        "proposed": "已经提议"
+      },
+      "NodesCard": {
+        "nodes_validating": "正在验证的节点",
+        "total_supply": "总供应量",
+        "total_stake": "总质押量",
+        "seat_price": "席位价格"
+      },
+      "NodeRow": {
+        "online": {
+          "title": "在线",
+          "text": "在线节点"
+        }
+      }
+    },
+    "transactions": {
+      "Transactions": {
+        "no_transactions": "没有交易"
+      },
+      "ActionMessage": {
+        "CreateAccount": {
+          "new_account_created": "创建新账户: "
+        },
+        "DeleteAccount": {
+          "delete_account": "删除账户 ",
+          "and_transfer_fund_to": " 并将剩余资金转移到 "
+        },
+        "DeployContract": {
+          "contract_deployed": "部署合约: "
+        },
+        "FunctionCall": {
+          "called_method": "调用 '${method_name}' 方法于合约: ",
+          "arguments": "参数:"
+        },
+        "Transfer": {
+          "transferred": "转账 ",
+          "to": " 到 "
+        },
+        "Stake": {
+          "staked": "质押: ",
+          "with_key": "用密钥 ${public_key}..."
+        },
+        "AddKey": {
+          "new_key_added": "添加新密钥 ",
+          "fullAccessPermission": "具有 full access 权限",
+          "access_key_added_for_contract": "访问密钥已添加到合约 ",
+          "with_permission_call_method_and_nounce": "具有调用 ${methods} 方法的权限，nonce为 ${nonce}",
+          "any": "任何"
+        },
+        "DeleteKey": {
+          "key_deleted": "删除密钥: ${public_key}..."
+        }
+      },
+      "TransactionAction": {
+        "batch_transaction": "批量交易",
+        "fetching_status": "获取状态..."
+      },
+      "ActionRowBlock": {
+        "by": "发起者"
+      },
+      "TransactionDetails": {
+        "signed_by": {
+          "title": "签名账户",
+          "text": "签名并发送交易的账户"
+        },
+        "receiver": {
+          "title": "接收账户",
+          "text": "接收交易的账户"
+        },
+        "status": {
+          "title": "状态",
+          "text": "交易的当前状态（待定、成功、失败，以及已确认、未确认）"
+        },
+        "transaction_fee": {
+          "title": "交易费",
+          "text": "为执行本交易支付的费用，以NEAR计费"
+        },
+        "deposit_value": {
+          "title": "存款额",
+          "text": "从签名账户转账到接收账户的所有NEAR通证之和，包含转账操作中发送的通证，以及函数调用（Function Call）操作中附加的NEAR通证"
+        },
+        "gas_used": {
+          "title": "Gas用量",
+          "text": "执行本交易所需的单位Gas数量"
+        },
+        "attached_gas": {
+          "title": "附加的Gas",
+          "text": "附加到本交易的单位Gas数量（通常高于'Gas用量'）"
+        },
+        "created": {
+          "title": "创建于",
+          "text": "本交易提交时刻的时间戳"
+        },
+        "hash": {
+          "title": "交易哈希",
+          "text": "本交易的唯一的ID（哈希）"
+        },
+        "block_hash": {
+          "title": "区块哈希",
+          "text": "包含了本交易的区块的唯一ID（哈希）"
+        }
+      },
+      "ReceiptRow": {
+        "result": "结果",
+        "empty_result": "结果为空",
+        "failure": "失败",
+        "success_receipt_id": "成功交易回执ID",
+        "no_logs": "没有日志",
+        "no_actions": "没有操作"
+      }
+    },
+    "receipts": {
+      "ReceiptAction": {
+        "batch_receipt": "Batch Receipt",
+        "fetching_status": "Fetching Status..."
+      },
+      "ReceiptsList": {
+        "no_receipts": "There are no receipts in this block"
+      },
+      "ReceiptsIncludedInBlock": "Receipts included in this block",
+      "ReceiptsExecutedInBlock": "Receipts executed in this block"
+    },
+    "blocks": {
+      "BlockDetails": {
+        "transactions": {
+          "title": "交易数",
+          "text": "该区块的交易数。"
+        },
+        "receipts": {
+          "title": "交易回执数"
+        },
+        "status": {
+          "title": "状态",
+          "text": "块的当前状态(确定中或已确定)。"
+        },
+        "author": {
+          "title": "作者"
+        },
+        "gas_used": {
+          "title": "Gas用量",
+          "text": "该区块中交易使用的gas总量。"
+        },
+        "gas_price": {
+          "title": "Gas价格",
+          "text": "1Tgas = 1*10^12 Gas。NEAR的 Gas 成本很低，这也是为什么Tgas得到更普遍使用的原因。"
+        },
+        "created": {
+          "title": "创建于",
+          "text": "区块完成时的时间戳。"
+        },
+        "hash": {
+          "title": "哈希",
+          "text": "该区块的唯一标识符(哈希)。"
+        },
+        "parent_hash": {
+          "title": "父哈希",
+          "text": "前一个区块的唯一标识符(哈希)。"
+        }
+      }
+    },
+    "accounts": {
+      "AccountDetails": {
+        "transactions": {
+          "title": "交易数",
+          "text": "此帐户发送和接收的总交易量. "
+        },
+        "storage_usage": {
+          "title": "存储用量",
+          "text": "该账户使用的全部区块链存储空间（以字节计算）。"
+        },
+        "native_account_balance": {
+          "title": "Ⓝ 原生账户余额",
+          "text": "NEAR Protocol为每个账户定义了一种流动余额，该余额被直接用来支付由该账户发布的交易，不过这笔余额并非您可能通过该账户控制的全部通证的总余额。更多细节请查看\"聚合余额\"          "
+        },
+        "validator_stake": {
+          "title": "Ⓝ 验证节点质押",
+          "text": "<p>该通证正在被用来支持验证节点以确保网络安全。在NEAR赎回质押需要3个周期（~36小时），因此当您决定赎回该通证后，可能过一段时间之后该信息才会在您的可用余额中得到展示。</p> <p> 该区域仅为质押通证，为网络安全提供支持的验证节点显示NEAR余额。如果您正通过钱包向验证节点池质押（委托），您会在此区域看到\"0\"，您可通过钱包的余额信息页面查看我们为您聚合的余额情况。</p>"
+        },
+        "balance_profile": {
+          "title": "Ⓝ 余额总览",
+          "text": "NEAR通证可能会被锁在合约中，也可能会被质押和委托，有时在没有您的帮助下我们甚至无法对其进行追踪。钱包信息页面会展示我们通过各种渠道聚集的绝大多数余额，如果您想估算\"总\"余额，钱包信息页面会是个好工具。"
+        },
+        "created_at": {
+          "title": "创建于",
+          "text": "该账户的创建日期。某些账户被收录在网络的第一个区块（创世区块）中。"
+        },
+        "created_by_transaction": {
+          "title": "被交易创建",
+          "text": "您可以检查创建该账户的交易。"
+        },
+        "deleted_at": {
+          "title": "删除于",
+          "text": "该账户的删除日期。"
+        },
+        "deleted_by_transaction": {
+          "title": "被交易删除",
+          "text": "您可以检查删除该账户的交易。"
+        },
+        "lockup_account": {
+          "title": "锁定账户",
+          "text": "锁定账户/合约是一种特殊的智能合约，可确保全部通证甚至是部分通证在规定解锁日期之前是不可转账状态。"
+        }
+      },
+      "AccountRow": {
+        "deleted_on": "删除于",
+        "created_on": "创建于"
+      }
+    },
+    "contracts": {
+      "ContractDetails": {
+        "last_updated": {
+          "title": "上次更新",
+          "text": "合约的最近一次部署时间"
+        },
+        "transaction_hash": {
+          "title": "交易哈希",
+          "text": "合约最近一次部署的交易的唯一ID（哈希）"
+        },
+        "locked": {
+          "title": "锁定合约?",
+          "text": "<p>锁定合约是指该合约已经没有访问密钥可用于合约的重新部署。</p><p>在大多数情况下，代码可以通过如下方式重新部署:<ol><li>通过直接包含了重新部署代码的操作的交易</li><li>合约本身可以实现函数调用用于触发部署代码的操作</li></ol></p><p>为了发起交易重新部署合约代码，交易必须用完全访问密钥（full-access key）签名才行。如果合约上已经没有这样的密钥了，那就无法重新部署合约，除非合约代码里实现了专门的支持，这样的合约我们认为它是锁定了的。</p><p>如果合约上注册了至少一个完全访问密钥（full-access key），它就不是锁定的。</p>"
+        },
+        "code_hash": {
+          "title": "代码哈希",
+          "text": "合约二进制数据的校验和（SHA-256通过 base58编码）"
+        }
+      }
+    },
+    "stats": {
+      "ProtocolConfigInfo": {
+        "first_produced_block": "First produced block",
+        "genesis_started": "创世区块时间",
+        "genesis_protocol_or_current_protocol": "创世协议版本 / 当前协议版本",
+        "genesis_height": "创世区块高度",
+        "epoch_length": "周期长度",
+        "genesis_total_supply": "创世总供给量",
+        "accounts_in_genesis": "创世时账户数",
+        "total_supply": "当前总供给量",
+        "live_accounts": "当前存活账户"
+      },
+      "CirculatingSupplyStats": {
+        "circulating_supply": "Circulating Supply Stats",
+        "tooltip": {
+          "circulating_supply": "circulating supply",
+          "total_tokens_supply": "total supply",
+          "total_tokens_supply_explain": "NEAR tokens that are available for circulation on the market (i.e. not locked in lockup contracts)"
+        }
+      },
+      "TransactionsByDate": {
+        "daily_number_of_transactions": "日交易数",
+        "total_number_of_transactions": "总交易数",
+        "transactions": "交易数"
+      },
+      "GasUsedByDate": {
+        "daily_amount_of_used_gas": "日Gas使用量",
+        "petagas": "PetaGas",
+        "total_amount_of_used_gas": "总Gas使用量",
+        "gas_fee": "Gas费",
+        "daily_gas_fee_in_near": "以NEAR计算的每日Gas费",
+        "fee": "费用"
+      },
+      "NewAccountsByDate": {
+        "daily_number_of_new_accounts": "日新增账户数",
+        "daily_number_of_live_accounts": "日存活账户数",
+        "total_number_of_new_accounts": "总新增账户数",
+        "new_accounts": "新账户数"
+      },
+      "NewContractsByDate": {
+        "daily_number_of_new_contracts": "日新增合约数",
+        "total_number_of_new_contracts": "总新增合约数",
+        "total_number_of_unique_contracts": "总单独合约数",
+        "new_contracts": "新合约数"
+      },
+      "ActiveAccountsByDate": {
+        "daily_number_of_active_accounts": "日活跃账户数",
+        "weekly_number_of_active_accounts": "周活跃账户数",
+        "active_accounts": "活跃账户数"
+      },
+      "ActiveContractsByDate": {
+        "daily_number_of_active_contracts": "日活跃合约数",
+        "active_contracts": "活跃合约数"
+      },
+      "ActiveAccountsList": {
+        "title": "过去14天最活跃的10个账户"
+      },
+      "ActiveContractsList": {
+        "title": "过去14天最活跃的10个合约"
+      }
+    },
+    "dashboard": {
+      "DashboardNode": {
+        "nodes_online": {
+          "title": "在线节点",
+          "text": "在线节点的总数"
+        },
+        "nodes_validating": {
+          "title": "正在验证的节点",
+          "text": "正在验证的节点的总数",
+          "unavailable": "Temporarily unavailable"
+        }
+      },
+      "DashboardBlock": {
+        "block_height": {
+          "title": "区块高度",
+          "text": "<p>最新记录到区块链上的区块的高度。</p><p>区块高度是区块链上最新的快的序号。</p><p>例如，区块高度为1000意味着至多已经有1001个区块存在在区块链上（创世区块 + 随后的1000个区块）。在NEAR上，不能保证每个序号都有对应的区块产生，比如序号为982的区块并不一定存在。</p>"
+        },
+        "avg_block_time": {
+          "title": "平均出块时间",
+          "text": "产生一个区快的平均时间",
+          "unavailable": "Temporarily unavailable"
+        }
+      },
+      "DashboardTransaction": {
+        "24h_total": {
+          "title": "24小时总数",
+          "text": "过于24小时内的交易数量。"
+        },
+        "gas_price": {
+          "title": "Gas价格",
+          "text": "Tgas (TerraGas) 是 10^12 个单位Gas. 由于如果用 NEAR 计费，Gas的数字会相当小，所以TGas是更常用的。"
+        }
+      },
+      "DashboardTransactionHistoryChart": {
+        "14_day_history": {
+          "title": "过去14天历史",
+          "transactions": "交易数"
+        }
+      }
+    },
+    "utils": {
+      "Search": {
+        "title": "搜索",
+        "hint": "搜：账户ID、交易哈希、区块哈希、区块高度"
+      },
+      "Header": {
+        "home": "主页"
+      },
+      "HeaderNavDropdown": {
+        "title": "浏览"
+      },
+      "Footer": {
+        "privacy_policy": "隐私政策",
+        "terms_of_service": "服务条款",
+        "all_rights_reserved": "版权所有",
+        "join_the_community": "加入社区",
+        "questions": "有问题"
+      }
+    }
+  },
+  "utils": {
+    "Update": {
+      "refresh": " 刷新或单击以查看最新数据."
+    },
+    "ListHandler": {
+      "last_block": "最后的区块高度是 #${height}"
+    },
+    "StorageSize": {
+      "bytes": "B",
+      "kilo_bytes": "kB",
+      "mega_bytes": "MB",
+      "giga_bytes": "GB"
+    },
+    "WalletLink": "${account_id} on ${wallet_name}"
+  },
+  "button": {
+    "view_all": "查看全部",
+    "docs": "查看文档",
+    "load_more": "载入更多",
+    "show_more": "显示更多",
+    "show_less": "折叠显示"
+  }
+}

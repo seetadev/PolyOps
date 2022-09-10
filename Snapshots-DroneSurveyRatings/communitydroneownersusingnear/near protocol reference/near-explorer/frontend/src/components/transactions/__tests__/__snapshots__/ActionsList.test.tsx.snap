@@ -1,0 +1,847 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionsList /> renders ActionsList for Receipts without transactionHash 1`] = `
+<Memo
+  actions={
+    Array [
+      Object {
+        "args": Object {
+          "deposit": "8403180157952936387200",
+        },
+        "kind": "transfer",
+      },
+    ]
+  }
+  blockTimestamp={1621931941926}
+  detailsLink={
+    <Memo
+      receiptId="D6a85wNQ47v3dPy8bGF2WQpKQu5di2dnx4EMohm9f5fc"
+      transactionHash="hash"
+    />
+  }
+  receiverId="ig27.near"
+  showDetails={true}
+  signerId="system"
+/>
+`;
+
+exports[`<ActionsList /> renders compact for Receipts 1`] = `
+<div
+  className="c-ActionRow-PJLV mx-0 row no-gutters"
+>
+  <div
+    className="col-auto"
+  >
+    <div
+      className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-eBHKI-type-compact"
+    >
+      <test-file-stub />
+    </div>
+  </div>
+  <div
+    className="c-ActionRowDetails-jUwbjv c-ActionRowDetails-jUwbjv-iRNZlZ-type-compact col"
+  >
+    <div
+      className="c-ActionRowMessage-PJLV c-ActionRowMessage-PJLV-knUOqr-type-compact row no-gutters"
+    >
+      <div
+        className="col-md-8 col-7"
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ActionRowTitle-cYlxUq col"
+          >
+            component.transactions.ActionMessage.FunctionCall.called_method
+            <span
+              onClick={[Function]}
+            >
+              <a
+                className="c-AccountLinkWrapper-dbzzBd"
+                href="/accounts/app.nearcrowd.near"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                app.nearcrowd.near
+              </a>
+            </span>
+          </div>
+        </div>
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ActionRowText-gopnJP col"
+          >
+            component.transactions.ActionRowBlock.by
+             
+            <span
+              onClick={[Function]}
+            >
+              <a
+                className="c-AccountLinkWrapper-dbzzBd"
+                href="/accounts/elonmusk_tesla.near"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                elonmusk_tesla.near
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ml-auto text-right col-md-4 col-5"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="c-ActionRowTransaction-lbSlCc col"
+          >
+            <span
+              onClick={[Function]}
+            >
+              <a
+                href="/transactions/2WDYbcuRyyRXJvrXkfFej9Vrv3s3GNTxVQAqKFTiEtGh#7uADRkZL3b8HRbCRe3ML6yRyVZ46HHp1pEJKbxewq5Hg"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                7uADRkZ...
+              </a>
+            </span>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="c-ActionRowTimer-iiZTaa col"
+          >
+            <span
+              className="c-ActionRowTimerStatus-cJbzxd"
+            >
+              common.blocks.status.fetching_status
+              /common.blocks.status.checking_finality
+            </span>
+             
+            <span>
+              2y past
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ActionsList /> renders compact for Transaction 1`] = `
+Array [
+  <div
+    className="c-ActionRow-PJLV mx-0 row no-gutters"
+  >
+    <div
+      className="col-auto"
+    >
+      <div
+        className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-eBHKI-type-compact"
+      >
+        <test-file-stub />
+      </div>
+    </div>
+    <div
+      className="c-ActionRowDetails-jUwbjv c-ActionRowDetails-jUwbjv-iRNZlZ-type-compact col"
+    >
+      <div
+        className="c-ActionRowMessage-PJLV c-ActionRowMessage-PJLV-knUOqr-type-compact row no-gutters"
+      >
+        <div
+          className="col-md-8 col-7"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ActionRowTitle-cYlxUq col"
+            >
+              component.transactions.ActionMessage.CreateAccount.new_account_created
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/receiver.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  receiver.test
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ActionRowText-gopnJP col"
+            >
+              component.transactions.ActionRowBlock.by
+               
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/signer.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  signer.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ml-auto text-right col-md-4 col-5"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="c-ActionRowTransaction-lbSlCc col"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  href="/transactions/BvJeW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  BvJeW6g...
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="c-ActionRowTimer-iiZTaa col"
+            >
+              <span
+                className="c-ActionRowTimerStatus-cJbzxd"
+              >
+                common.blocks.status.fetching_status
+                /common.blocks.status.checking_finality
+              </span>
+               
+              <span>
+                0s
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="c-ActionRow-PJLV mx-0 row no-gutters"
+  >
+    <div
+      className="col-auto"
+    >
+      <div
+        className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-eBHKI-type-compact"
+      >
+        <test-file-stub />
+      </div>
+    </div>
+    <div
+      className="c-ActionRowDetails-jUwbjv c-ActionRowDetails-jUwbjv-iRNZlZ-type-compact col"
+    >
+      <div
+        className="c-ActionRowMessage-PJLV c-ActionRowMessage-PJLV-knUOqr-type-compact row no-gutters"
+      >
+        <div
+          className="col-md-8 col-7"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ActionRowTitle-cYlxUq col"
+            >
+              component.transactions.ActionMessage.AddKey.new_key_added
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/receiver.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  receiver.test
+                </a>
+              </span>
+              : ed25519:8LXEySy...
+              <p>
+                component.transactions.ActionMessage.AddKey.fullAccessPermission
+              </p>
+            </div>
+          </div>
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ActionRowText-gopnJP col"
+            >
+              component.transactions.ActionRowBlock.by
+               
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/signer.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  signer.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ml-auto text-right col-md-4 col-5"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="c-ActionRowTransaction-lbSlCc col"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  href="/transactions/BvJeW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  BvJeW6g...
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="c-ActionRowTimer-iiZTaa col"
+            >
+              <span
+                className="c-ActionRowTimerStatus-cJbzxd"
+              >
+                common.blocks.status.fetching_status
+                /common.blocks.status.checking_finality
+              </span>
+               
+              <span>
+                0s
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`<ActionsList /> renders functioncall by default 1`] = `
+<div
+  className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+>
+  <div
+    className="col-auto"
+  >
+    <div
+      className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+    >
+      <test-file-stub />
+    </div>
+  </div>
+  <div
+    className="c-ActionRowDetails-jUwbjv col"
+  >
+    <div
+      className="c-ActionRowMessage-PJLV row no-gutters"
+    >
+      <div
+        className="col-md-8 col-7"
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ActionRowTitle-cYlxUq col"
+          >
+            component.transactions.ActionMessage.FunctionCall.called_method
+            <span
+              onClick={[Function]}
+            >
+              <a
+                className="c-AccountLinkWrapper-dbzzBd"
+                href="/accounts/receiver2.test"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                receiver2.test
+              </a>
+            </span>
+            <dl>
+              <dt>
+                component.transactions.ActionMessage.FunctionCall.arguments
+              </dt>
+              <dd>
+                <div
+                  className="c-Wrapper-hgxcBQ"
+                >
+                  <div
+                    className="c-Wrapper-fswXQT"
+                    style={
+                      Object {
+                        "maxHeight": 200,
+                      }
+                    }
+                  >
+                    <link
+                      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+                      rel="stylesheet"
+                    />
+                    <div
+                      className="c-CodePreviewWrapper-gJFGlx"
+                    >
+                      {
+  "text": "when ico?"
+}
+                    </div>
+                  </div>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ActionRowText-gopnJP col"
+          >
+            component.transactions.ActionRowBlock.by
+             
+            <span
+              onClick={[Function]}
+            >
+              <a
+                className="c-AccountLinkWrapper-dbzzBd"
+                href="/accounts/signer2.test"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                signer2.test
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ml-auto text-right col-md-4 col-5"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="c-ActionRowTransaction-lbSlCc col"
+          >
+            <span
+              onClick={[Function]}
+            >
+              <a
+                href="/transactions/222eW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                222eW6g...
+              </a>
+            </span>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="c-ActionRowTimer-iiZTaa col"
+          >
+            <span
+              className="c-ActionRowTimerStatus-cJbzxd"
+            >
+              common.blocks.status.fetching_status
+              /common.blocks.status.checking_finality
+            </span>
+             
+            <span>
+              0s
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ActionsList /> renders sparsely by default for Receipts 1`] = `
+<div
+  className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+>
+  <div
+    className="col-auto"
+  >
+    <div
+      className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+    >
+      <test-file-stub />
+    </div>
+  </div>
+  <div
+    className="c-ActionRowDetails-jUwbjv col"
+  >
+    <div
+      className="c-ActionRowMessage-PJLV row no-gutters"
+    >
+      <div
+        className="col-md-8 col-7"
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ActionRowTitle-cYlxUq col"
+          >
+            component.transactions.ActionMessage.FunctionCall.called_method
+            <span
+              onClick={[Function]}
+            >
+              <a
+                className="c-AccountLinkWrapper-dbzzBd"
+                href="/accounts/5ce78003b590264df3f259983f3c3e0917fc10ea.lockup.near"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                5ce78…ockup.near
+              </a>
+            </span>
+          </div>
+        </div>
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="c-ActionRowText-gopnJP col"
+          >
+            component.transactions.ActionRowBlock.by
+             
+            <span
+              onClick={[Function]}
+            >
+              <a
+                className="c-AccountLinkWrapper-dbzzBd"
+                href="/accounts/5ce78003b590264df3f259983f3c3e0917fc10ea.lockup.near"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                5ce78…ockup.near
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ml-auto text-right col-md-4 col-5"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="c-ActionRowTransaction-lbSlCc col"
+          >
+            <span
+              onClick={[Function]}
+            >
+              <a
+                href="/transactions/hash#BvG4qfnrxVfpqXrSgxxnfdrHYTKFjTcf2LtgEeX5Mzyz"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                BvG4qfn...
+              </a>
+            </span>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="c-ActionRowTimer-iiZTaa col"
+          >
+            <span
+              className="c-ActionRowTimerStatus-cJbzxd"
+            >
+              common.blocks.status.fetching_status
+              /common.blocks.status.checking_finality
+            </span>
+             
+            <span>
+              2y past
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ActionsList /> renders sparsely by default for Transactions 1`] = `
+Array [
+  <div
+    className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+  >
+    <div
+      className="col-auto"
+    >
+      <div
+        className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+      >
+        <test-file-stub />
+      </div>
+    </div>
+    <div
+      className="c-ActionRowDetails-jUwbjv col"
+    >
+      <div
+        className="c-ActionRowMessage-PJLV row no-gutters"
+      >
+        <div
+          className="col-md-8 col-7"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ActionRowTitle-cYlxUq col"
+            >
+              component.transactions.ActionMessage.CreateAccount.new_account_created
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/receiver.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  receiver.test
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ActionRowText-gopnJP col"
+            >
+              component.transactions.ActionRowBlock.by
+               
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/signer.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  signer.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ml-auto text-right col-md-4 col-5"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="c-ActionRowTransaction-lbSlCc col"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  href="/transactions/BvJeW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  BvJeW6g...
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="c-ActionRowTimer-iiZTaa col"
+            >
+              <span
+                className="c-ActionRowTimerStatus-cJbzxd"
+              >
+                common.blocks.status.fetching_status
+                /common.blocks.status.checking_finality
+              </span>
+               
+              <span>
+                0s
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+  >
+    <div
+      className="col-auto"
+    >
+      <div
+        className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+      >
+        <test-file-stub />
+      </div>
+    </div>
+    <div
+      className="c-ActionRowDetails-jUwbjv col"
+    >
+      <div
+        className="c-ActionRowMessage-PJLV row no-gutters"
+      >
+        <div
+          className="col-md-8 col-7"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ActionRowTitle-cYlxUq col"
+            >
+              component.transactions.ActionMessage.AddKey.new_key_added
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/receiver.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  receiver.test
+                </a>
+              </span>
+              : ed25519:8LXEySy...
+              <p>
+                component.transactions.ActionMessage.AddKey.fullAccessPermission
+              </p>
+            </div>
+          </div>
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="c-ActionRowText-gopnJP col"
+            >
+              component.transactions.ActionRowBlock.by
+               
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  className="c-AccountLinkWrapper-dbzzBd"
+                  href="/accounts/signer.test"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  signer.test
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ml-auto text-right col-md-4 col-5"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="c-ActionRowTransaction-lbSlCc col"
+            >
+              <span
+                onClick={[Function]}
+              >
+                <a
+                  href="/transactions/BvJeW6gnFjkCBKCsRNEBrRLDQCFZNxLAi6uXzmLaVrrj"
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  BvJeW6g...
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="c-ActionRowTimer-iiZTaa col"
+            >
+              <span
+                className="c-ActionRowTimerStatus-cJbzxd"
+              >
+                common.blocks.status.fetching_status
+                /common.blocks.status.checking_finality
+              </span>
+               
+              <span>
+                0s
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

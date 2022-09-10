@@ -1,0 +1,42 @@
+version: "3.4"
+
+x-services: &env
+  env_file:
+    - frontend.env
+    - ${ENV:-testnet}.env
+
+services:
+  backend:
+    <<: *env
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      - NEAR_EXPLORER_CONFIG__PORT=8080
+    mem_limit: 1G
+    entrypoint: ["npm", "run", "-w", "backend", "start"]
+    ports:
+      - 10000:8080
+
+  frontend:
+    <<: *env
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    environment:
+      - PORT=3000
+      - NEAR_EXPLORER_CONFIG__BACKEND_SSR__HOSTS__MAINNET=backend
+      - NEAR_EXPLORER_CONFIG__BACKEND_SSR__HOSTS__TESTNET=backend
+      - NEAR_EXPLORER_CONFIG__BACKEND_SSR__HOSTS__SHARDNET=backend
+      - NEAR_EXPLORER_CONFIG__BACKEND_SSR__HOSTS__GUILDNET=backend
+      - NEAR_EXPLORER_CONFIG__BACKEND_SSR__PORT=8080
+      - NEAR_EXPLORER_CONFIG__BACKEND_SSR__SECURE=false
+      - NEAR_EXPLORER_CONFIG__BACKEND__HOSTS__MAINNET=localhost
+      - NEAR_EXPLORER_CONFIG__BACKEND__HOSTS__TESTNET=localhost
+      - NEAR_EXPLORER_CONFIG__BACKEND__HOSTS__SHARDNET=localhost
+      - NEAR_EXPLORER_CONFIG__BACKEND__HOSTS__GUILDNET=localhost
+      - NEAR_EXPLORER_CONFIG__BACKEND__PORT=10000
+      - NEAR_EXPLORER_CONFIG__BACKEND__SECURE=false
+    ports:
+      - 3000:3000
+    command: ["npm", "run", "-w", "frontend", "start"]

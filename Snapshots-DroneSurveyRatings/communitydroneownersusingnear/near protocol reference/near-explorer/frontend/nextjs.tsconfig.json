@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "module": "commonjs",
+    "composite": false,
+    "declaration": false
+  },
+  "include": ["next.config.ts"],
+  "exclude": ["node_modules", "cypress"]
+}

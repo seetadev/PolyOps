@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionMessage /> renders AddKey with permission FullAccess 1`] = `
+Array [
+  "component.transactions.ActionMessage.AddKey.new_key_added",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/receiver.test"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      receiver.test
+    </a>
+  </span>,
+  ": ed25519:BgXFiJS...",
+  <p>
+    component.transactions.ActionMessage.AddKey.fullAccessPermission
+  </p>,
+]
+`;
+
+exports[`<ActionMessage /> renders AddKey with permission function call to call any method 1`] = `
+Array [
+  "component.transactions.ActionMessage.AddKey.access_key_added_for_contract",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/stake"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      stake
+    </a>
+  </span>,
+  ": ed25519:BgXFiJS...",
+  <p>
+    component.transactions.ActionMessage.AddKey.with_permission_call_method_and_nounce
+  </p>,
+]
+`;
+
+exports[`<ActionMessage /> renders AddKey with permission function call to call specific methods 1`] = `
+Array [
+  "component.transactions.ActionMessage.AddKey.access_key_added_for_contract",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/stake"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      stake
+    </a>
+  </span>,
+  ": ed25519:BgXFiJS...",
+  <p>
+    component.transactions.ActionMessage.AddKey.with_permission_call_method_and_nounce
+  </p>,
+]
+`;
+
+exports[`<ActionMessage /> renders CreateAccount 1`] = `
+Array [
+  "component.transactions.ActionMessage.CreateAccount.new_account_created",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/receiver.test"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      receiver.test
+    </a>
+  </span>,
+]
+`;
+
+exports[`<ActionMessage /> renders DeleteAccount 1`] = `
+Array [
+  "component.transactions.ActionMessage.DeleteAccount.delete_account",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/receiver.test"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      receiver.test
+    </a>
+  </span>,
+  "component.transactions.ActionMessage.DeleteAccount.and_transfer_fund_to",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/near"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      near
+    </a>
+  </span>,
+]
+`;
+
+exports[`<ActionMessage /> renders DeleteKey 1`] = `"component.transactions.ActionMessage.DeleteKey.key_deleted"`;
+
+exports[`<ActionMessage /> renders DeployContract 1`] = `
+Array [
+  "component.transactions.ActionMessage.DeployContract.contract_deployed",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/receiver.test"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      receiver.test
+    </a>
+  </span>,
+]
+`;
+
+exports[`<ActionMessage /> renders FunctionCall 1`] = `
+Array [
+  "component.transactions.ActionMessage.FunctionCall.called_method",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/receiver.test"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      receiver.test
+    </a>
+  </span>,
+]
+`;
+
+exports[`<ActionMessage /> renders FunctionCall with details 1`] = `
+Array [
+  "component.transactions.ActionMessage.FunctionCall.called_method",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/receiver2.test"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      receiver2.test
+    </a>
+  </span>,
+  <dl>
+    <dt>
+      component.transactions.ActionMessage.FunctionCall.arguments
+    </dt>
+    <dd>
+      <div
+        className="c-Wrapper-hgxcBQ"
+      >
+        <div
+          className="c-Wrapper-fswXQT"
+          style={
+            Object {
+              "maxHeight": 200,
+            }
+          }
+        >
+          <link
+            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+            rel="stylesheet"
+          />
+          <div
+            className="c-CodePreviewWrapper-gJFGlx"
+          >
+            {
+  "text": "when ico?"
+}
+          </div>
+        </div>
+      </div>
+    </dd>
+  </dl>,
+]
+`;
+
+exports[`<ActionMessage /> renders Stake 1`] = `
+Array [
+  "component.transactions.ActionMessage.Stake.staked",
+  <span
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+  >
+    &lt;0.00001
+     
+    Ⓝ
+  </span>,
+  " ",
+  "component.transactions.ActionMessage.Stake.with_key",
+]
+`;
+
+exports[`<ActionMessage /> renders Transfer 1`] = `
+Array [
+  "component.transactions.ActionMessage.Transfer.transferred",
+  <span
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+  >
+    &lt;0.00001
+     
+    Ⓝ
+  </span>,
+  "component.transactions.ActionMessage.Transfer.to",
+  <span
+    onClick={[Function]}
+  >
+    <a
+      className="c-AccountLinkWrapper-dbzzBd"
+      href="/accounts/receiver.test"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      receiver.test
+    </a>
+  </span>,
+]
+`;

@@ -1,0 +1,2751 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReceiptRow /> renders Failure receipt 1`] = `
+<div
+  className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+  id="R1111111111111111111111111111111111111111111"
+>
+  <div
+    className="col"
+  >
+    <div
+      className="row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+      >
+        <b>
+          common.receipts.receipt
+          :
+        </b>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.receipt_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            href="/transactions/T1111111111111111111111111111111111111111111#R1111111111111111111111111111111111111111111"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            R1111111111111111111111111111111111111111111
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.executed_in_block
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            href="/blocks/B111111111111111111111111111111111111111111"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            B111111111111111111111111111111111111111111
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.predecessor_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+        title="signer.test"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            className="c-AccountLinkWrapper-dbzzBd"
+            href="/accounts/signer.test"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            signer.test
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.receiver_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+        title="receiver.test"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            className="c-AccountLinkWrapper-dbzzBd"
+            href="/accounts/receiver.test"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            receiver.test
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.transactions.execution.gas_burned
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+      >
+        3 Tgas
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.transactions.execution.tokens_burned
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+      >
+        <span
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          0.00034
+           
+          Ⓝ
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowText-gvSPRD col"
+      >
+        <div
+          className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+        >
+          <div
+            className="col-auto"
+          >
+            <div
+              className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+            >
+              <test-file-stub />
+            </div>
+          </div>
+          <div
+            className="c-ActionRowDetails-jUwbjv col"
+          >
+            <div
+              className="c-ActionRowMessage-PJLV row no-gutters"
+            >
+              <div
+                className="col-md-12 col-12"
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="c-ActionRowTitle-cYlxUq col"
+                  >
+                    component.transactions.ActionMessage.FunctionCall.called_method
+                    <span
+                      onClick={[Function]}
+                    >
+                      <a
+                        className="c-AccountLinkWrapper-dbzzBd"
+                        href="/accounts/receiver.test"
+                        onClick={[Function]}
+                        onMouseEnter={[Function]}
+                      >
+                        receiver.test
+                      </a>
+                    </span>
+                    <dl>
+                      <dt>
+                        component.transactions.ActionMessage.FunctionCall.arguments
+                      </dt>
+                      <dd>
+                        <div
+                          className="c-Wrapper-hgxcBQ"
+                        >
+                          <div
+                            className="c-Wrapper-fswXQT"
+                            style={
+                              Object {
+                                "maxHeight": 200,
+                              }
+                            }
+                          >
+                            <link
+                              href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+                              rel="stylesheet"
+                            />
+                            <div
+                              className="c-CodePreviewWrapper-gJFGlx"
+                            >
+                              {
+  "listing_id": "000028066",
+  "seller_transaction_id": "tr_1IWD3SBwavzc3Cjzlb5ZMkPk"
+}
+                            </div>
+                          </div>
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowStatus-cQiaau col"
+      >
+        <i>
+          component.transactions.ReceiptRow.failure
+          : 
+        </i>
+        <pre>
+          {
+  "type": "action",
+  "error": {
+    "type": "functionCallError",
+    "error": {
+      "type": "hostError"
+    }
+  }
+}
+        </pre>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowText-gvSPRD col"
+      >
+        <pre>
+          000028066 listings not found
+        </pre>
+      </div>
+    </div>
+    <div
+      className="c-ExecutedReceiptRow-kkRPny row no-gutters"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+          id="R2222222222222222222222222222222222222222222"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+              >
+                <b>
+                  common.receipts.receipt
+                  :
+                </b>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receipt_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/transactions/T1111111111111111111111111111111111111111111#R2222222222222222222222222222222222222222222"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    R2222222222222222222222222222222222222222222
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.executed_in_block
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/blocks/B222222222222222222222222222222222222222222"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    B222222222222222222222222222222222222222222
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.predecessor_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="system"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/system"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    system
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receiver_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="receiver.test"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/receiver.test"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    receiver.test
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.gas_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                0 gas
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.tokens_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                <span
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                >
+                  0
+                   
+                  Ⓝ
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                <div
+                  className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+                >
+                  <div
+                    className="col-auto"
+                  >
+                    <div
+                      className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+                    >
+                      <test-file-stub />
+                    </div>
+                  </div>
+                  <div
+                    className="c-ActionRowDetails-jUwbjv col"
+                  >
+                    <div
+                      className="c-ActionRowMessage-PJLV row no-gutters"
+                    >
+                      <div
+                        className="col-md-12 col-12"
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="c-ActionRowTitle-cYlxUq col"
+                          >
+                            component.transactions.ActionMessage.Transfer.transferred
+                            <span
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
+                            >
+                              0.00353
+                               
+                              Ⓝ
+                            </span>
+                            component.transactions.ActionMessage.Transfer.to
+                            <span
+                              onClick={[Function]}
+                            >
+                              <a
+                                className="c-AccountLinkWrapper-dbzzBd"
+                                href="/accounts/receiver.test"
+                                onClick={[Function]}
+                                onMouseEnter={[Function]}
+                              >
+                                receiver.test
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowStatus-cQiaau col"
+              >
+                component.transactions.ReceiptRow.empty_result
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                component.transactions.ReceiptRow.no_logs
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ReceiptRow /> renders receipt with many outcome receipts 1`] = `
+<div
+  className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+  id="R1111111111111111111111111111111111111111111"
+>
+  <div
+    className="col"
+  >
+    <div
+      className="row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+      >
+        <b>
+          common.receipts.receipt
+          :
+        </b>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.receipt_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            href="/transactions/T1111111111111111111111111111111111111111111#R1111111111111111111111111111111111111111111"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            R1111111111111111111111111111111111111111111
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.executed_in_block
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            href="/blocks/B222222222222222222222222222222222222222222"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            B222222222222222222222222222222222222222222
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.predecessor_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+        title="signer.test"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            className="c-AccountLinkWrapper-dbzzBd"
+            href="/accounts/signer.test"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            signer.test
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.receiver_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+        title="receiver.test"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            className="c-AccountLinkWrapper-dbzzBd"
+            href="/accounts/receiver.test"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            receiver.test
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.transactions.execution.gas_burned
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+      >
+        20 Tgas
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.transactions.execution.tokens_burned
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+      >
+        <span
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          0.00209
+           
+          Ⓝ
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowText-gvSPRD col"
+      >
+        <div
+          className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+        >
+          <div
+            className="col-auto"
+          >
+            <div
+              className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+            >
+              <test-file-stub />
+            </div>
+          </div>
+          <div
+            className="c-ActionRowDetails-jUwbjv col"
+          >
+            <div
+              className="c-ActionRowMessage-PJLV row no-gutters"
+            >
+              <div
+                className="col-md-12 col-12"
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="c-ActionRowTitle-cYlxUq col"
+                  >
+                    component.transactions.ActionMessage.FunctionCall.called_method
+                    <span
+                      onClick={[Function]}
+                    >
+                      <a
+                        className="c-AccountLinkWrapper-dbzzBd"
+                        href="/accounts/receiver.test"
+                        onClick={[Function]}
+                        onMouseEnter={[Function]}
+                      >
+                        receiver.test
+                      </a>
+                    </span>
+                    <dl>
+                      <dt>
+                        component.transactions.ActionMessage.FunctionCall.arguments
+                      </dt>
+                      <dd>
+                        <div
+                          className="c-Wrapper-hgxcBQ"
+                        >
+                          <div
+                            className="c-Wrapper-fswXQT"
+                            style={
+                              Object {
+                                "maxHeight": 200,
+                              }
+                            }
+                          >
+                            <link
+                              href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+                              rel="stylesheet"
+                            />
+                            <div
+                              className="c-CodePreviewWrapper-gJFGlx"
+                            >
+                              {
+  "receiver_id": "farm.berryclub.ek.near",
+  "amount": "9807229473212706028",
+  "memo": "Swapping 9807229473212706028 🍌 to get 9807229473212706028 🥒",
+  "msg": "\\"DepositAndStake\\""
+}
+                            </div>
+                          </div>
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowStatus-cQiaau col"
+      >
+        <i>
+          component.transactions.ReceiptRow.success_receipt_id
+          : 
+        </i>
+        <pre>
+          R3333333333333333333333333333333333333333333
+        </pre>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowText-gvSPRD col"
+      >
+        <pre>
+          Transfer 9807229473212706028 from signer.test to receiver.test
+Memo: Swapping 9807229473212706028 🍌 to get 9807229473212706028 🥒
+        </pre>
+      </div>
+    </div>
+    <div
+      className="c-ExecutedReceiptRow-kkRPny row no-gutters"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+          id="R222222222222222222222222222222222222222222"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+              >
+                <b>
+                  common.receipts.receipt
+                  :
+                </b>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receipt_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/transactions/T1111111111111111111111111111111111111111111#R222222222222222222222222222222222222222222"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    R222222222222222222222222222222222222222222
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.executed_in_block
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/blocks/B333333333333333333333333333333333333333333"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    B333333333333333333333333333333333333333333
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.predecessor_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="signer1.test"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/signer1.test"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    signer1.test
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receiver_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="receiver.test"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/receiver.test"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    receiver.test
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.gas_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                4 Tgas
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.tokens_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                <span
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                >
+                  0.00041
+                   
+                  Ⓝ
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                <div
+                  className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+                >
+                  <div
+                    className="col-auto"
+                  >
+                    <div
+                      className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+                    >
+                      <test-file-stub />
+                    </div>
+                  </div>
+                  <div
+                    className="c-ActionRowDetails-jUwbjv col"
+                  >
+                    <div
+                      className="c-ActionRowMessage-PJLV row no-gutters"
+                    >
+                      <div
+                        className="col-md-12 col-12"
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="c-ActionRowTitle-cYlxUq col"
+                          >
+                            component.transactions.ActionMessage.FunctionCall.called_method
+                            <span
+                              onClick={[Function]}
+                            >
+                              <a
+                                className="c-AccountLinkWrapper-dbzzBd"
+                                href="/accounts/receiver.test"
+                                onClick={[Function]}
+                                onMouseEnter={[Function]}
+                              >
+                                receiver.test
+                              </a>
+                            </span>
+                            <dl>
+                              <dt>
+                                component.transactions.ActionMessage.FunctionCall.arguments
+                              </dt>
+                              <dd>
+                                <div
+                                  className="c-Wrapper-hgxcBQ"
+                                >
+                                  <div
+                                    className="c-Wrapper-fswXQT"
+                                    style={
+                                      Object {
+                                        "maxHeight": 200,
+                                      }
+                                    }
+                                  >
+                                    <link
+                                      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+                                      rel="stylesheet"
+                                    />
+                                    <div
+                                      className="c-CodePreviewWrapper-gJFGlx"
+                                    >
+                                      {
+  "sender_id": "leonardwcai.near",
+  "amount": "9807229473212706028",
+  "msg": "\\"DepositAndStake\\""
+}
+                                    </div>
+                                  </div>
+                                </div>
+                              </dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowStatus-cQiaau col"
+              >
+                <i>
+                  component.transactions.ReceiptRow.result
+                  : 
+                </i>
+                <div
+                  className="c-Wrapper-hgxcBQ"
+                >
+                  <div
+                    className="c-Wrapper-fswXQT"
+                    style={
+                      Object {
+                        "maxHeight": 200,
+                      }
+                    }
+                  >
+                    <link
+                      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+                      rel="stylesheet"
+                    />
+                    <div
+                      className="c-CodePreviewWrapper-gJFGlx"
+                    >
+                      "0"
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                component.transactions.ReceiptRow.no_logs
+              </div>
+            </div>
+            <div
+              className="c-ExecutedReceiptRow-kkRPny row no-gutters"
+            >
+              <div
+                className="col"
+              >
+                <div
+                  className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+                  id="R555555555555555555555555555555555555555555"
+                >
+                  <div
+                    className="col"
+                  >
+                    <div
+                      className="row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+                      >
+                        <b>
+                          common.receipts.receipt
+                          :
+                        </b>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.receipts.receipt_id
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+                      >
+                        <span
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="/transactions/T1111111111111111111111111111111111111111111#R555555555555555555555555555555555555555555"
+                            onClick={[Function]}
+                            onMouseEnter={[Function]}
+                          >
+                            R555555555555555555555555555555555555555555
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.receipts.executed_in_block
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+                      >
+                        <span
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="/blocks/B444444444444444444444444444444444444444444"
+                            onClick={[Function]}
+                            onMouseEnter={[Function]}
+                          >
+                            B444444444444444444444444444444444444444444
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.receipts.predecessor_id
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh col"
+                        title="system"
+                      >
+                        <span
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="c-AccountLinkWrapper-dbzzBd"
+                            href="/accounts/system"
+                            onClick={[Function]}
+                            onMouseEnter={[Function]}
+                          >
+                            system
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.receipts.receiver_id
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh col"
+                        title="receiver.test"
+                      >
+                        <span
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="c-AccountLinkWrapper-dbzzBd"
+                            href="/accounts/receiver.test"
+                            onClick={[Function]}
+                            onMouseEnter={[Function]}
+                          >
+                            receiver.test
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.transactions.execution.gas_burned
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh col"
+                      >
+                        0 gas
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.transactions.execution.tokens_burned
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh col"
+                      >
+                        <span
+                          onBlur={[Function]}
+                          onFocus={[Function]}
+                          onMouseOut={[Function]}
+                          onMouseOver={[Function]}
+                        >
+                          0
+                           
+                          Ⓝ
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowText-gvSPRD col"
+                      >
+                        <div
+                          className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+                        >
+                          <div
+                            className="col-auto"
+                          >
+                            <div
+                              className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+                            >
+                              <test-file-stub />
+                            </div>
+                          </div>
+                          <div
+                            className="c-ActionRowDetails-jUwbjv col"
+                          >
+                            <div
+                              className="c-ActionRowMessage-PJLV row no-gutters"
+                            >
+                              <div
+                                className="col-md-12 col-12"
+                              >
+                                <div
+                                  className="row no-gutters"
+                                >
+                                  <div
+                                    className="c-ActionRowTitle-cYlxUq col"
+                                  >
+                                    component.transactions.ActionMessage.Transfer.transferred
+                                    <span
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseOut={[Function]}
+                                      onMouseOver={[Function]}
+                                    >
+                                      0.00269
+                                       
+                                      Ⓝ
+                                    </span>
+                                    component.transactions.ActionMessage.Transfer.to
+                                    <span
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        className="c-AccountLinkWrapper-dbzzBd"
+                                        href="/accounts/receiver.test"
+                                        onClick={[Function]}
+                                        onMouseEnter={[Function]}
+                                      >
+                                        receiver.test
+                                      </a>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowStatus-cQiaau col"
+                      >
+                        component.transactions.ReceiptRow.empty_result
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowText-gvSPRD col"
+                      >
+                        component.transactions.ReceiptRow.no_logs
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c-ExecutedReceiptRow-kkRPny row no-gutters"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+          id="R3333333333333333333333333333333333333333333"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+              >
+                <b>
+                  common.receipts.receipt
+                  :
+                </b>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receipt_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/transactions/T1111111111111111111111111111111111111111111#R3333333333333333333333333333333333333333333"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    R3333333333333333333333333333333333333333333
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.executed_in_block
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/blocks/B4444444444444444444444444444444444444444444"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    B4444444444444444444444444444444444444444444
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.predecessor_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="signer1.test"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/signer1.test"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    signer1.test
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receiver_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="receiver1.test"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/receiver1.test"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    receiver1.test
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.gas_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                3 Tgas
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.tokens_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                <span
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                >
+                  0.00035
+                   
+                  Ⓝ
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                <div
+                  className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+                >
+                  <div
+                    className="col-auto"
+                  >
+                    <div
+                      className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+                    >
+                      <test-file-stub />
+                    </div>
+                  </div>
+                  <div
+                    className="c-ActionRowDetails-jUwbjv col"
+                  >
+                    <div
+                      className="c-ActionRowMessage-PJLV row no-gutters"
+                    >
+                      <div
+                        className="col-md-12 col-12"
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="c-ActionRowTitle-cYlxUq col"
+                          >
+                            component.transactions.ActionMessage.FunctionCall.called_method
+                            <span
+                              onClick={[Function]}
+                            >
+                              <a
+                                className="c-AccountLinkWrapper-dbzzBd"
+                                href="/accounts/receiver1.test"
+                                onClick={[Function]}
+                                onMouseEnter={[Function]}
+                              >
+                                receiver1.test
+                              </a>
+                            </span>
+                            <dl>
+                              <dt>
+                                component.transactions.ActionMessage.FunctionCall.arguments
+                              </dt>
+                              <dd>
+                                <div
+                                  className="c-Wrapper-hgxcBQ"
+                                >
+                                  <div
+                                    className="c-Wrapper-fswXQT"
+                                    style={
+                                      Object {
+                                        "maxHeight": 200,
+                                      }
+                                    }
+                                  >
+                                    <link
+                                      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+                                      rel="stylesheet"
+                                    />
+                                    <div
+                                      className="c-CodePreviewWrapper-gJFGlx"
+                                    >
+                                      {
+  "sender_id": "leonardwcai.near",
+  "receiver_id": "farm.berryclub.ek.near",
+  "amount": "9807229473212706028"
+}
+                                    </div>
+                                  </div>
+                                </div>
+                              </dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowStatus-cQiaau col"
+              >
+                <i>
+                  component.transactions.ReceiptRow.result
+                  : 
+                </i>
+                <div
+                  className="c-Wrapper-hgxcBQ"
+                >
+                  <div
+                    className="c-Wrapper-fswXQT"
+                    style={
+                      Object {
+                        "maxHeight": 200,
+                      }
+                    }
+                  >
+                    <link
+                      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+                      rel="stylesheet"
+                    />
+                    <div
+                      className="c-CodePreviewWrapper-gJFGlx"
+                    >
+                      "9807229473212706028"
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                component.transactions.ReceiptRow.no_logs
+              </div>
+            </div>
+            <div
+              className="c-ExecutedReceiptRow-kkRPny row no-gutters"
+            >
+              <div
+                className="col"
+              >
+                <div
+                  className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+                  id="R6666666666666666666666666666666666666666666"
+                >
+                  <div
+                    className="col"
+                  >
+                    <div
+                      className="row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+                      >
+                        <b>
+                          common.receipts.receipt
+                          :
+                        </b>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.receipts.receipt_id
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+                      >
+                        <span
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="/transactions/T1111111111111111111111111111111111111111111#R6666666666666666666666666666666666666666666"
+                            onClick={[Function]}
+                            onMouseEnter={[Function]}
+                          >
+                            R6666666666666666666666666666666666666666666
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.receipts.executed_in_block
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+                      >
+                        <span
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="/blocks/B666666666666666666666666666666666666666666"
+                            onClick={[Function]}
+                            onMouseEnter={[Function]}
+                          >
+                            B666666666666666666666666666666666666666666
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.receipts.predecessor_id
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh col"
+                        title="system"
+                      >
+                        <span
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="c-AccountLinkWrapper-dbzzBd"
+                            href="/accounts/system"
+                            onClick={[Function]}
+                            onMouseEnter={[Function]}
+                          >
+                            system
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.receipts.receiver_id
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh col"
+                        title="receiver.test"
+                      >
+                        <span
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="c-AccountLinkWrapper-dbzzBd"
+                            href="/accounts/receiver.test"
+                            onClick={[Function]}
+                            onMouseEnter={[Function]}
+                          >
+                            receiver.test
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.transactions.execution.gas_burned
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh col"
+                      >
+                        0 gas
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowTitle-kbySyH col"
+                      >
+                        common.transactions.execution.tokens_burned
+                        :
+                      </div>
+                      <div
+                        className="c-ReceiptRowReceiptHash-cQOeDh col"
+                      >
+                        <span
+                          onBlur={[Function]}
+                          onFocus={[Function]}
+                          onMouseOut={[Function]}
+                          onMouseOver={[Function]}
+                        >
+                          0
+                           
+                          Ⓝ
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowText-gvSPRD col"
+                      >
+                        <div
+                          className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+                        >
+                          <div
+                            className="col-auto"
+                          >
+                            <div
+                              className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+                            >
+                              <test-file-stub />
+                            </div>
+                          </div>
+                          <div
+                            className="c-ActionRowDetails-jUwbjv col"
+                          >
+                            <div
+                              className="c-ActionRowMessage-PJLV row no-gutters"
+                            >
+                              <div
+                                className="col-md-12 col-12"
+                              >
+                                <div
+                                  className="row no-gutters"
+                                >
+                                  <div
+                                    className="c-ActionRowTitle-cYlxUq col"
+                                  >
+                                    component.transactions.ActionMessage.Transfer.transferred
+                                    <span
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseOut={[Function]}
+                                      onMouseOver={[Function]}
+                                    >
+                                      0.00068
+                                       
+                                      Ⓝ
+                                    </span>
+                                    component.transactions.ActionMessage.Transfer.to
+                                    <span
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        className="c-AccountLinkWrapper-dbzzBd"
+                                        href="/accounts/receiver.test"
+                                        onClick={[Function]}
+                                        onMouseEnter={[Function]}
+                                      >
+                                        receiver.test
+                                      </a>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowStatus-cQiaau col"
+                      >
+                        component.transactions.ReceiptRow.empty_result
+                      </div>
+                    </div>
+                    <div
+                      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+                    >
+                      <div
+                        className="c-ReceiptRowText-gvSPRD col"
+                      >
+                        component.transactions.ReceiptRow.no_logs
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c-ExecutedReceiptRow-kkRPny row no-gutters"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+          id="R4444444444444444444444444444444444444444444"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+              >
+                <b>
+                  common.receipts.receipt
+                  :
+                </b>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receipt_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/transactions/T1111111111111111111111111111111111111111111#R4444444444444444444444444444444444444444444"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    R4444444444444444444444444444444444444444444
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.executed_in_block
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/blocks/B555555555555555555555555555555555555555555"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    B555555555555555555555555555555555555555555
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.predecessor_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="system"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/system"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    system
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receiver_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="receiver.test"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/receiver.test"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    receiver.test
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.gas_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                0 gas
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.tokens_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                <span
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                >
+                  0
+                   
+                  Ⓝ
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                <div
+                  className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+                >
+                  <div
+                    className="col-auto"
+                  >
+                    <div
+                      className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+                    >
+                      <test-file-stub />
+                    </div>
+                  </div>
+                  <div
+                    className="c-ActionRowDetails-jUwbjv col"
+                  >
+                    <div
+                      className="c-ActionRowMessage-PJLV row no-gutters"
+                    >
+                      <div
+                        className="col-md-12 col-12"
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="c-ActionRowTitle-cYlxUq col"
+                          >
+                            component.transactions.ActionMessage.Transfer.transferred
+                            <span
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
+                            >
+                              0.00104
+                               
+                              Ⓝ
+                            </span>
+                            component.transactions.ActionMessage.Transfer.to
+                            <span
+                              onClick={[Function]}
+                            >
+                              <a
+                                className="c-AccountLinkWrapper-dbzzBd"
+                                href="/accounts/receiver.test"
+                                onClick={[Function]}
+                                onMouseEnter={[Function]}
+                              >
+                                receiver.test
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowStatus-cQiaau col"
+              >
+                component.transactions.ReceiptRow.empty_result
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                component.transactions.ReceiptRow.no_logs
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ReceiptRow /> renders successful receipt 1`] = `
+<div
+  className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+  id="R1111111111111111111111111111111111111111111"
+>
+  <div
+    className="col"
+  >
+    <div
+      className="row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+      >
+        <b>
+          common.receipts.receipt
+          :
+        </b>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.receipt_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            href="/transactions/T1111111111111111111111111111111111111111111#R1111111111111111111111111111111111111111111"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            R1111111111111111111111111111111111111111111
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.executed_in_block
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            href="/blocks/B222222222222222222222222222222222222222222"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            B222222222222222222222222222222222222222222
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.predecessor_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+        title="signer.test"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            className="c-AccountLinkWrapper-dbzzBd"
+            href="/accounts/signer.test"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            signer.test
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.receipts.receiver_id
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+        title="receiver.test"
+      >
+        <span
+          onClick={[Function]}
+        >
+          <a
+            className="c-AccountLinkWrapper-dbzzBd"
+            href="/accounts/receiver.test"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            receiver.test
+          </a>
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.transactions.execution.gas_burned
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+      >
+        6 Tgas
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowTitle-kbySyH col"
+      >
+        common.transactions.execution.tokens_burned
+        :
+      </div>
+      <div
+        className="c-ReceiptRowReceiptHash-cQOeDh col"
+      >
+        <span
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          0.00061
+           
+          Ⓝ
+        </span>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowText-gvSPRD col"
+      >
+        <div
+          className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+        >
+          <div
+            className="col-auto"
+          >
+            <div
+              className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+            >
+              <test-file-stub />
+            </div>
+          </div>
+          <div
+            className="c-ActionRowDetails-jUwbjv col"
+          >
+            <div
+              className="c-ActionRowMessage-PJLV row no-gutters"
+            >
+              <div
+                className="col-md-12 col-12"
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="c-ActionRowTitle-cYlxUq col"
+                  >
+                    component.transactions.ActionMessage.FunctionCall.called_method
+                    <span
+                      onClick={[Function]}
+                    >
+                      <a
+                        className="c-AccountLinkWrapper-dbzzBd"
+                        href="/accounts/receiver.test"
+                        onClick={[Function]}
+                        onMouseEnter={[Function]}
+                      >
+                        receiver.test
+                      </a>
+                    </span>
+                    <dl>
+                      <dt>
+                        component.transactions.ActionMessage.FunctionCall.arguments
+                      </dt>
+                      <dd>
+                        <div
+                          className="c-Wrapper-hgxcBQ"
+                        >
+                          <div
+                            className="c-Wrapper-fswXQT"
+                            style={
+                              Object {
+                                "maxHeight": 200,
+                              }
+                            }
+                          >
+                            <link
+                              href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+                              rel="stylesheet"
+                            />
+                            <div
+                              className="c-CodePreviewWrapper-gJFGlx"
+                            >
+                              {
+  "request": {
+    "left": 32626789,
+    "right": 32132129
+  },
+  "response": "Skipped"
+}
+                            </div>
+                          </div>
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowStatus-cQiaau col"
+      >
+        <i>
+          component.transactions.ReceiptRow.result
+          : 
+        </i>
+        <div
+          className="c-Wrapper-hgxcBQ"
+        >
+          <div
+            className="c-Wrapper-fswXQT"
+            style={
+              Object {
+                "maxHeight": 200,
+              }
+            }
+          >
+            <link
+              href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+              rel="stylesheet"
+            />
+            <div
+              className="c-CodePreviewWrapper-gJFGlx"
+            >
+              {
+  "left": 29647268,
+  "right": 22016008
+}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c-ReceiptRowSection-cRyUdF row no-gutters"
+    >
+      <div
+        className="c-ReceiptRowText-gvSPRD col"
+      >
+        component.transactions.ReceiptRow.no_logs
+      </div>
+    </div>
+    <div
+      className="c-ExecutedReceiptRow-kkRPny row no-gutters"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="c-ReceiptRowWrapper-hrWUDL row no-gutters"
+          id="R2222222222222222222222222222222222222222222"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH c-ReceiptRowHashTitle-jgGNdA col"
+              >
+                <b>
+                  common.receipts.receipt
+                  :
+                </b>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receipt_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/transactions/T1111111111111111111111111111111111111111111#R2222222222222222222222222222222222222222222"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    R2222222222222222222222222222222222222222222
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.executed_in_block
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh c-ReceiptRowReceiptHash-cQOeDh-gkXQBw-truncateLink-true col"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    href="/blocks/B333333333333333333333333333333333333333333"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    B333333333333333333333333333333333333333333
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.predecessor_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="system"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/system"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    system
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.receipts.receiver_id
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+                title="receiver.test"
+              >
+                <span
+                  onClick={[Function]}
+                >
+                  <a
+                    className="c-AccountLinkWrapper-dbzzBd"
+                    href="/accounts/receiver.test"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                    receiver.test
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.gas_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                0 gas
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowTitle-kbySyH col"
+              >
+                common.transactions.execution.tokens_burned
+                :
+              </div>
+              <div
+                className="c-ReceiptRowReceiptHash-cQOeDh col"
+              >
+                <span
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                >
+                  0
+                   
+                  Ⓝ
+                </span>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                <div
+                  className="c-ActionRow-PJLV c-ActionRow-PJLV-frrtQL-type-sparse mx-0 row no-gutters"
+                >
+                  <div
+                    className="col-auto"
+                  >
+                    <div
+                      className="c-ActionRowImage-PJLV c-ActionRowImage-PJLV-LCgTA-type-sparse"
+                    >
+                      <test-file-stub />
+                    </div>
+                  </div>
+                  <div
+                    className="c-ActionRowDetails-jUwbjv col"
+                  >
+                    <div
+                      className="c-ActionRowMessage-PJLV row no-gutters"
+                    >
+                      <div
+                        className="col-md-12 col-12"
+                      >
+                        <div
+                          className="row no-gutters"
+                        >
+                          <div
+                            className="c-ActionRowTitle-cYlxUq col"
+                          >
+                            component.transactions.ActionMessage.Transfer.transferred
+                            <span
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
+                            >
+                              0.01844
+                               
+                              Ⓝ
+                            </span>
+                            component.transactions.ActionMessage.Transfer.to
+                            <span
+                              onClick={[Function]}
+                            >
+                              <a
+                                className="c-AccountLinkWrapper-dbzzBd"
+                                href="/accounts/receiver.test"
+                                onClick={[Function]}
+                                onMouseEnter={[Function]}
+                              >
+                                receiver.test
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowStatus-cQiaau col"
+              >
+                component.transactions.ReceiptRow.empty_result
+              </div>
+            </div>
+            <div
+              className="c-ReceiptRowSection-cRyUdF row no-gutters"
+            >
+              <div
+                className="c-ReceiptRowText-gvSPRD col"
+              >
+                component.transactions.ReceiptRow.no_logs
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

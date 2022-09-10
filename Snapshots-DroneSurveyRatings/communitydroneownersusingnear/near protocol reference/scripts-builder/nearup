@@ -1,0 +1,178 @@
+#!/usr/bin/env python3
+import logging
+import os
+
+from logging import handlers
+
+import click
+
+import nearuplib
+from nearuplib.constants import LOGS_FOLDER
+from nearuplib.localnet import entry
+from nearuplib.nodelib import restart_nearup, setup_and_run, stop_nearup
+from nearuplib.tailer import show_logs
+
+if not os.path.exists(LOGS_FOLDER):
+    os.makedirs(LOGS_FOLDER)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format=
+    '%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    handlers=[
+        handlers.RotatingFileHandler(
+            os.path.expanduser('~/.nearup/logs/nearup.log'),
+            maxBytes=1024 * 1024,
+            backupCount=10,
+        ),
+        logging.StreamHandler()
+    ],
+)
+
+
+@click.group()
+def cli():
+    pass
+
+
+@cli.command()
+@click.argument('network',
+                type=click.Choice({
+                    'mainnet', 'testnet', 'betanet', 'guildnet', 'localnet',
+                    'shardnet'
+                }))
+@click.option(
+    '--binary-path',
+    type=str,
+    default='',
+    help=
+    'Near binary path, use nearcore/target/debug or nearcore/target/release for local development'
+)
+@click.option(
+    '--home',
+    type=str,
+    help=
+    'Home path for storing configs, keys and chain data (Default: ~/.near/testnet)'
+)
+@click.option('--account-id', type=str, help='Specify the node account ID')
+@click.option('--boot-nodes',
+              type=str,
+              help='Specify the nodes to boot from',
+              default='')
+@click.option(
+    '--interactive',
+    is_flag=True,
+    help='If true, the user will be prompted for what to do interactively')
+@click.option(
+    '--verbose',
+    is_flag=True,
+    help=('If set, prints verbose logs. Betanet always prints verbose logs.  '
+          'If specified, overrides --neard-log and RUST_LOG environment '
+          'variable.'))
+# TODO(mina86): --neard-log has been deprecated in Feb 2022.  Add a warning when
+# it’s used in half a year or so, and then half a year later remove the flag all
+# together.
+@click.option(
+    '--neard-log',
+    type=str,
+    help=('Comma-separated module=level values configuring neard logging '
+          'verbosity.  Deprecated: Prefer setting RUST_LOG environment '
+          'variable instead.'),
+    default='')
+@click.option('--num-nodes',
+              type=int,
+              help='Specifies the number of localnet nodes to create')
+@click.option('--num-shards',
+              type=int,
+              help='Specifies the number of localnet shards to create')
+@click.option('--override',
+              is_flag=True,
+              help='Override previous localnet node data if exists')
+@click.option('--fix-accounts',
+              is_flag=True,
+              help='Setup fixed accounts for first (N-1) shards (shard0, shard1, ...)')
+@click.option('--no-watcher',
+              is_flag=True,
+              help='Disable nearup watcher, mostly used for tests.')
+def run(network, binary_path, home, account_id, boot_nodes, interactive,
+        verbose, neard_log, num_nodes, num_shards, override, fix_accounts, no_watcher):
+    if home:
+        home = os.path.abspath(home)
+    else:
+        home = os.path.expanduser(f'~/.near/{network}')
+
+    logging.info(f"Home directory is {home}...")
+
+    if network == 'betanet':
+        verbose = True
+
+    if network == 'localnet':
+        entry(binary_path, home, num_nodes, num_shards, override, fix_accounts, verbose,
+              interactive)
+    else:
+        setup_and_run(binary_path,
+                      home,
+                      boot_nodes,
+                      chain_id=network,
+                      account_id=account_id,
+                      verbose=verbose,
+                      interactive=interactive,
+                      neard_log=neard_log,
+                      watcher=not no_watcher)
+
+
+@click.option('--keep-watcher', is_flag=True, help='Keep the watcher running.')
+@cli.command()
+def stop(keep_watcher):
+    stop_nearup(keep_watcher)
+
+
+@click.argument('network',
+                type=click.Choice({
+                    'mainnet', 'testnet', 'betanet', 'guildnet', 'localnet',
+                    'shardnet'
+                }))
+@click.option(
+    '--home',
+    type=str,
+    help=
+    'Home path for storing configs, keys and chain data (Default: ~/.near/testnet)'
+)
+@click.option('--restart-watcher',
+              is_flag=True,
+              help='Restart the watcher as well')
+@click.option(
+    '--verbose',
+    is_flag=True,
+    help='If set, prints verbose logs. Betanet always prints verbose logs.')
+@cli.command()
+def restart(network, home, restart_watcher, verbose):
+    if home:
+        home = os.path.abspath(home)
+    else:
+        home = os.path.expanduser(f'~/.near/{network}')
+    if network == 'betanet':
+        verbose = True
+    restart_nearup(network,
+                   home_dir=home,
+                   keep_watcher=not restart_watcher,
+                   verbose=verbose)
+
+
+@click.option('--follow', '-f', is_flag=True, help='Follow the logs.')
+@click.option('--lines', '-l', default=100, type=int)
+@cli.command()
+def logs(follow, lines):
+    show_logs(follow, lines)
+
+
+@cli.command()
+def version():
+    version_path = os.path.join(os.path.dirname(nearuplib.__file__), 'VERSION')
+    with open(version_path, 'r') as version_file:
+        print(version_file.read().strip())
+
+
+if __name__ == '__main__':
+    cli()

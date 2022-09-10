@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlocksRow /> renders 1`] = `
+<span
+  onClick={[Function]}
+>
+  <a
+    className="c-LinkWrapper-cIdiJW"
+    href="/blocks/EVvWW1S9BFaEjY1JBNSdstb7ZTtTFjQ6cygkbw1KY4tL"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <div
+      className="c-TransactionRow-keHKEY mx-0 row"
+    >
+      <div
+        className="pr-0 col-md-auto col-1"
+      >
+        <img
+          src="/static/images/icon-m-block.svg"
+        />
+      </div>
+      <div
+        className="pr-0 col-md-auto col-1"
+      >
+        <img
+          className="c-BlockIcon-dPulhb"
+          src="/static/images/icon-m-block.svg"
+        />
+      </div>
+      <div
+        className="col-md-7 col-6"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="c-TransactionRowTitle-bvTgKA col"
+          >
+            #
+            12345
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="c-TransactionRowText-kkbyDv col"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-auto"
+              >
+                <img
+                  className="c-TransactionIcon-hDGfVG"
+                  src="/static/images/icon-m-transaction.svg"
+                />
+                 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ml-auto text-right col-md-3 col-4"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="c-TransactionRowTransactionId-lbSlCc col"
+          >
+            EVvWW1S...
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="c-TransactionRowTimer-iiZTaa col"
+          >
+            <span
+              className="c-TransactionRowTimerStatus-cJbzxd"
+            >
+              common.blocks.status.checking_finality
+            </span>
+              
+            <span>
+              0s
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</span>
+`;

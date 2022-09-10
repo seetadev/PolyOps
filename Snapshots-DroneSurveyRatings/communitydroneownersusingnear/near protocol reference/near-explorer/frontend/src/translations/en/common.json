@@ -1,0 +1,640 @@
+{
+  "app": {
+    "name": "NEAR Explorer"
+  },
+  "common": {
+    "accounts": {
+      "account": "Account",
+      "accounts": "Accounts"
+    },
+    "blocks": {
+      "blocks": "Blocks",
+      "status": {
+        "fetching_status": "Fetching Status...",
+        "checking_finality": "Checking Finality...",
+        "finalized": "Finalized",
+        "finalizing": "Finalizing"
+      }
+    },
+    "transactions": {
+      "transaction": "Transaction",
+      "transactions": "Transactions",
+      "status": {
+        "unknown": "In progress...",
+        "failure": "Failed",
+        "success": "Succeeded"
+      },
+      "execution": {
+        "convert_transaction_to_receipt": "Convert Transaction To Receipt",
+        "gas_burned": "Gas Burned",
+        "tokens_burned": "Tokens Burned"
+      }
+    },
+    "actions": {
+      "actions": "Actions"
+    },
+    "receipts": {
+      "receipt": "Receipt",
+      "receipts": "Receipts",
+      "receipt_id": "Receipt ID",
+      "executed_in_block": "Executed in Block",
+      "predecessor_id": "Predecessor ID",
+      "receiver_id": "Receiver ID",
+      "status": {
+        "unknown": "Unknown",
+        "failure": "Failed",
+        "successValue": "Succeeded",
+        "successReceiptId": "Succeeded"
+      }
+    },
+    "contracts": {
+      "contract": "Contract"
+    },
+    "nodes": {
+      "title": "Nodes"
+    },
+    "stats": {
+      "title": "Stats",
+      "title_charts_and_stats": "Charts & Stats",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "total": "Total",
+      "unique": "Unique",
+      "live": "Live"
+    },
+    "unit": {
+      "seconds": "s"
+    },
+    "state": {
+      "not_available": "N/A",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "date_time": {
+      "date_time_format": "MMMM dd, yyyy 'at' h:mm:ssaaa",
+      "date_format": "MMMM dd, yyyy",
+      "time_format": "'at' h:mm:ssaaa",
+      "transaction_date_format": "dd/MM/yyyy h:mm"
+    },
+    "terms": {
+      "genesis": "Genesis"
+    }
+  },
+  "page": {
+    "home": {
+      "title": {
+        "explore": "Explore",
+        "near_blockchain": " the \nNEAR Blockchain."
+      }
+    },
+    "accounts": {
+      "account": "Account",
+      "error": {
+        "account_fetching": "Information is not available at the moment. Please, check if the account name is correct or try later.",
+        "account_not_found": "Account ${account_id} not found. Please, check if the account name is correct or try later."
+      }
+    },
+    "blocks": {
+      "title": "Block",
+      "error": {
+        "block_fetching": "Information is not available at the moment. Please, check if the block hash is correct or try later."
+      }
+    },
+    "transactions": {
+      "transaction_execution_plan": "Transaction Execution Plan",
+      "error": {
+        "transaction_fetching": "Information is not available at the moment. Please, check if the transaction hash is correct or try later."
+      }
+    }
+  },
+  "pages": {
+    "account": {
+      "header": {
+        "createdAt": "Created: <Timer />",
+        "storageUsed": "Storage used: ${amount}",
+        "accountType": {
+          "user": "User",
+          "contract": "Contract"
+        },
+        "amounts": {
+          "balance": "Balance",
+          "staked": "Staked",
+          "transactions": "Transactions"
+        }
+      },
+      "tabs": {
+        "activity": "Activity",
+        "activityDetails": "(${transactionsQuantity})",
+        "tokens": "Tokens",
+        "collectibles": "Collectibles",
+        "accessKeys": "Access Keys",
+        "lockedUp": "Locked up"
+      },
+      "activity": {
+        "type": {
+          "transfer": "Transfer",
+          "stake": "Restake",
+          "deployContract": "Contract Deployed",
+          "addKey": "Access Key Created",
+          "deleteKey": "Access Key Deleted",
+          "functionCall": "Method called",
+          "createAccount": "Account created",
+          "deleteAccount": "Account removed",
+          "batch": "Batch (${quantity})",
+          "validatorReward": "Validator reward"
+        },
+        "dateFormat": "dd/MM/yyyy hh:mm"
+      }
+    },
+    "transaction": {
+      "header": {
+        "title": "Transaction",
+        "fee": "Total Fee",
+        "amount": "Amount",
+        "when": "When"
+      },
+      "status": {
+        "fetching": "Fetching Status...",
+        "fail": "Failed",
+        "success": "Success"
+      },
+      "processed": "Processed in ${time}",
+      "execution_plan": "Execution Plan",
+      "expand_all": "Expand All",
+      "tabs": {
+        "output": "Output",
+        "inspect": "Inspect"
+      },
+      "type": {
+        "transfer": "Transfer",
+        "stake": "Restake",
+        "deployContract": "Contract Deployed",
+        "addKey": "Access Key Created",
+        "deleteKey": "Access Key Deleted",
+        "functionCall": "",
+        "createAccount": "Account created",
+        "deleteAccount": "Account removed",
+        "refund": "Refund"
+      }
+    }
+  },
+  "component": {
+    "nodes": {
+      "Validators": {
+        "location": "Location",
+        "validator": "Validator",
+        "fee": "Fee",
+        "delegators": "Delegators",
+        "stake": "Stake",
+        "cumulative_stake": "Cumulative Stake"
+      },
+      "ValidatorRow": {
+        "warning_tip": "Validators 1 - ${node_tip_max} hold a cumulative stake above 33%. Delegating to the validators below improves the decentralization of the network."
+      },
+      "ValidatorMainRow": {
+        "state": {
+          "active": {
+            "text": "current validating nodes",
+            "title": "Active"
+          },
+          "joining": {
+            "title": "Joining",
+            "text": "next epoch upcoming validating nodes"
+          },
+          "leaving": {
+            "title": "Kickout",
+            "text": "next epoch kick out nodes"
+          },
+          "proposal": {
+            "title": "Proposal",
+            "text": "node staked to be new validating one"
+          },
+          "idle": {
+            "title": "Idle",
+            "text": "staking pool that has less than 20% of the current seat price"
+          },
+          "newcomer": {
+            "title": "Newcomer",
+            "text": "staking pool that has at least 20% of the current seat price"
+          },
+          "onHold": {
+            "title": "On hold",
+            "text": "staking pool has enough tokens to validate, but hasn’t submitted a stake proposal yet"
+          }
+        }
+      },
+      "ValidatorTelemetryRow": {
+        "uptime": {
+          "text": "Uptime is estimated by the ratio of the number of produced blocks to the number of expected blocks.",
+          "title": "Uptime"
+        },
+        "latest_produced_block": {
+          "text": "The block height the validation node reported in the most recent telemetry heartbeat.",
+          "title": "Latest block"
+        },
+        "latest_telemetry_update": {
+          "text": "Telemetry is a regular notification coming from the nodes which includes generic information like the latest known block height, and the version of NEAR Protocol agent (nearcore).",
+          "title": "Latest Telemetry Update"
+        },
+        "node_agent_name": {
+          "text": "NEAR Protocol could have multiple implementations, so agent is the name of that implementation, where 'near-rs' is <nearCoreLink>the official implementation</nearCoreLink>.",
+          "title": "Node Agent Name"
+        },
+        "node_agent_version_or_build": {
+          "title": "Node Agent Version / Build"
+        },
+        "produced_blocks_and_chunks": "produced ${num_produced_blocks}/${num_expected_blocks} blocks, ${num_produced_chunks}/${num_expected_chunks} chunks"
+      },
+      "ValidatorMetadataRow": {
+        "pool_info": {
+          "website": "Web",
+          "email": "Email",
+          "twitter": "Twitter",
+          "discord": "Discord",
+          "description": "Description"
+        },
+        "pool_info_tip": "If you are node owner feel free to fill all <poolLink>data</poolLink> to promote your own node!"
+      },
+      "NodesEpoch": {
+        "current_epoch_start": "Current Epoch Start",
+        "block": "Block",
+        "complete": "complete",
+        "remaining": "remaining"
+      },
+      "NodesContentHeader": {
+        "nodes": "Nodes"
+      },
+      "NodeNav": {
+        "validating": "Validating",
+        "proposed": "Proposed"
+      },
+      "NodesCard": {
+        "nodes_validating": "Nodes validating",
+        "total_supply": "Total Supply",
+        "total_stake": "Total Stake",
+        "seat_price": "Seat Price"
+      },
+      "NodeRow": {
+        "online": {
+          "title": "Online",
+          "text": "online nodes"
+        }
+      }
+    },
+    "transactions": {
+      "Transactions": {
+        "no_transactions": "There are no transactions"
+      },
+      "ActionMessage": {
+        "CreateAccount": {
+          "new_account_created": "New account created: "
+        },
+        "DeleteAccount": {
+          "delete_account": "Delete account ",
+          "and_transfer_fund_to": " and transfer remaining funds to "
+        },
+        "DeployContract": {
+          "contract_deployed": "Contract deployed: "
+        },
+        "FunctionCall": {
+          "called_method": "Called method: '${method_name}' in contract: ",
+          "arguments": "Arguments:"
+        },
+        "Transfer": {
+          "transferred": "Transferred ",
+          "to": " to "
+        },
+        "Stake": {
+          "staked": "Staked: ",
+          "with_key": "with ${public_key}..."
+        },
+        "AddKey": {
+          "new_key_added": "New key added for ",
+          "fullAccessPermission": "with full access permission",
+          "access_key_added_for_contract": "Access key added for contract ",
+          "with_permission_call_method_and_nounce": "with permission to call ${methods} methods",
+          "any": "any"
+        },
+        "DeleteKey": {
+          "key_deleted": "Key deleted: ${public_key}..."
+        }
+      },
+      "TransactionAction": {
+        "batch_transaction": "Batch Transaction",
+        "fetching_status": "Fetching Status..."
+      },
+      "ActionRowBlock": {
+        "by": "by"
+      },
+      "TransactionDetails": {
+        "signed_by": {
+          "title": "Signed by",
+          "text": "Account that signed and sent the transaction."
+        },
+        "receiver": {
+          "title": "Receiver",
+          "text": "Account receiving the transaction."
+        },
+        "status": {
+          "title": "Status",
+          "text": "Current status of the transaction (Pending, Succeeded, Failed/Finalized or non finalized)."
+        },
+        "transaction_fee": {
+          "title": "Transaction Fee",
+          "text": "Total fee paid in NEAR to execute this transaction."
+        },
+        "deposit_value": {
+          "title": "Deposit Value",
+          "text": "Sum of all NEAR tokens transferred from the Signing account to the Receiver account. This includes tokens sent in a Transfer action(s), and as deposits on Function Call action(s)."
+        },
+        "gas_used": {
+          "title": "Gas Used",
+          "text": "Units of gas required to execute this transaction."
+        },
+        "attached_gas": {
+          "title": "Attached Gas",
+          "text": "Units of gas attached to the transaction (this is often higher than 'Gas Used')."
+        },
+        "created": {
+          "title": "Created",
+          "text": "Timestamp of when this transaction was submitted."
+        },
+        "hash": {
+          "title": "Hash",
+          "text": "Unique identifier (hash) of this transaction."
+        },
+        "block_hash": {
+          "title": "Block Hash",
+          "text": "Unique identifier (hash) of the block this transaction was included in."
+        }
+      },
+      "ReceiptRow": {
+        "result": "Result",
+        "empty_result": "Empty result",
+        "failure": "Failure",
+        "success_receipt_id": "SuccessReceiptId",
+        "no_logs": "No logs",
+        "no_actions": "No actions"
+      }
+    },
+    "receipts": {
+      "ReceiptAction": {
+        "batch_receipt": "Batch Receipt",
+        "fetching_status": "Fetching Status..."
+      },
+      "ReceiptsList": {
+        "no_receipts": "There are no receipts in this block"
+      },
+      "ReceiptsIncludedInBlock": "Receipts included in this block",
+      "ReceiptsExecutedInBlock": "Receipts executed in this block"
+    },
+    "blocks": {
+      "BlockDetails": {
+        "transactions": {
+          "title": "Transactions",
+          "text": "Number of transactions in this block. "
+        },
+        "receipts": {
+          "title": "Receipts"
+        },
+        "status": {
+          "title": "Status",
+          "text": "Current status of the block (finalizing or finalized). "
+        },
+        "author": {
+          "title": "Author"
+        },
+        "gas_used": {
+          "title": "Gas Used",
+          "text": "Total units of gas used by transactions in this block. "
+        },
+        "gas_price": {
+          "title": "Gas Price",
+          "text": "A unit of Tgas (TeraGas) is 1*10^12 units of gas. The costs of gas are very low in terms of NEAR, which is why Tgas is more commonly used. "
+        },
+        "created": {
+          "title": "Created",
+          "text": "Timestamp of when this block finalized. "
+        },
+        "hash": {
+          "title": "Hash",
+          "text": "Unique identifier (hash) of this block. "
+        },
+        "parent_hash": {
+          "title": "Parent Hash",
+          "text": "Unique identifier (hash) of previous block. "
+        }
+      }
+    },
+    "accounts": {
+      "AccountDetails": {
+        "transactions": {
+          "title": "Transactions",
+          "text": "Total transaction sent and received by this account. "
+        },
+        "storage_usage": {
+          "title": "Storage Used",
+          "text": "Total blockchain storage (in bytes) used by this account. "
+        },
+        "native_account_balance": {
+          "title": "Ⓝ Native Account Balance",
+          "text": "NEAR protocol defines a liquid balance for every account, this is directly used to pay for transactions issued by this account, but it is not the \"total\" balance of all the tokens you may control through this account; see \"Aggregated Balance\" for more details. "
+        },
+        "validator_stake": {
+          "title": "Ⓝ Validator Stake",
+          "text": "<p> This NEAR is actively being used to back a validator and secure the network. When you decide to unstake this NEAR, it will take some time to be shown in your Available Balance, as NEAR takes 3 epochs (~36 hours) to unstake. </p> <p> This field only reflects NEAR balance for validators that stake to support the security of the network. If you’re staking (delegating) to a validator pool from a wallet, you will see \"0\" in this field. See the balance profile on Wallet for more balances aggregated for your convenience. </p>"
+        },
+        "balance_profile": {
+          "title": "Ⓝ Balance Profile",
+          "text": "NEAR tokens can be locked in contracts, staked, and delegated, and sometimes we cannot even track them down without your help. Wallet Profile page is the place where we consolidate most of the balances we can aggregate from various sources, so if you want to estimate \"total\" balance, it is the best place. "
+        },
+        "created_at": {
+          "title": "Created At",
+          "text": "Date and time when this account was created. Some of the accounts are included in the very first block of the network called genesis. "
+        },
+        "created_by_transaction": {
+          "title": "Created By Transaction",
+          "text": "You can inspect the transaction which created this account. "
+        },
+        "deleted_at": {
+          "title": "Deleted At",
+          "text": "Date and time when this account was deleted. "
+        },
+        "deleted_by_transaction": {
+          "title": "Deleted By Transaction",
+          "text": "You can inspect the transaction which deleted this account. "
+        },
+        "lockup_account": {
+          "title": "Lockup Account",
+          "text": "Lockup is a special smart contract that ensures that the full amount or even a partial amount is not transferable until it is supposed to be. "
+        }
+      },
+      "AccountRow": {
+        "deleted_on": "Deleted on",
+        "created_on": "Created on"
+      }
+    },
+    "contracts": {
+      "ContractDetails": {
+        "last_updated": {
+          "title": "Last Updated",
+          "text": "Latest time the contract deployed."
+        },
+        "transaction_hash": {
+          "title": "Transaction Hash",
+          "text": "The transaction unique identifier (hash) that the contract is latest deployed."
+        },
+        "locked": {
+          "title": "Locked?",
+          "text": "<p>Locked contract means that there are no access keys allowing the contract code to be re-deployed.</p><p>In general case, the code can be re-deployed by:<ol><li>a transaction with a deploy-code action</li><li>the contract itself can implement a function call that will trigger deploy-code action</li></ol></p><p>To re-deploy the code with a transaction, the transaction has to be signed with a full-access key. If there is no such key on the contract, there is no way to re-deploy the code unless there is a dedicated support in the contract code itself, and thus we mark such contracts as locked.</p><p>If there is at least one full-access key registered on the contract account, the contract is not locked.</p>"
+        },
+        "code_hash": {
+          "title": "Code Hash",
+          "text": "Checksum (SHA-256 in base58 encoding) of the contract binary."
+        }
+      }
+    },
+    "dashboard": {
+      "DashboardNode": {
+        "nodes_online": {
+          "title": "Nodes online",
+          "text": "Total number of online nodes."
+        },
+        "nodes_validating": {
+          "title": "Node validating",
+          "text": "Total number of validating nodes.",
+          "unavailable": "Temporary unavailable"
+        }
+      },
+      "DashboardBlock": {
+        "block_height": {
+          "title": "Block Height",
+          "text": "<p>The most recent block height recorded to the blockchain.</p><p>The block height is a sequential number of the most recent block in the blockchain.</p><p>For example, a block height of 1000 indicates that up to 1001 blocks may exist in the blockchain (genesis + blocks 0-1000). In NEAR, there is not guaranteed to be a block for each sequential number, e.g. block 982 does not necessarily exist.</p>"
+        },
+        "avg_block_time": {
+          "title": "Avg block time",
+          "text": "Average time for producing one block.",
+          "unavailable": "Temporarily unavailable"
+        }
+      },
+      "DashboardTransaction": {
+        "24h_total": {
+          "title": "24hr Total",
+          "text": "The number of transactions in the last 24 hours."
+        },
+        "gas_price": {
+          "title": "Gas Price",
+          "text": "A unit of Tgas (TerraGas) is 1*10^12 units of gas. The costs of gas are very low in terms of NEAR, which is why Tgas is more commonly used."
+        }
+      },
+      "DashboardTransactionHistoryChart": {
+        "14_day_history": {
+          "title": "14 Day History",
+          "transactions": "Txns"
+        }
+      }
+    },
+    "stats": {
+      "ProtocolConfigInfo": {
+        "first_produced_block": "First Produced Block",
+        "genesis_started": "Genesis Started",
+        "genesis_protocol_or_current_protocol": "Genesis Protocol / Current Protocol",
+        "genesis_height": "Genesis Height",
+        "epoch_length": "Epoch Length",
+        "genesis_total_supply": "Genesis Total Supply",
+        "accounts_in_genesis": "Accounts in Genesis",
+        "total_supply": "Total Supply",
+        "live_accounts": "Live Accounts"
+      },
+      "CirculatingSupplyStats": {
+        "circulating_supply": "Circulating Supply Stats",
+        "tooltip": {
+          "circulating_supply": "circulating supply",
+          "total_tokens_supply": "total supply",
+          "total_tokens_supply_explain": "NEAR tokens that are available for circulation on the market (i.e. not locked in lockup contracts)"
+        }
+      },
+      "TransactionsByDate": {
+        "daily_number_of_transactions": "Daily Number of Transactions",
+        "total_number_of_transactions": "Total Number of Transactions",
+        "transactions": "Txns"
+      },
+      "GasUsedByDate": {
+        "daily_amount_of_used_gas": "Daily Amount of Used Gas",
+        "petagas": "PetaGas",
+        "total_amount_of_used_gas": "Total Amount of Used Gas",
+        "gas_fee": "Gas Fee",
+        "daily_gas_fee_in_near": "Daily Gas Fee in NEAR",
+        "fee": "fee"
+      },
+      "NewAccountsByDate": {
+        "daily_number_of_new_accounts": "Daily Number of New Accounts",
+        "daily_number_of_live_accounts": "Daily Number of Live Accounts",
+        "total_number_of_new_accounts": "Total Number of New Accounts",
+        "new_accounts": "New Accounts"
+      },
+      "NewContractsByDate": {
+        "daily_number_of_new_contracts": "Daily Number of New Contracts",
+        "total_number_of_new_contracts": "Total Number of New Contracts",
+        "total_number_of_unique_contracts": "Total Number of Unique Contracts",
+        "new_contracts": "New Contracts"
+      },
+      "ActiveAccountsByDate": {
+        "daily_number_of_active_accounts": "Daily Number of Active Accounts",
+        "weekly_number_of_active_accounts": "Weekly Number of Active Accounts",
+        "active_accounts": "Active Accounts"
+      },
+      "ActiveContractsByDate": {
+        "daily_number_of_active_contracts": "Daily Number of Active Contracts",
+        "active_contracts": "Active Contracts"
+      },
+      "ActiveAccountsList": {
+        "title": "Top 10 of Active Accounts in last 14 days"
+      },
+      "ActiveContractsList": {
+        "title": "Top 10 of Active Contracts in last 14 days"
+      }
+    },
+    "utils": {
+      "Search": {
+        "title": "Search",
+        "hint": "Search for Account ID, Receipt ID, Txn hash, Block hash, or Block height"
+      },
+      "Header": {
+        "home": "Home"
+      },
+      "HeaderNavDropdown": {
+        "title": "Explore"
+      },
+      "Footer": {
+        "privacy_policy": "Privacy Policy",
+        "terms_of_service": "Terms of Service",
+        "all_rights_reserved": "All Rights Reserved",
+        "join_the_community": "Join the Community",
+        "questions": "Questions"
+      }
+    }
+  },
+  "utils": {
+    "Update": {
+      "refresh": " Refresh or Click to view the latest data."
+    },
+    "ListHandler": {
+      "last_block": "The latest block height is #${height}"
+    },
+    "StorageSize": {
+      "bytes": "B",
+      "kilo_bytes": "kB",
+      "mega_bytes": "MB",
+      "giga_bytes": "GB"
+    },
+    "WalletLink": "${account_id} on ${wallet_name}"
+  },
+  "button": {
+    "view_all": "View All",
+    "docs": "docs",
+    "load_more": "Load More",
+    "show_more": "Show more",
+    "show_less": "Show less"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "near-explorer-common",
+  "version": "0.0.1",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@trpc/client": "^9.23.4",
+    "@trpc/react": "^9.23.4",
+    "@types/lodash": "^4.14.177",
+    "react-query": "^3.39.0"
+  }
+}

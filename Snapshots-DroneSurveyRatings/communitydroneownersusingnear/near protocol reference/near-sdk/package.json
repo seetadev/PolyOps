@@ -1,0 +1,61 @@
+{
+  "name": "near-sdk-as",
+  "version": "1.2.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:near/near-sdk-as"
+  },
+  "author": "Willem Wyndham <willem@nearprotocol.com>",
+  "license": "(MIT AND Apache-2.0)",
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "build:vm": "yarn workspace near-mock-vm run build:wasm",
+    "test": "yarn workspaces run test && yarn check:all",
+    "doc": "rm -rf docs; node docs.js && touch docs/.nojekyll",
+    "prettify": "prettier --write \"**/src/**/*.ts\"",
+    "lint": "eslint --max-warnings 0 --ext ts \"*/assembly/**/*.ts\"",
+    "check:pretty": "prettier --check \"**/src/**/*.ts\"",
+    "check:all": "yarn lint && yarn check:pretty",
+    "fix:all": "yarn lint --fix && yarn prettify",
+    "precommit": "yarn check:all || yarn fix:all && exit 1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/js-base64": "^3.0.0",
+    "@types/node": "^14.6.2",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.14.0",
+    "husky": "^4.2.5",
+    "jest": "^26.4.2",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.1.1",
+    "ts-jest": "^26.3.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*/assembly/**/*.ts": [
+      "eslint --ext ts --fix", "eslint --max-warnings 0 --ext ts"
+    ],
+    "**/src/**/*.ts": [
+      "prettier --write", "prettier --check"
+    ]
+  },
+  "private": true,
+  "workspaces": [
+    "bindgen",
+    "sdk",
+    "sdk-core",
+    "simulator",
+    "nearcore-tests",
+    "near-mock-vm"
+  ]
+}
