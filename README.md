@@ -28,7 +28,7 @@ We have developed our solution based on a variety of blockchain protocols and so
 
 Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
 
-2. Tableland:
+2. Tableland: We are developing monitoring notes platform for Drone and UAV administrators using Tableland. Please visit the app link at https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
 
 3. XMTP:
 
