@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "strict": false,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
-  }
-}
