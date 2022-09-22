@@ -1,0 +1,16 @@
+{
+  "name": "filecoin-client-tutorial",
+  "version": "0.0.1",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@textile/powergate-client": "0.1.0-beta.10",
+    "express": "^4.17.1"
+  }
+}
