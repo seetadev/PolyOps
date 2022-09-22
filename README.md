@@ -30,7 +30,7 @@ Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
 
 2. Tableland: We are developing monitoring notes platform for Drone and UAV administrators using Tableland. Please visit the app link at https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
 
-3. XMTP:
+3. XMTP: We are implementing XMTP Chat for Drone administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://github.com/seetadev/PolyOps/tree/main/XMTP-chat-CyberConnect/XMTPChat-CyberConnect
 
 4. Valist: We are using Valist to distribute 2 apps:
 
