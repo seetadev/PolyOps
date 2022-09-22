@@ -1,6 +1,6 @@
 # XMTP Chat with CyberConnect
 
-Description: Implemented CyberConnect functions in XMTP Chat project.
+Description: Implemented CyberConnect functions in XMTP Chat project for Drone administrators in a particular region.
 
 Screenshot:
 ![image](https://user-images.githubusercontent.com/86540499/171000456-4a247025-3ffa-4976-8736-68956371d2d3.png)
