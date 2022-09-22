@@ -1,0 +1,22 @@
+on:
+  release:
+    types: [published]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - uses: actions/checkout@v2
+      - run: |
+          npm install
+          npm run build
+      - uses: valist-io/valist-github-action@dev
+        with:
+          rpc-url: https://rpc.valist.io/mumbai
+          private-key: ${{ secrets.PRIVATE_KEY }}
+          account: nasdf
+          project: example-create-react-app
+          release: ${{ github.ref_name }}
+          path: './build'
