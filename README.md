@@ -29,26 +29,6 @@ NFT.Storage: We are using NFT.Storage for storing a variety of offchain data lik
 Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
 
 
-Spheron: We are developing decentralized monitoring and incident management user interface with Spheron. 
-Please visit: https://github.com/seetadev/PolyOps/tree/main/Decentralizedinfraviaspheron and https://github.com/seetadev/PolyOps/tree/main/DroneplatformSpheroninfrastructure
-
-
-AWS: We are using AWS S3 for metadata and pdf data, EC2 for tornado + nginx deployment with AWS S3 db (please visit the key workflow apps with AWS backend: 
-http://aspiringapps.com/web/home/packing-slip.html
-http://aspiringapps.com/web/home/inventory-list.html
-) Please visit: https://github.com/seetadev/PolyOps/tree/main/DronesUAVsManagementmodule
-
-Chainlink: We are connecting offchain data from object detection app (please visit the video {Drone Management Demo Video.mov} at https://drive.google.com/drive/folders/107GHYZVHIr867kV4abkQaWbeCrSrMwVN to our smart contracts using Chainlink. Please visit: https://github.com/seetadev/PolyOps/tree/main/Chainlinkforoffchainmetadata/ConnectviaChainlinkhardhat
-
-Fluence Network: We are using the fluence-js peer implementation in Typescript to connect with our ionic apps which uses typescript as the core for handling application logic. We are using Fluence Network as the Web3 cloud computing provider.
-
-Please visit: https://github.com/seetadev/PolyOps/tree/main/Web3cloudFluencepeer/fluencepeer-js
-
-
-Sequence Wallet: We are utilizing Sequence wallet for handling renting payments for drones and maintenance/service payments on top of expenses claimed for getting the requisite flying licenses. It is our go to wallet for handling regional payments and third party payments like payments to government license regulators, repair providers. Please visit: https://github.com/seetadev/PolyOps/tree/main/SequenceQuickSwapforrentingdrones We also plan to integrate QuickSwap with Sequence wallet to ensure that the drone pilots can swap the tokens if needed at the time of service/repair or even getting flying license from regulators.
-
-Celo Remote Services: We have also developed a real time island weather monitoring system using react and we are trying to interact with Celo blockchain for integrating wallet of our choice to value added services. Please visit https://github.com/seetadev/PolyOps/tree/main/CeloRemoteIslandServices
-
 Swarm: For maintaining a knowledge management system of drones in a region, we are using Swarm. Our knowledge management is based upon Ethereum Smart Contracts and Swarm. Documents are added to the distributed file storage solution Swarm and the hashes of those documents will be added with a description to a smart contract on the Ethereum network. Please visit: https://github.com/seetadev/PolyOps/tree/main/SwarmDocumentManager/swarmdocumentmanager
 
 AnonDrop (Nym): We are storing the documents to IPFS using AnonDrop having the following features:
