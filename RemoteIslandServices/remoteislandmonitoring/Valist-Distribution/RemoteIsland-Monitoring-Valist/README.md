@@ -1,4 +1,8 @@
-# We are using Valist to distribute Monitoring Notes built using Tableland and Remote Island Weather Dashboard app built with React. 
+# We are using Valist to distribute 2 apps:
+
+1. Monitoring Notes built using React and Tableland: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
+ 
+2. Remote Island Weather Dashboard app built with React: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring
 
 ## Setup
 
