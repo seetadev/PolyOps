@@ -1,12 +1,8 @@
-# `ethereum-boilerplate`
+Moralis Transaction Dashboard
 
-> Fully Typescript ready NextJS components for fast building dApps without running own backend
+We are developing an aggregated dashboard for all transfers and transactions using Moralis boilerplate as a reference.
 
-🚀DEMO: https://eth-boilerplate.vercel.app/
-
-This boilerplate is built with [Moralis](https://moralis.io?utm_source=github&utm_medium=readme&utm_campaign=ethereum-boilerplate)
-
-You need active web3 provider/wallet only for authnetication. All pages in this boilerplate do not require an active web3 provider, they use Moralis Web3 API. Moralis supports the most popular blockchains and their test networks. You can find a list of all available networks in [Moralis Supported Chains](https://docs.moralis.io/reference/supported-chains-nft)
+We need active web3 provider/wallet only for authnetication. All pages in this boilerplate do not require an active web3 provider, they use Moralis Web3 API. Moralis supports the most popular blockchains and their test networks. We can find a list of all available networks in [Moralis Supported Chains](https://docs.moralis.io/reference/supported-chains-nft)
 
 Please check the [official documentation of Moralis](https://docs.moralis.io/) for all the functionalities of Moralis.
 
