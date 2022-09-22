@@ -24,17 +24,22 @@ Our platform will provide the requisites features to share security conditions a
 
 We have developed our solution based on a variety of blockchain protocols and solutions.
 
-NFT.Storage: We are using NFT.Storage for storing a variety of offchain data like incident snapshots, alarm metadata and object types at the time of incident. Please find the video at https://drive.google.com/drive/folders/107GHYZVHIr867kV4abkQaWbeCrSrMwVN (screencapturewithoutsound.mov file). We are storing Alarm metadata using NFT.Storage. Also, Saving/deleting alarm metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. Further we are using NFT.Storage for: Video analytics configuration using NFT.Storage; Camera Management: Add/edit/delete cameras with integration with Livepeer, NFT.Storage; Live streaming with Object Detection Video Analytics using Livepeer for streaming, and NFT.Storage for snapshots.
+1. NFT.Storage for Filecoin: We are using NFT.Storage for storing a variety of offchain data like incident snapshots, alarm metadata and object types at the time of incident. Please find the video at https://drive.google.com/drive/folders/107GHYZVHIr867kV4abkQaWbeCrSrMwVN (screencapturewithoutsound.mov file). We are storing Alarm metadata using NFT.Storage. Also, Saving/deleting alarm metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. Further we are using NFT.Storage for: Video analytics configuration using NFT.Storage; Camera Management: Add/edit/delete cameras with integration with Livepeer, NFT.Storage; Live streaming with Object Detection Video Analytics using Livepeer for streaming, and NFT.Storage for snapshots.
 
 Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
 
+2. Tableland:
 
-Valist: We are using Valist to distribute 2 apps:
+3. XMTP:
 
-1. Monitoring Notes built using React and Tableland: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
+4. Valist: We are using Valist to distribute 2 apps:
+
+a. Monitoring Notes built using React and Tableland: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
  
-2. Remote Island Weather Dashboard app built with React: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring
+b. Remote Island Weather Dashboard app built with React: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring
 
+
+Other Key Technologies Used:
 
 Swarm: For maintaining a knowledge management system of drones in a region, we are using Swarm. Our knowledge management is based upon Ethereum Smart Contracts and Swarm. Documents are added to the distributed file storage solution Swarm and the hashes of those documents will be added with a description to a smart contract on the Ethereum network. Please visit: https://github.com/seetadev/PolyOps/tree/main/SwarmDocumentManager/swarmdocumentmanager
 
