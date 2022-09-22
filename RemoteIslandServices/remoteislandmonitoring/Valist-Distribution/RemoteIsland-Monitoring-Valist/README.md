@@ -1,8 +1,4 @@
-# Create React App Example
-
-This example demonstrates how to publish your Create React App on Valist.
-
-[Click here to view this project on Valist.](https://mumbai.valist.io/nasdf/example-create-react-app)
+# We are using Valist to distribute Monitoring Notes built using Tableland and Remote Island Weather Dashboard app built with React. 
 
 ## Setup
 
