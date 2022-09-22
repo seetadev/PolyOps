@@ -16,7 +16,7 @@ Platform Features:
 
 •Drone Incident Reporting : Publish drone incident reports, preventive measures and remediation using a decentralized twitter application over the Ethereum blockchain network and Embark Tools.
 
-We utilize the SAP UI5, Fiori platform, Polygon blockchain, IPFS/Filecoin via NFT.Storage, Chainlink, Spheron infrastructure and Fluence peer protocol, OVIX lending/claim, Sequence wallet with QuickSwap protocol to built the platform solution. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by real estate developers and building infrastructure service providers.
+We utilize the SAP UI5, Fiori platform, Polygon blockchain, IPFS/Filecoin via NFT.Storage, Chainlink, Fluence peer protocol to built the platform solution. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by real estate developers and infrastructure service providers.
 
 Our platform solution offers an Artificial Intelligence-based object detection system that utilizes blockchain solutions for sorting information obtained from a variety of drone cameras deployed at monitoring spots.
 
