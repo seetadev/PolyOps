@@ -29,6 +29,13 @@ NFT.Storage: We are using NFT.Storage for storing a variety of offchain data lik
 Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
 
 
+Valist: We are using Valist to distribute 2 apps:
+
+1. Monitoring Notes built using React and Tableland: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
+ 
+2. Remote Island Weather Dashboard app built with React: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring
+
+
 Swarm: For maintaining a knowledge management system of drones in a region, we are using Swarm. Our knowledge management is based upon Ethereum Smart Contracts and Swarm. Documents are added to the distributed file storage solution Swarm and the hashes of those documents will be added with a description to a smart contract on the Ethereum network. Please visit: https://github.com/seetadev/PolyOps/tree/main/SwarmDocumentManager/swarmdocumentmanager
 
 AnonDrop (Nym): We are storing the documents to IPFS using AnonDrop having the following features:
