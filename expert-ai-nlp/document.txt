@@ -1,0 +1,91 @@
+Drones can be effectively utilized for building construction, real estate, building operations, inspection and maintenance and safer and more efficient surveys. Further, they can utilized for early valuation and prediction of house prices. We are extending and adapting Snapchat lens "Skeletal Template Lens" to maintain privacy of housing residents or workers at the construction site so that their personal identities are not shared at the time of real time incident reporting and analysis. Snapchat lens enable us to blur backgrounds at the incident spot and also hide faces of people while reporting about an incident at the maintenance spot or region.
+
+What it does
+Utilization of the application platform in Building Construction
+With Geo-referenced outputs and data acquisition, easily monitor your sites over time using digital surface models and Orthomosaics.
+
+Measurements
+Volume calculation in the 3D point cloud is intuitive, with adjustable base height and more for accurate earthwork measurements.
+
+Output are compatible with CAD software. Verify the as built site status against design models using current 2d and 3d data from our cloud services.
+
+Utilization of the application platform in Real Estate
+Show property in 3D on the web.
+
+Navigate through your model, observing property and surroundings in detail from an aerial perspective. Create customized fly through videos to share with clients or advertise your business.
+
+Utilization of the application in effective water management and quality assurance
+1.Safer and more efficient surveys
+
+Accurate, geo-referenced point clouds for measurement, 3d visualization and export. Conduct Volume measurements in the point cloud, create contour lines and digitize models for break lines.
+
+Use our quality report to assess and control data quality.
+
+Utilization of the application platform in Building Inspection
+Reduce inspection time.
+Improve safety.
+Get better safety.
+Early valuation of Housing Prices
+We have a variety of communication and collaboration APIs for early valuation of housing prices.
+
+Features:
+
+•Detection : Identifying the drones & UAVs in the video feed using object detection.
+
+•Discovery : Logging the identities of the drones & UAVs flying in a particular air space at any instant of time, using exchange of unique identifiers.
+
+•Geo-fencing : Discovering unlawful presence and raising alarms using the detection & discovery data.
+
+•Monitoring : Looking out and reporting incidents based on event detection in visual data.
+
+•Analysis : Analyzing route patterns and incidents.
+
+•Drone Incident Reporting : Publish drone incident reports, preventive measures and remediation using a decentralized twitter application over the Ethereum blockchain network and Embark Tools.
+
+How I built it
+We utilize the SAP UI5, Sap Fiori platform, Coinex Smart Chain, Communication APIs by SendGrid and RingCentral to built the platform solution. We utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by real estate developers and building infrastructure service providers. We are extending and adapting Snapchat lens "Skeletal Template Lens" to maintain privacy of housing residents so that their personal identities are not shared at the time of real time incident reporting and analysis. Snapchat lens enable us to blur backgrounds at the incident spot and also hide faces of people while reporting about an incident by a citizen or a police officer.
+
+Our platform solution offers an Artificial Intelligence-based object detection system that utilizes blockchain solutions for sorting information obtained from a variety of drone cameras deployed at monitoring spots.
+
+Our platform will provide the requisites features to share security conditions and remotely monitor the management policies in a place using used and broken phones and tablets, alarm clocks, internet connection, sync service, integration with IP cameras, raise safety alarms. The cost of deployment and added technology is limited which could help the businesses living in a variety of geographical regions.
+
+We also utilized google spreadsheets and its apis, google map APIs and telegram bot for developing monitoring and management application.
+
+Note about Ethereum blockchain: Ethereum is a platform that is intended to allow people to easily write decentralized applications (Đapps) using blockchain technology. A decentralized application is an application which serves some specific purpose to its users, but which has the important property that the application itself does not depend on any specific party existing. Rather than serving as a front-end for selling or providing a specific party's services, a Đapp is a tool for people and organizations on different sides of an interaction used to come together without any centralized intermediary.
+
+Challenges I ran into
+We wish to mention that integrating and sending medical reports using NuCypher protocol required lot of mentorship from Bogdan Opanchuk and Dr. Michael from NuCypher. They helped us at every step of implementing NuCypher whether it was installing the correct versions of requisite libraries and tools and helping us running the re-encryption protocol. We wish to thank the EthIndia community and fellow participant hackers, who helped us learn and implement our idea in a fine way.
+
+Accomplishments that I'm proud of
+PropTech Challenge aims to inspire innovative solutions solving real-world challenges faced by today’s leading real estate companies. We were able to utilize a variety of cutting edge technologies like blockchain, machine learning, telegram apis and hana cloud computing platform in developing a solution for real estate companies.
+
+Further, our efforts in developing drone monitoring solutions were recognized by the Government of India's Move Summit 2018 initiative and was placed in the top 30 technology innovations under the MoveHack 2018 initiative organized under the aegis of the Planning Commission (Niti Aayog).
+
+What I learned
+Our software cum hardware platform is useful only to the extent it is used by the infrastructure development, operations and inspection community. Thus, we wish to work with infrastructure developers, insurance companies, government around the world to focus on these challenges:
+
+To make our platform readily available to users, government, real estate companies everywhere.
+To explore and share best practices
+To provide a forum for discussion and support for technology for discussion around cost effective and safe infrastructure management and development requirements.
+To provide mechanism for evaluation and dissemination of results.
+To strengthen the efforts in utilizing NYC Real Estate APIs and datasets more effectively.
+Dataset Insights: PropTech Challenge aims to inspire innovative solutions solving real-world challenges faced by today’s leading real estate companies. The project hence explores potential uses of BlockchainTechnology across all facets of the real estate industry, including property databases. Advantages of analyzing dataset [NYC Property Sales] include clean visualization of data and building a model to predict housing prices in New York. We have shared our insights in the submission document zip file - please see the attachment Insights drawn using NYC Property Dataset.docx.
+
+What's next for Drones for Construction, Operations and Maintenance
+Business Model after the hackathon - Our business model has two aspects:
+
+One Time Revenue: Sale of Software as a Service platform Recurring Revenue: Subscription service for usage of Mobile Application
+
+We plan to have 2 channels:
+
+B2B (Business to Business) : This will aim to serve business like mature real estate development companies, infrastructure providers, insurance companies, Government infrastructure service providers.
+
+B2C (Business to Consumer): This arm of the sales team will focus on housing societies and sell the product as a value added service on their mobile phones and computers.
+
+We also intend to partner with a network provide to bring our network usage cost down and Co-brand our product.
+
+We wish to start with housing societies and government infrastructure agencies as it would help them monitor the operational efficiencies, accessibility and assessment and help us provide scale. After that we want to target tablet, desktop and smart phone manufacturers to have this product as a factory fitted feature on their products.
+
+Once we achieve scale using these platforms we want to start retail sales for business solutions.
+
+A key channel we wish to focus on strongly is that of government partnership. With US government focusing more and more on infrastructure development, we believe by working closely with the government, we will be able to get scale and achieve sustainability and impact.
