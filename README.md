@@ -22,7 +22,7 @@ Our platform solution offers an Artificial Intelligence-based object detection s
 
 Our platform will provide the requisites features to share security conditions and remotely monitor the management policies in a place using used and broken phones and tablets, alarm clocks, internet connection, sync service, integration with IP cameras, raise safety alarms. The cost of deployment and added technology is limited which could help the businesses living in a variety of geographical regions. We also utilized google spreadsheets and its apis, google map APIs and telegram bot for developing monitoring and management application.
 
-Expert.AI NL API: We are using expert.ai NL API for solving multiple challenges in investigative case management for the admin role: sentiment analysis of a particular incident for the admin role, social media text mining for an incident and classification of the incidents, early stage incident reponse and prevention. We are using it for incident overview and assignment for the admin role too (please visit https://drive.google.com/file/d/1EKc_Cp_wYxp2SCux_WP8HdBXp2Du3kHT/view?usp=sharing ).
+Expert.AI NL API: We are using expert.ai NL API for solving multiple challenges in investigative case management of UAVs for the admin role: sentiment analysis of a particular UAV incident for the admin role, social media text mining for a UAV incident and classification of the UAV incidents, early stage UAV incident reponse and prevention. We are using it for incident overview and assignment for the admin role too (please visit https://drive.google.com/file/d/1EKc_Cp_wYxp2SCux_WP8HdBXp2Du3kHT/view?usp=sharing ).
 
 Please visit https://github.com/seetadev/PolyOps/tree/main/expert-ai-nlp
 
