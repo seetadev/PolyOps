@@ -16,11 +16,15 @@ Platform Features:
 
 •Drone Incident Reporting : Publish drone incident reports, preventive measures and remediation using a decentralized twitter application over the Ethereum blockchain network and Embark Tools.
 
-We utilize the SAP UI5, Fiori platform, Coinex Smart Chain, Polygon, IPFS/Filecoin via NFT.Storage, XMTP, Tableland to built the platform solution and Valist for distribution. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by infrastructure service providers.
+We utilize the SAP UI5, Fiori platform, expert.ai nlp apis, Polygon, IPFS/Filecoin via NFT.Storage, XMTP, Tableland to built the platform solution and Valist for distribution. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by infrastructure service providers. 
 
 Our platform solution offers an Artificial Intelligence-based object detection system that utilizes blockchain solutions for sorting information obtained from a variety of drone cameras deployed at monitoring spots.
 
 Our platform will provide the requisites features to share security conditions and remotely monitor the management policies in a place using used and broken phones and tablets, alarm clocks, internet connection, sync service, integration with IP cameras, raise safety alarms. The cost of deployment and added technology is limited which could help the businesses living in a variety of geographical regions. We also utilized google spreadsheets and its apis, google map APIs and telegram bot for developing monitoring and management application.
+
+Expert.AI NL API: We are using expert.ai NL API for solving multiple challenges in investigative case management for the admin role: sentiment analysis of a particular incident for the admin role, social media text mining for an incident and classification of the incidents, early stage incident reponse and prevention. We are using it for incident overview and assignment for the admin role too (please visit https://drive.google.com/file/d/1EKc_Cp_wYxp2SCux_WP8HdBXp2Du3kHT/view?usp=sharing ).
+
+Please visit https://github.com/seetadev/PolyOps/tree/main/expert-ai-nlp
 
 We have developed our solution based on a variety of blockchain protocols and solutions.
 
