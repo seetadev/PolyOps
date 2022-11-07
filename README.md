@@ -16,7 +16,7 @@ Platform Features:
 
 •Drone Incident Reporting : Publish drone incident reports, preventive measures and remediation using a decentralized twitter application over the Ethereum blockchain network and Embark Tools.
 
-We utilize the SAP UI5, Fiori platform, expert.ai nlp apis, Polygon, IPFS/Filecoin via NFT.Storage, XMTP, Tableland to built the platform solution and Valist for distribution. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by infrastructure service providers. 
+We utilize the SAP UI5, Fiori platform, Arcana network, expert.ai nlp apis, IPFS/Filecoin via NFT.Storage, XMTP, Tableland to built the platform solution and Valist for distribution. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by infrastructure service providers. 
 
 Our platform solution offers an Artificial Intelligence-based object detection system that utilizes blockchain solutions for sorting information obtained from a variety of drone cameras deployed at monitoring spots.
 
@@ -37,7 +37,7 @@ Please visit the link at https://github.com/seetadev/PolyOps/tree/main/Moralis-T
 
 Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
 
-1d. Coinex Smart chain: https://github.com/seetadev/PolyOps/tree/main/CoinexCSC-Audit
+1d. Arcana network: We are utilizing Arcana network as a decentralized storage, privacy preserving platform for setting up the drone identification data and also geo location maps. We are also using it to develop guard rails on where the drones can fly in a region in order to prevent unauthorized flying or collison detection.
 
 2. Tableland: We are developing monitoring notes platform for Drone and UAV administrators using Tableland. Please visit the app link at https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
 
