@@ -1,0 +1,12 @@
+@compiler >= 6
+
+include "Option.aes"
+include "../core/IAEX141.aes"
+
+contract OperatorExample =
+
+    stateful entrypoint trigger_transfer(nft_contract: IAEX141, token_id: int, to: address, data: option(string)) =
+        nft_contract.transfer(to, token_id, data)
+
+    stateful entrypoint trigger_burn(nft_contract: IAEX141, token_id: int) =
+        nft_contract.burn(token_id)

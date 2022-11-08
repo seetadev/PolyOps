@@ -1,0 +1,10 @@
+{
+    "name": "I'm in!",
+    "description": "There is no way back!",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmeiDVb286LCpB7yMNqSR83asubqzgu7mNmH66XBxDSL88",
+    "traits": {
+        "apes_count": 1,
+        "moon_visible": false
+    }
+}

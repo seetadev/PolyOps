@@ -1,0 +1,2 @@
+contract interface IAEX141NFTReceiver = 
+    entrypoint on_aex141_received : (option(address), int, option(string)) => bool
