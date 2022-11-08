@@ -43,7 +43,18 @@ Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
 
 3. XMTP: We are implementing XMTP Chat for Drone administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://github.com/seetadev/PolyOps/tree/main/XMTP-chat-CyberConnect/XMTPChat-CyberConnect
 
-4. Valist: We are using Valist to distribute 2 apps:
+4. Aeternity: We are using Aeternity blockchain for scaling web3 solution:
+
+a. NFT collection and NFTs on the æternity blockchain using the AEX-141 standard: We are extending the development on two use cases:
+
+Unique NFTs (for unique assets)
+Edition NFTs using templates (for mobility)
+
+b. We are using AEproject to run a local dev environment & test ownable.aes and smartrealestate.aes Smart Contracts.
+
+c. We are extending the development of ownables.aes (please visit https://github.com/seetadev/PolyOps/tree/main/aeternity-solution/aepp-sophia-ownables-assets/aepp-sophia-examples-master/contracts/Ownable ) and smartrealestate.aes (please visit https://github.com/seetadev/PolyOps/blob/main/aeternity-solution/aepp-sophia-ownables-assets/aepp-sophia-examples-master/contracts/SmartRealEstate/SmartRealEstate.aes) 
+
+5. Valist: We are using Valist to distribute 2 apps:
 
 a. Monitoring Notes built using React and Tableland: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
  
