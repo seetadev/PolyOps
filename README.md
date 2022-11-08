@@ -50,6 +50,8 @@ a. NFT collection and NFTs on the æternity blockchain using the AEX-141 standar
 Unique NFTs (for unique assets)
 Edition NFTs using templates (for mobility)
 
+Please visit https://github.com/seetadev/PolyOps/tree/main/aeternity-solution/aex141-nft-collection/aex141-nft-collection-example-master
+
 b. We are using AEproject to run a local dev environment & test ownable.aes and smartrealestate.aes Smart Contracts.
 
 c. We are extending the development of ownables.aes (please visit https://github.com/seetadev/PolyOps/tree/main/aeternity-solution/aepp-sophia-ownables-assets/aepp-sophia-examples-master/contracts/Ownable ) and smartrealestate.aes (please visit https://github.com/seetadev/PolyOps/blob/main/aeternity-solution/aepp-sophia-ownables-assets/aepp-sophia-examples-master/contracts/SmartRealEstate/SmartRealEstate.aes) 
