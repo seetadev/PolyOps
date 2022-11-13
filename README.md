@@ -57,4 +57,10 @@ b. We are using AEproject to run a local dev environment & test ownable.aes and 
 c. We are extending the development of ownables.aes (please visit https://github.com/seetadev/PolyOps/tree/main/aeternity-solution/aepp-sophia-ownables-assets/aepp-sophia-examples-master/contracts/Ownable ) and smartrealestate.aes (please visit https://github.com/seetadev/PolyOps/blob/main/aeternity-solution/aepp-sophia-ownables-assets/aepp-sophia-examples-master/contracts/SmartRealEstate/SmartRealEstate.aes) 
 
 
+5. Polygon and Governance of Drones and UAVs using Aragon Plugins: A decentralized survey for drone ratings by users using a governance solution built with Aragon plugins at the core is done at key intervals and its onchain voting snapshots enable credibility of ratings. We can enable our smart contracts read the storage of any contract at a given block. This enables on-chain voting, airdrops on Ethereum and Polygon. Please visit https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings
 
+
+6. MultiChain: We are using MultiChain Feed Adapter for reading a feed and writing to MySQL powered Tableland blockchain database.
+We are developing monitoring notes platform for Drone and UAV administrators using MYSQL powered Tableland. Please visit the app link at https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
+
+MultiChain Feed Adapter can be found at https://github.com/seetadev/PolyOps/tree/main/multichain-feed-adapter-master
