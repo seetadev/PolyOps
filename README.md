@@ -16,7 +16,7 @@ Platform Features:
 
 •Drone Incident Reporting : Publish drone incident reports, preventive measures and remediation using a decentralized twitter application over the Ethereum blockchain network and Embark Tools.
 
-We utilize the SAP UI5, Fiori platform, Arcana network, expert.ai nlp apis, IPFS/Filecoin via NFT.Storage, XMTP, Tableland to built the platform solution and Valist for distribution. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by infrastructure service providers. 
+We utilize the SAP UI5, Fiori platform, Arcana network, expert.ai nlp apis, IPFS/Filecoin via NFT.Storage, XMTP, Tableland to built the platform solution and Tron DAO for DAO tooling. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by infrastructure service providers. 
 
 Our platform solution offers an Artificial Intelligence-based object detection system that utilizes blockchain solutions for sorting information obtained from a variety of drone cameras deployed at monitoring spots.
 
@@ -64,3 +64,5 @@ c. We are extending the development of ownables.aes (please visit https://github
 We are developing monitoring notes platform for Drone and UAV administrators using MYSQL powered Tableland. Please visit the app link at https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
 
 Please find the link to MultiChain Feed Adapter for writing to MySQL powered Tableland at https://github.com/seetadev/PolyOps/tree/main/multichain-feed-adapter-master
+
+7. Tron DAO: We are using DAOtooling for coordination with a social focus around community collaboration for UAV incidents and alarms using Tron DAO.
