@@ -63,4 +63,4 @@ c. We are extending the development of ownables.aes (please visit https://github
 6. MultiChain: We are using MultiChain Feed Adapter for reading a feed and writing to MySQL powered Tableland blockchain database.
 We are developing monitoring notes platform for Drone and UAV administrators using MYSQL powered Tableland. Please visit the app link at https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
 
-MultiChain Feed Adapter can be found at https://github.com/seetadev/PolyOps/tree/main/multichain-feed-adapter-master
+Please find the link to MultiChain Feed Adapter for writing to MySQL powered Tableland at https://github.com/seetadev/PolyOps/tree/main/multichain-feed-adapter-master
