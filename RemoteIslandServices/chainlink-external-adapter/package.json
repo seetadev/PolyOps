@@ -1,0 +1,15 @@
+{
+  "name": "chainlink-external-adapter-example",
+  "version": "1.0.0",
+  "description": "POC External Adaptor and External Initiator",
+  "repository": "git@github.com:protofire/chainlink-external-adapter-example.git",
+  "keywords": ["Chinlink", "External Adapter", "External Initiator", "Protofire"],
+  "author": "Lisandro Corbalan <lmcorbalan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint:contracts": "solhint ./contracts/**/*.sol"
+  },
+  "devDependencies": {
+    "solhint": "^2.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "external-initiator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lisando Corbalan <lisandro.corbalan@altoros.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0"
+  }
+}
