@@ -66,3 +66,7 @@ We are developing monitoring notes platform for Drone and UAV administrators usi
 Please find the link to MultiChain Feed Adapter for writing to MySQL powered Tableland at https://github.com/seetadev/PolyOps/tree/main/multichain-feed-adapter-master
 
 7. Tron DAO: We are using DAOtooling for coordination with a social focus around community collaboration for UAV incidents and alarms using Tron DAO.
+
+8. Chainlink VRF: We utilized Chainlink VRF (Verifiable Random Function) to enable provably fair and verifiable random number generator (RNG) that further enables smart contracts to access random values without compromising security or usability for drone incident reporting. For each request, Chainlink VRF generates one or more random values and cryptographic proof of how those values were determined. The proof is published and verified on-chain before any consuming applications can use it. This process ensures that results cannot be tampered with or manipulated by any single entity including oracle operators, users, or smart contract developers. At this juncture, we are planning to use only subscription supported network for Chainlink VRF. Link: https://github.com/seetadev/PolyOps/tree/main/Chainlink-VRFs
+
+Chainlink External Adapter returns 4 uint64 packed into a bytes32. This External Adapter is executed by a Job, which is triggered by an External Initiator. Finally, this Job sends a TX to a Smart Contract with the result of the External Adapter, unpacking and saving the 4 uint64. Link: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices
