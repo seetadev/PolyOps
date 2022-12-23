@@ -37,24 +37,14 @@ Please visit the link at https://github.com/seetadev/PolyOps/tree/main/Moralis-T
 
 Please visit: https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage
 
-1d. Arcana network: We are utilizing Arcana network as a decentralized storage, privacy preserving platform for setting up the drone identification data and also geo location maps. We are also using it to develop guard rails on where the drones can fly in a region in order to prevent unauthorized flying or collison detection.
+1d. XDC blockchain network: EV Charging Systems on XDC network for monitoring of charging in drones, Connected UAVs for efficiency and sustainability. We are extending and adapting our platform for connected drons for sustainability and efficiency. Please visit: https://github.com/seetadev/PolyOps/tree/main/EV-Charge-Monitoring-XDC-blockchain/EVCM-XDC-Drone-Monitor
+
 
 2. Tableland: We are developing monitoring notes platform for Drone and UAV administrators using Tableland. Please visit the app link at https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
 
 3. XMTP: We are implementing XMTP Chat for Drone administrators in a particular region with CyberConnect functions. Please visit the implementation link: https://github.com/seetadev/PolyOps/tree/main/XMTP-chat-CyberConnect/XMTPChat-CyberConnect
 
-4. Aeternity: We are using Aeternity blockchain for scaling web3 solution:
-
-a. NFT collection and NFTs on the æternity blockchain using the AEX-141 standard: We are extending the development on two use cases:
-
-Unique NFTs (for unique assets)
-Edition NFTs using templates (for mobility)
-
-Please visit https://github.com/seetadev/PolyOps/tree/main/aeternity-solution/aex141-nft-collection/aex141-nft-collection-example-master
-
-b. We are using AEproject to run a local dev environment & test ownable.aes and smartrealestate.aes Smart Contracts.
-
-c. We are extending the development of ownables.aes (please visit https://github.com/seetadev/PolyOps/tree/main/aeternity-solution/aepp-sophia-ownables-assets/aepp-sophia-examples-master/contracts/Ownable ) and smartrealestate.aes (please visit https://github.com/seetadev/PolyOps/blob/main/aeternity-solution/aepp-sophia-ownables-assets/aepp-sophia-examples-master/contracts/SmartRealEstate/SmartRealEstate.aes) 
+4. Arcana network: We are utilizing Arcana network as a decentralized storage, privacy preserving platform for setting up the drone identification data and also geo location maps. We are also using it to develop guard rails on where the drones can fly in a region in order to prevent unauthorized flying or collison detection.
 
 
 5. Polygon and Governance of Drones and UAVs using Aragon Plugins: A decentralized survey for drone ratings by users using a governance solution built with Aragon plugins at the core is done at key intervals and its onchain voting snapshots enable credibility of ratings. We can enable our smart contracts read the storage of any contract at a given block. This enables on-chain voting, airdrops on Ethereum and Polygon. Please visit https://github.com/seetadev/PolyOps/tree/main/Snapshots-DroneSurveyRatings
