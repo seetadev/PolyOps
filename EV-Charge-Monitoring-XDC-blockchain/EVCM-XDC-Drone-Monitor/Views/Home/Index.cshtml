@@ -1,0 +1,186 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+}
+<br />
+<div class="row">
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="HeartBeat_Min">ESN: </label>
+            <select class="form-control" id="ESN" name="ESN" onchange="Search();">
+                <option value="0">Select ESN</option>
+                @if (ViewBag.ESNList != null)
+                {
+                    foreach (SQLClass.ESNMasterClass item in ViewBag.ESNList)
+                    {
+                        <option value="@item.ESN">@item.ESN</option>
+                    }
+                }
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ESN</th>
+                <th>Voltage</th>
+                <th>Current</th>
+                <th>Power</th>
+                <th>Energy</th>
+                <th>Frequency</th>
+                <th>Power Factor</th>
+                <th>Status/Reset</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+            <tr>
+                <td colspan="4">
+                    <div class="sk-wave">
+                        <div class="sk-rect sk-rect1"></div>
+                        <div class="sk-rect sk-rect2"></div>
+                        <div class="sk-rect sk-rect3"></div>
+                        <div class="sk-rect sk-rect4"></div>
+                        <div class="sk-rect sk-rect5"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="hidden" id="CurrentPageValue" value="1" />
+    <div style="float: left;">
+        <label class="form-label" style="padding-top:5px">
+            Showing <span id="FirstRecord"></span> to <span id="LastRecord"></span> of <span id="TotalRecords"></span>
+        </label>
+    </div>
+    <div style="float: right;text-align: right;">
+        <button id="LeftEnd" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'LE')"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>&nbsp;
+        <button id="Left" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'L')"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        Page
+        <input type="text" name="text" id="NavigationValue" value="1" class="form-control" style="width:15%;display:inline-block" />&nbsp; of <span id="TotalPages"></span> &nbsp;
+        <button id="goBtn" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'C')">Go</button> &nbsp;
+        <button id="Right" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'R')"><i class="fa fa-angle-right" aria-hidden="true"></i></button>&nbsp;
+        <button id="RightEnd" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'RE')"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+@section scripts{
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">*@
+    <script>
+        $(document).ready(function () {
+            GetData(10, $("#CurrentPageValue").val(), '');
+        });
+
+        function Search() {
+            GetData(10, $("#CurrentPageValue").val(), '');
+        }
+
+        function GetData(RowPerPage, PageNo, NavigationType) {
+
+            var navValue = parseInt($("#NavigationValue").val());
+            var totalPage = parseInt($("#TotalPages").text());
+
+            if (NavigationType === 'L') {
+                if (navValue > 1) {
+                    PageNo = navValue - 1;
+                }
+
+                $("#Left").removeClass("btn-primary").addClass("btn-primary");
+                $("#LeftEnd, #goBtn, #Right, #RightEnd").removeClass("btn-primary").addClass("btn-primary");
+            }
+            else if (NavigationType === 'LE') {
+                PageNo = 1;
+
+                $("#LeftEnd").removeClass("btn-primary").addClass("btn-primary");
+                $("#Left, #goBtn, #Right, #RightEnd").removeClass("btn-primary").addClass("btn-primary");
+            }
+            else if (NavigationType === 'C') {
+                PageNo = navValue;
+
+                $("#goBtn").removeClass("btn-primary").addClass("btn-primary");
+                $("#Left, #LeftEnd, #Right, #RightEnd").removeClass("btn-primary").addClass("btn-primary");
+            }
+            else if (NavigationType === 'R') {
+                if (totalPage > navValue)
+                    PageNo = navValue + 1;
+                else
+                    PageNo = totalPage;
+
+                $("#Right").removeClass("btn-primary").addClass("btn-primary");
+                $("#Left, #LeftEnd, #goBtn, #RightEnd").removeClass("btn-primary").addClass("btn-primary");
+            }
+            else if (NavigationType === 'RE') {
+                PageNo = totalPage;
+
+                $("#RightEnd").removeClass("btn-primary").addClass("btn-warning");
+                $("#Left, #LeftEnd, #goBtn, #Right").removeClass("btn-warning").addClass("btn-primary");
+            }
+
+            $("#NavigationValue, #CurrentPageValue").val(PageNo);
+
+            var mData = {
+                ESN: $("#ESN").val()
+                , RowsPerPage: RowPerPage
+                , PageNumber: PageNo
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/GetAllPagging",
+                data: JSON.stringify(mData),
+                contentType: "application/json",
+                dataType: "json",
+                success: function (mRes) {
+                    $("#FirstRecord").text(mRes.FirstRecord);
+                    $("#LastRecord").text(mRes.LastRecord);
+                    $("#TotalRecords").text(mRes.TotalRecords);
+                    $("#TotalPages").text(mRes.TotalPage);
+
+                    var obj = JSON.parse(mRes.Data);
+                    var iHTML = "";
+
+                    if (obj.length === 0) {
+                        $("#data").html("<tr><td colspan='9' align='center'>No Data Found.</td></tr>");
+                    }
+                    else {
+                        for (var i = 0; i < obj.length; i++) {
+                            iHTML += "<tr>";
+                            iHTML += "<td>" + obj[i].SrNo + "</td>";
+                            iHTML += "<td>" + obj[i].esn + "</td>";
+                            iHTML += "<td>" + obj[i].voltage + "</td>";
+                            iHTML += "<td>" + obj[i].current_ + "</td>";
+                            iHTML += "<td>" + obj[i].power + "</td>";
+                            iHTML += "<td>" + obj[i].energy + "</td>";
+                            iHTML += "<td>" + obj[i].frequency + "</td>";
+                            iHTML += "<td>" + obj[i].power_factor + "</td>";
+                            iHTML += "<td>" + obj[i].status + "/" + obj[i].reset + "</td>";
+                            iHTML += "<td>" + obj[i].InsertTime + "</td>";
+                            iHTML += "</tr>";
+                        }
+
+                        $("#data").html(iHTML);
+                    }
+                }
+            });
+        }
+    </script>
+}

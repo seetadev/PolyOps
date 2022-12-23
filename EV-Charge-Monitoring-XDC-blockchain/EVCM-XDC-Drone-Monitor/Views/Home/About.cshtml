@@ -1,0 +1,303 @@
+﻿@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+}
+<br />
+
+<div class="row">
+    <div class="col-md-3">
+        <input type="hidden" id="HeartBeatIDP" name="HeartBeatIDP" value="00000000-0000-0000-0000-000000000000" />
+        <div class="form-group">
+            <label for="HeartBeat_Min">ESN: </label>
+            <select class="form-control" id="ESN" name="ESN" onchange="Search();">
+                <option value="0">Select ESN</option>
+                @if (ViewBag.ESNList != null)
+                {
+                    foreach (SQLClass.ESNMasterClass item in ViewBag.ESNList)
+                    {
+                        <option value="@item.ESN">@item.ESN</option>
+                    }
+                }
+            </select>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label for="HeartBeat_Min">Enter Min</label>
+            <input class="form-control" type="text" id="HeartBeat_Min" name="HeartBeat_Min" placeholder="Enter Min" />
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <div class="checkbox">
+                <label for="HeartBeat_Min">relay1</label>
+                <input class="form-control" type="checkbox" id="relay1" name="relay1" />
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <div class="checkbox">
+                <label for="rtc">rtc</label>
+                <input class="form-control" type="checkbox" id="rtc" name="rtc" />
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <button type="button" class="btn btn-info waves-effect waves-light" onclick="Save();" style="margin-top: 27px;">Save</button>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ESN</th>
+                <th>Min</th>
+                <th>Relay1</th>
+                <th>RTC</th>
+                <th>Status/Reset</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+            <tr>
+                <td colspan="4">
+                    <div class="sk-wave">
+                        <div class="sk-rect sk-rect1"></div>
+                        <div class="sk-rect sk-rect2"></div>
+                        <div class="sk-rect sk-rect3"></div>
+                        <div class="sk-rect sk-rect4"></div>
+                        <div class="sk-rect sk-rect5"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="hidden" id="CurrentPageValue" value="1" />
+    <div style="float: left;">
+        <label class="form-label" style="padding-top:5px">
+            Showing <span id="FirstRecord"></span> to <span id="LastRecord"></span> of <span id="TotalRecords"></span>
+        </label>
+    </div>
+    <div style="float: right;text-align: right;">
+        <button id="LeftEnd" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'LE')"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>&nbsp;
+        <button id="Left" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'L')"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        Page
+        <input type="text" name="text" id="NavigationValue" value="1" class="form-control" style="width:10%;display:inline-block" />&nbsp; of <span id="TotalPages"></span> &nbsp;
+        <button id="goBtn" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'C')">Go</button> &nbsp;
+        <button id="Right" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'R')"><i class="fa fa-angle-right" aria-hidden="true"></i></button>&nbsp;
+        <button id="RightEnd" href="javascript:;" class="btn btn-primary" onclick="GetData(10,1,'RE')"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            GetData(10, $("#CurrentPageValue").val(), '');
+        });
+
+        function Search() {
+            GetData(10, $("#CurrentPageValue").val(), '');
+        }
+
+        function GetData(RowPerPage, PageNo, NavigationType) {
+
+            var navValue = parseInt($("#NavigationValue").val());
+            var totalPage = parseInt($("#TotalPages").text());
+
+            if (NavigationType === 'L') {
+                if (navValue > 1) {
+                    PageNo = navValue - 1;
+                }
+
+                $("#Left").removeClass("btn-info").addClass("btn-warning");
+                $("#LeftEnd, #goBtn, #Right, #RightEnd").removeClass("btn-warning").addClass("btn-info");
+            }
+            else if (NavigationType === 'LE') {
+                PageNo = 1;
+
+                $("#LeftEnd").removeClass("btn-info").addClass("btn-warning");
+                $("#Left, #goBtn, #Right, #RightEnd").removeClass("btn-warning").addClass("btn-info");
+            }
+            else if (NavigationType === 'C') {
+                PageNo = navValue;
+
+                $("#goBtn").removeClass("btn-info").addClass("btn-warning");
+                $("#Left, #LeftEnd, #Right, #RightEnd").removeClass("btn-warning").addClass("btn-info");
+            }
+            else if (NavigationType === 'R') {
+                if (totalPage > navValue)
+                    PageNo = navValue + 1;
+                else
+                    PageNo = totalPage;
+
+                $("#Right").removeClass("btn-info").addClass("btn-warning");
+                $("#Left, #LeftEnd, #goBtn, #RightEnd").removeClass("btn-warning").addClass("btn-info");
+            }
+            else if (NavigationType === 'RE') {
+                PageNo = totalPage;
+
+                $("#RightEnd").removeClass("btn-info").addClass("btn-warning");
+                $("#Left, #LeftEnd, #goBtn, #Right").removeClass("btn-warning").addClass("btn-info");
+            }
+
+            $("#NavigationValue, #CurrentPageValue").val(PageNo);
+
+            var mData = {
+                ESN: $("#ESN").val()
+                , RowsPerPage: RowPerPage
+                , PageNumber: PageNo
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/HeartBeat_GetAllPagging",
+                data: JSON.stringify(mData),
+                contentType: "application/json",
+                dataType: "json",
+                success: function (mRes) {
+                    $("#FirstRecord").text(mRes.FirstRecord);
+                    $("#LastRecord").text(mRes.LastRecord);
+                    $("#TotalRecords").text(mRes.TotalRecords);
+                    $("#TotalPages").text(mRes.TotalPage);
+
+                    var obj = JSON.parse(mRes.Data);
+                    var iHTML = "";
+
+                    if (obj.length === 0) {
+                        $("#data").html("<tr><td colspan='9' align='center'>No Data Found.</td></tr>");
+                    }
+                    else {
+                        for (var i = 0; i < obj.length; i++) {
+                            iHTML += "<tr>";
+                            iHTML += "<td><div>" + obj[i].SrNo + "</div></td>";
+                            iHTML += "<td><div style='150px;'>" + obj[i].esn + "</div></td>";
+                            iHTML += "<td><div style='150px;'>" + obj[i].HeartBeat_Min + "</div></td>";
+                            iHTML += "<td><div style='150px;'>" + obj[i].relay1 + "</div></td>";
+                            iHTML += "<td><div style='150px;'>" + obj[i].rtc + "</div></td>";
+                            iHTML += '<td><button class="btn btn-info w-sd" id=' + obj[i].HeartBeatIDP + ' onclick="Get(this.id)"><i class="fa fa-edit nav-icon"></i> Edit</button>';
+                            iHTML += '&nbsp;<button class="btn btn-danger w-sd" id=' + obj[i].HeartBeatIDP + ' onclick="Delete(this.id)"><i class="fa fa-trash nav-icon"></i> Delete</button></td>';
+                            iHTML += "</tr>";
+                        }
+
+                        $("#data").html(iHTML);
+                    }
+                }
+            });
+        }
+
+        function Save() {
+            if ($("#HeartBeat_Min").val() == '') {
+                alert("Min require.");
+                return false;
+            }
+            if ($("#ESN").val() == '0') {
+                alert("ESN require.");
+                return false;
+            }
+
+            var relay1 = document.getElementById("relay1").checked;
+            var rtc = document.getElementById("rtc").checked;
+
+            var mData = {
+                HeartBeatIDP: $("#HeartBeatIDP").val()
+                , ESN: $("#ESN").val()
+                , HeartBeat_Min: $("#HeartBeat_Min").val()
+                , relay1: relay1
+                , rtc: rtc
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/Save",
+                data: JSON.stringify(mData),
+                contentType: "application/json",
+                dataType: "json",
+                success: function (mRes) {
+                    alert(mRes);
+                    $("#HeartBeatIDP").val("00000000-0000-0000-0000-000000000000");
+                    $("#ESN").val('0').trigger('change');
+                    $("#HeartBeat_Min").val("");
+                    $("#relay1").prop("checked", false);
+                    $("#rtc").prop("checked", false);
+                    GetData(10, $("#CurrentPageValue").val(), '');
+                },
+                error: function (err) {
+                    swal(err.statusText);
+                }
+            })
+        }
+
+        function Get(id) {
+
+            var mData = { HeartBeatIDP: id }
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/Get_GetAll",
+                data: JSON.stringify(mData),
+                contentType: "application/json",
+                dataType: "json",
+                success: function (mRes) {
+                    //var obj = JSON.parse(mRes);
+                    $("#HeartBeatIDP").val(mRes[0].HeartBeatIDP);
+                    $("#ESN").val(mRes[0].esn).trigger('change');
+                    $("#HeartBeat_Min").val(mRes[0].HeartBeat_Min);
+
+                    if (mRes[0].relay1 == true) {
+                        $("#relay1").prop("checked", true);
+                    }
+                    else {
+                        $("#relay1").prop("checked", false);
+                    }
+
+                    if (mRes[0].rtc == true) {
+                        $("#rtc").prop("checked", true);
+                    }
+                    else {
+                        $("#rtc").prop("checked", false);
+                    }
+
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                }
+            });
+        }
+
+        function Delete(id) {
+            var mData = { ESNIDP: id }
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/Delete",
+                data: JSON.stringify(mData),
+                contentType: "application/json",
+                dataType: "json",
+                success: function (mRes) {
+                    if (mRes.includes("Error")) {
+                        alert(mRes)
+                    }
+                    else {
+                        alert(mRes)
+                        GetData(10, $("#CurrentPageValue").val(), '');
+                    }
+                }
+            });
+        }
+    </script>
+}
