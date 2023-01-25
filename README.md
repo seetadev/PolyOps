@@ -1,6 +1,10 @@
 # PolyOps
-Enable effective management and communication setup for Drones utilized in Construction, Logistics, Operations, Remote Water Monitoring, Sewage Management, Quality Assurance and Recyclability of Water in rivers.
 
+Ensure effective design, engineering and delivery of solution for detecting & managing UAVs & Drones using modular iot gateway device solution, setting up geo fences using predictive analytics, expert.ai nlp apis, automation, Ethereum & Filecoin eco-system tools compiled to FVM.
+
+FVM eco-system: FVM enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving and drone imaging solutions. This improves better outcomes for monitoring, incident reporting, precision logistics. Links: shorturl.at/chzB6 (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management).
+
+Benefits: Enable effective management and communication setup for Drones utilized in Construction, Logistics, Operations, Remote Water Monitoring, Sewage Management, Quality Assurance and Recyclability of Water in rivers.
 
 Platform Features:
 
