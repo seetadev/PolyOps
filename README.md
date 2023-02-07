@@ -20,7 +20,7 @@ Platform Features:
 
 # FVM eco-system and Tools
 
-FVM enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving and drone imaging solutions. This improves better outcomes for monitoring, incident reporting, precision logistics. Links: shorturl.at/chzB6 (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management). We are using FVM for:
+FVM enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving and drone imaging solutions. This improves better outcomes for monitoring, incident reporting, precision logistics. We are using FVM for:
 
 - Creating a Drone NFT on the FVM for NFC tags of drone service and repair providers & UAVs to improve drone incident management, decentralized NFT-based voting system for contract work by service providers, Votes are uploaded to IPFS with the most recent vote linking to one before. 
 
@@ -35,6 +35,8 @@ Voting is gasless and the vote is stored on IPFS and Filecoin with the most rece
 Votes are uploaded to IPFS with the most recent vote linking to one before. This is done by storing the previous vote's CID in the file of the newest one. Therefore a chain of verifiable data is created. 
 
 We are generating NFTs for NFC tags of drone licenses of drone owners/drivers and contract professionals involved in drone administration on FVM. Please visit https://github.com/seetadev/PolyOps/tree/main/Moralis-Tx-Dashboard/nft-fvm-nfc-tags
+
+Links: shorturl.at/chzB6 (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management).
 
 
 # Web3 and OSS eco-system and Tools
