@@ -16,7 +16,7 @@ Platform Features:
 
 •Drone Incident Reporting : Publish drone incident reports.
 
-Landing Page: https://sites.google.com/view/latcglobal/home
+Website: https://sites.google.com/view/latcglobal/home
 
 Links: https://drive.google.com/drive/u/3/folders/1AUdsHAcUPTF85gVk93w8tzfEzbD7K6-Y (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management).
 
