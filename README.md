@@ -2,8 +2,6 @@
 
 Ensure effective design, engineering and delivery of solution for detecting & managing UAVs & Drones using modular iot gateway device solution, setting up geo fences using predictive analytics, expert.ai nlp apis, automation, Ethereum & Filecoin eco-system tools compiled to FVM.
 
-Benefits: Enable effective management and communication setup for Drones utilized in Construction, Logistics, Operations, Remote Water Monitoring, Sewage Management, Quality Assurance and Recyclability of Water in rivers.
-
 Platform Features:
 
 •Detection : Identifying the drones & UAVs in the video feed using object detection.
@@ -16,7 +14,12 @@ Platform Features:
 
 •Analysis : Analyzing route patterns and incidents.
 
-•Drone Incident Reporting : Publish drone incident reports, preventive measures and remediation using a decentralized twitter application over the Ethereum blockchain network and Embark Tools.
+•Drone Incident Reporting : Publish drone incident reports.
+
+Landing Page: https://sites.google.com/view/latcglobal/home
+
+Links: https://drive.google.com/drive/u/3/folders/1AUdsHAcUPTF85gVk93w8tzfEzbD7K6-Y (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management).
+
 
 # FVM eco-system and Tools
 
@@ -36,13 +39,11 @@ Votes are uploaded to IPFS with the most recent vote linking to one before. This
 
 We are generating NFTs for NFC tags of drone licenses of drone owners/drivers and contract professionals involved in drone administration on FVM. Please visit https://github.com/seetadev/PolyOps/tree/main/Moralis-Tx-Dashboard/nft-fvm-nfc-tags
 
-Links: shorturl.at/chzB6 (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management).
-
-Landing Page: https://sites.google.com/view/latcglobal/home
-
 Applications: Drones for Logistics, Maintenance and Services: https://sites.google.com/view/dronesforrealestate/home
 
 Drones for Integrated Water Management (Website for End Consumers, Civic bodies): https://sites.google.com/view/integratedwatermanagment/home
+
+Benefits: Enable effective management and communication setup for Drones utilized in Construction, Logistics, Operations, Remote Water Monitoring, Sewage Management, Quality Assurance and Recyclability of Water in rivers.
 
 
 # Web3 and OSS eco-system and Tools
