@@ -38,6 +38,12 @@ We are generating NFTs for NFC tags of drone licenses of drone owners/drivers an
 
 Links: shorturl.at/chzB6 (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management).
 
+Landing Page: https://sites.google.com/view/latcglobal/home
+
+Applications: Drones for Logistics, Maintenance and Services: https://sites.google.com/view/dronesforrealestate/home
+
+Drones for Integrated Water Management (Website for End Consumers, Civic bodies): https://sites.google.com/view/integratedwatermanagment/home
+
 
 # Web3 and OSS eco-system and Tools
 
