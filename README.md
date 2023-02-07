@@ -2,10 +2,6 @@
 
 Ensure effective design, engineering and delivery of solution for detecting & managing UAVs & Drones using modular iot gateway device solution, setting up geo fences using predictive analytics, expert.ai nlp apis, automation, Ethereum & Filecoin eco-system tools compiled to FVM.
 
-FVM eco-system: We are generating NFTs for NFC tags of drone licenses of drone owners/drivers and contract professionals involved in drone administration on FVM. Please visit https://github.com/seetadev/PolyOps/tree/main/Moralis-Tx-Dashboard/nft-fvm-nfc-tags
-
-FVM enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving and drone imaging solutions. This improves better outcomes for monitoring, incident reporting, precision logistics. Links: shorturl.at/chzB6 (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management).
-
 Benefits: Enable effective management and communication setup for Drones utilized in Construction, Logistics, Operations, Remote Water Monitoring, Sewage Management, Quality Assurance and Recyclability of Water in rivers.
 
 Platform Features:
@@ -21,6 +17,27 @@ Platform Features:
 •Analysis : Analyzing route patterns and incidents.
 
 •Drone Incident Reporting : Publish drone incident reports, preventive measures and remediation using a decentralized twitter application over the Ethereum blockchain network and Embark Tools.
+
+# FVM eco-system and Tools
+
+FVM enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving and drone imaging solutions. This improves better outcomes for monitoring, incident reporting, precision logistics. Links: shorturl.at/chzB6 (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management). We are using FVM for:
+
+- Creating a Drone NFT on the FVM for NFC tags of drone service and repair providers & UAVs to improve drone incident management, decentralized NFT-based voting system for contract work by service providers, Votes are uploaded to IPFS with the most recent vote linking to one before. 
+
+- Decentralized NFT-based voting system for contract work for service & maintenance providers and companies and Aerial Traffic Control. DAOs can issue NFTs to wallets based on service and maintenance performance and work completed, and the holders of these NFTs can create proposals and vote on other proposals whilst they have the NFTs of that contract work. 
+
+- To develop and use composable blocks and ensure effective design, engineering and delivery of a decentralized solution for drone monitoring and incident management using Ethereum & Filecoin eco-system tools. Automated Workflow for decentralized voting for service providers and DAOs:
+
+Drone DAOs create a RFP for providing service or maintenance on the dapp.
+Drone drivers can join a RFP by minting an NFT of that RFP. This NFT is created on FVM.
+Drone drivers that have a certain RFP's NFT are eligible to create proposals and vote on them.
+Voting is gasless and the vote is stored on IPFS and Filecoin with the most recent vote linking to one before.
+Votes are uploaded to IPFS with the most recent vote linking to one before. This is done by storing the previous vote's CID in the file of the newest one. Therefore a chain of verifiable data is created. 
+
+We are generating NFTs for NFC tags of drone licenses of drone owners/drivers and contract professionals involved in drone administration on FVM. Please visit https://github.com/seetadev/PolyOps/tree/main/Moralis-Tx-Dashboard/nft-fvm-nfc-tags
+
+
+# Web3 and OSS eco-system and Tools
 
 We utilize the SAP UI5, Fiori platform, Arcana network, expert.ai nlp apis, IPFS/Filecoin via NFT.Storage, XMTP, Tableland to built the platform solution and Tron DAO for DAO tooling. We also utilized Ethereum blockchain for developing a decentralized rating and review system for drones used by infrastructure service providers. 
 
