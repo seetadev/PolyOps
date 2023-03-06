@@ -1,0 +1,30 @@
+
+.home {
+  height: 700px;
+  background-image: url('https://i.pinimg.com/736x/6f/a3/2d/6fa32de84d590fe1800c8e55cde91845--abstract-backgrounds-wallpaper-backgrounds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  margin-top: 150px;
+}
+
+.description {
+  text-align: left;
+  font-size: 14px;
+  color: #fbf8ec;
+  margin-left: 50px;
+  margin-right: 50%;
+}
+
+.btn{
+
+  width: 150px;
+  height: 50px;
+  font-size: 12px;
+}

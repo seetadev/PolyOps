@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "composite": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "rootDirs": [".", "../core"],
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "jsxImportSource": "@emotion/react",
+    "paths": {
+      "~~/*": ["./*"],
+      "~core/*": ["../core/*"]
+    }
+  },
+  "include": ["./", "env.d.ts", "../wagmi.config.ts", "./.eslintrc.cjs"],
+  "exclude": [
+    "**/node_modules",
+    ".husky",
+    "**/*.css",
+    "node_modules",
+    "**/.yalc/**/*",
+    ".yalc/**/*",
+  ]
+}

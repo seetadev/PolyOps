@@ -1,0 +1,49 @@
+{
+  "cat": {
+    "name": "cat",
+    "description": "Concatenate files and print on the standard output.",
+    "usage": "cat [OPTION]... [FILE]...",
+    "options": [
+      {
+        "name": "-A",
+        "description": "equivalent to -vET"
+      },
+      {
+        "name": "-b",
+        "description": "number nonempty output lines, overrides -n"
+      },
+      {
+        "name": "-e",
+        "description": "equivalent to -vE"
+      },
+      {
+        "name": "-E",
+        "description": "display $ at end of each line"
+      },
+      {
+        "name": "-n",
+        "description": "number all output lines"
+      },
+      {
+        "name": "-s",
+        "description": "squeeze multiple adjacent empty lines, overrides -v"
+      },
+      {
+        "name": "-t",
+        "description": "equivalent to -vT"
+      },
+      {
+        "name": "-T",
+        "description": "display TAB characters as ^I"
+      },
+      {
+        "name": "-u",
+        "description": "(ignored)"
+      },
+      {
+        "name": "-v",
+        "description": "use ^ and M- notation, except for LFD and TAB"
+      }
+    ]
+  }
+}

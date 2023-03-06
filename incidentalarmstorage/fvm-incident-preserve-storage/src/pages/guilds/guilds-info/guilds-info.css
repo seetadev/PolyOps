@@ -1,0 +1,29 @@
+.cover-img {
+  width: 650px;
+  height: 570px;
+  margin: 50px 50px 0px 50px;
+  border-radius: 10%;
+}
+
+.guild-title {
+  font-style: italic !important;
+  line-height: 40px !important;
+  font-weight: 200 !important;
+  font-family: "Cormorant Garamond";
+  color: #fff;
+  font-size: 40px;
+  margin: 0px 0px 0px 5px;
+}
+
+.guild-description {
+  color: #fff;
+  line-height: 1.8;
+  padding: 10px;
+  margin: 10px 110px 0px 0px;
+}
+
+.info-section {
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  height: 680px;
+}

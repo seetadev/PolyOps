@@ -1,0 +1,34 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "compile",
+          "test",
+          "coverage",
+          "generate",
+          "lint"
+        ],
+        "accessToken": "NjczMzU3NmItMzZkZS00NjkwLWE2OGEtZTdhZjI2MjIwZTQ0fHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "targetDefaults": {
+    "generate": {
+      "dependsOn": [
+        "^generate"
+      ],
+      "outputs": [
+        "{projectRoot}/generated"
+      ]
+    },
+    "compile": {
+      "outputs": [
+        "{projectRoot}/artifacts"
+      ]
+    }
+  },
+  "defaultBase": "main"
+}

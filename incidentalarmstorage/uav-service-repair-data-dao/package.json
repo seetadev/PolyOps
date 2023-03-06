@@ -1,0 +1,31 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": [
+    "webapp",
+    "core"
+  ],
+  "scripts": {
+    "hardhat": "npm run --workspace=core hardhat",
+    "web:dev": "npm run --workspace=webapp dev",
+    "web:build": "npm run --workspace=webapp build",
+    "web:start": "npm run --workspace=webapp start",
+    "web:generate": "npm run --workspace=webapp generate",
+    "core:dev": "npm run --workspace=core dev",
+    "core:compile": "npm run --workspace=core compile",
+    "core:deploy": "npm run --workspace=core deploy",
+    "core:generate": "npm run --workspace=core generate",
+    "generate": "npm run core:compile && npm run core:generate && npm run web:generate"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.7",
+    "plaid": "^12.4.0",
+    "react-plaid-link": "^3.3.2"
+  },
+  "devDependencies": {
+    "@nrwl/nx-cloud": "latest",
+    "nx": "15.7.1",
+    "typescript": "^4.9.5"
+  }
+}

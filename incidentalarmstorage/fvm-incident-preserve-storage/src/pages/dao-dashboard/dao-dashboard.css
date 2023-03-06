@@ -1,0 +1,30 @@
+table {
+  text-align: center;
+  font-family: "Arial";
+  width: 70%;
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #999; 
+}
+
+table th,
+table td {
+  color: #000;
+  border: 1px solid #eee;
+  padding: 12px 35px;
+  border-collapse: collapse;
+}
+table th {
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+table th.last {
+  border-right: none;
+}
+.dashboard-data{
+  background-color: #fff;
+  text-align: center;
+  padding-top: 5%;
+}
