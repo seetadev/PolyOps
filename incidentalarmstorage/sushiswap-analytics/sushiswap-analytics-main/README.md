@@ -1,6 +1,6 @@
 # SushiSwap Analytics
 
-SushiSwap Analytics is a progressive web application for the SushiSwap Protocol.
+SushiSwap Analytics is a progressive web application for the SushiSwap Protocol. SushiSwap Analytics is a progressive web application for the SushiSwap Protocol. We are extending it with a visualization, tabulation and organization tool namely Socialcalc.
 
 ## Getting started
 
