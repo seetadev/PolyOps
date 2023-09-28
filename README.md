@@ -16,7 +16,7 @@ Platform Features:
 
 •Drone Incident Reporting : Publish drone incident reports.
 
-# Project Information
+# Demo Information
 
 Website: https://sites.google.com/view/latcglobal/home
 
