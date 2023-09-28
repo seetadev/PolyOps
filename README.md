@@ -20,7 +20,7 @@ Platform Features:
 
 Website: https://sites.google.com/view/latcglobal/home
 
-Demo Links: https://drive.google.com/drive/u/3/folders/1AUdsHAcUPTF85gVk93w8tzfEzbD7K6-Y (dapp, monitoring), https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management).
+Demo Links: https://youtu.be/dk3TQlEsxfo and https://youtu.be/dqR-I70UT1I (dapp, management); https://drive.google.com/drive/u/3/folders/1AUdsHAcUPTF85gVk93w8tzfEzbD7K6-Y (dapp, monitoring),
 
 
 # FVM eco-system and Tools
