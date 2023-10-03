@@ -43,6 +43,27 @@ We are generating NFTs for NFC tags of drone licenses of drone owners/drivers an
 
 - FVM Low Code Developer tooling for UAV Maintenance/service billing, spare parts invoicing, service and repair quotation/billing management: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/FVM-Billing-Dev-Tools-Android 
 
+NFT.Storage for Filecoin: We are using NFT.Storage for storing a variety of offchain data like incident snapshots, alarm metadata and object types at the time of incident. Please find the video at https://drive.google.com/drive/folders/107GHYZVHIr867kV4abkQaWbeCrSrMwVN (screencapturewithoutsound.mov file). We are storing Alarm metadata using NFT.Storage. Also, Saving/deleting alarm metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. Further we are using NFT.Storage for: Video analytics configuration using NFT.Storage; Camera Management: Add/edit/delete cameras with integration with Livepeer, NFT.Storage; Live streaming with Object Detection Video Analytics using Livepeer for streaming, and NFT.Storage for snapshots.
+
+Vital Metadata on Filecoin Network: We are storing vital geofencing and additional monitoring data on Filecoin network. Please visit https://github.com/seetadev/PolyOps/tree/main/incidentalarmstorage/metadata-storage-on-filecoin
+
+Tableland: We are developing monitoring notes platform for Drone and UAV administrators using Tableland. Please visit the app link at https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices/remoteislandmonitoring/Valist-Distribution/Monitoring-Notes
+
+Chainlink VRF: We utilized Chainlink VRF (Verifiable Random Function) to enable provably fair and verifiable random number generator (RNG) that further enables smart contracts to access random values without compromising security or usability for drone incident reporting. For each request, Chainlink VRF generates one or more random values and cryptographic proof of how those values were determined. The proof is published and verified on-chain before any consuming applications can use it. This process ensures that results cannot be tampered with or manipulated by any single entity including oracle operators, users, or smart contract developers. At this juncture, we are planning to use only subscription supported network for Chainlink VRF. Link: https://github.com/seetadev/PolyOps/tree/main/Chainlink-VRFs
+
+Chainlink External Adapter returns 4 uint64 packed into a bytes32. This External Adapter is executed by a Job, which is triggered by an External Initiator. Finally, this Job sends a TX to a Smart Contract with the result of the External Adapter, unpacking and saving the 4 uint64. Link: https://github.com/seetadev/PolyOps/tree/main/RemoteIslandServices
+
+Filecoin Data tools: We are developing FVM Calc, an open-source analytics tool and an OSS spreadsheet to enable data tabulation, visualization, organization, collaboration for dicom asset files on Filecoin network.
+
+Filecoin saturn dapp for discovery and retrieval of NFTs uploaded to IPFS via NFT.Storage: We are developing a socially scalable and open-source metadata retrieval, indexing, and management tooling for decentralized bulk query and retrieval of dicom data and user training. Bandwidth is a major issue in South Asian aerial traffic and Filecoin Data tools fit right at the spot for quick data retrieval where learning via video streaming is not possible due to high latency or unavailability of a network for streaming.
+
+
+IPFS Helia implementation: We are developing a dapp using Helia (JS implementation of IPFS) along with NFT.storage that let us export the dicom file generated from Web3 Orthanc tools as an NFT and upload it to IPFS using NFT.Storage. We are using the Electron example of Helia and are adding features like File (Edit/Delete), Save, save As, Email and print using ionic Capacitor framework plugins to our dapp.
+
+
+Lilypad: Creating an NFT for the cad file on the Filecoin Virtual Machine (FVM / FEVM) with Bacalhau Stable Diffusion. We are generating NFTs for NFC tags of drone licenses of drone owners/drivers and contract professionals involved in drone administration on FVM. Please visit https://github.com/seetadev/PolyOps/tree/main/Moralis-Tx-Dashboard/nft-fvm-nfc-tags
+
+Invoice Automation: We have developed an invoice dapp with integration with bacalhau for just in time invoicing for design contracts. 
 
 
 Applications: Drones for Logistics, Maintenance and Services: https://sites.google.com/view/dronesforrealestate/home
